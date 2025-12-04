@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+.vscode/
+.idea/
+data/docx/*
+data/doc/*
+models/*
+ewa_*.xlsx

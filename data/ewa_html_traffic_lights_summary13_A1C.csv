@@ -1,0 +1,131 @@
+report_date,primary_kpi,system,status_name,status_symbol,source_file
+2025-09-30,Financial Data Quality,A1C,GREEN,🟢,No alert
+2025-09-30,Hardware Capacity,A1C,GREEN,🟢,No alert
+2025-09-30,Performance Overview A1C,A1C,GREEN,🟢,No alert
+2025-09-30,SAP HANA Database A1H,A1C,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
+2025-09-30,SAP Netwear gateway,A1C,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
+2025-09-30,SAP System Operating A1C,A1C,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
+2025-09-30,Security,A1C,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
+2025-09-30,Service Data Quality and Service Readiness,A1C,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
+2025-09-30,Service summary,A1C,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
+2025-09-30,Software Change and Transport Management of A1C,A1C,GREEN,🟢,No alert
+2025-09-30,Software Configuration for A1C,A1C,GREEN,🟢,No alert
+2025-09-30,UI Technologies checks,A1C,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
+2025-09-30,Upgrade Planning,A1C,GREEN,🟢,No alert
+2025-10-07,Financial Data Quality,A1C,GREEN,🟢,No alert
+2025-10-07,Hardware Capacity,A1C,GREEN,🟢,No alert
+2025-10-07,Performance Overview A1C,A1C,GREEN,🟢,No alert
+2025-10-07,SAP HANA Database A1H,A1C,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
+2025-10-07,SAP Netwear gateway,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
+2025-10-07,SAP System Operating A1C,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
+2025-10-07,Security,A1C,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
+2025-10-07,Service Data Quality and Service Readiness,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
+2025-10-07,Service summary,A1C,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
+2025-10-07,Software Change and Transport Management of A1C,A1C,GREEN,🟢,No alert
+2025-10-07,Software Configuration for A1C,A1C,GREEN,🟢,No alert
+2025-10-07,UI Technologies checks,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
+2025-10-07,Upgrade Planning,A1C,GREEN,🟢,No alert
+2025-10-14,Financial Data Quality,A1C,GREEN,🟢,No alert
+2025-10-14,Hardware Capacity,A1C,GREEN,🟢,No alert
+2025-10-14,Performance Overview A1C,A1C,GREEN,🟢,No alert
+2025-10-14,SAP HANA Database A1H,A1C,RED,🔴,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
+2025-10-14,SAP Netwear gateway,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
+2025-10-14,SAP System Operating A1C,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
+2025-10-14,Security,A1C,RED,🔴,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
+2025-10-14,Service Data Quality and Service Readiness,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
+2025-10-14,Service summary,A1C,RED,🔴,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
+2025-10-14,Software Change and Transport Management of A1C,A1C,GREEN,🟢,No alert
+2025-10-14,Software Configuration for A1C,A1C,GREEN,🟢,No alert
+2025-10-14,UI Technologies checks,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
+2025-10-14,Upgrade Planning,A1C,GREEN,🟢,No alert
+2025-10-21,Financial Data Quality,A1C,GREEN,🟢,No alert
+2025-10-21,Hardware Capacity,A1C,GREEN,🟢,No alert
+2025-10-21,Performance Overview A1C,A1C,GREEN,🟢,No alert
+2025-10-21,SAP HANA Database A1H,A1C,RED,🔴,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
+2025-10-21,SAP Netwear gateway,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
+2025-10-21,SAP System Operating A1C,A1C,GREEN,🟢,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
+2025-10-21,Security,A1C,RED,🔴,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
+2025-10-21,Service Data Quality and Service Readiness,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
+2025-10-21,Service summary,A1C,RED,🔴,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
+2025-10-21,Software Change and Transport Management of A1C,A1C,GREEN,🟢,No alert
+2025-10-21,Software Configuration for A1C,A1C,GREEN,🟢,No alert
+2025-10-21,UI Technologies checks,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
+2025-10-21,Upgrade Planning,A1C,GREEN,🟢,No alert
+2025-10-28,Financial Data Quality,A1C,GREEN,🟢,No alert
+2025-10-28,Hardware Capacity,A1C,GREEN,🟢,No alert
+2025-10-28,Performance Overview A1C,A1C,GREEN,🟢,No alert
+2025-10-28,SAP HANA Database A1H,A1C,RED,🔴,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
+2025-10-28,SAP Netwear gateway,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
+2025-10-28,SAP System Operating A1C,A1C,GREEN,🟢,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
+2025-10-28,Security,A1C,RED,🔴,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
+2025-10-28,Service Data Quality and Service Readiness,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
+2025-10-28,Service summary,A1C,RED,🔴,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
+2025-10-28,Software Change and Transport Management of A1C,A1C,GREEN,🟢,No alert
+2025-10-28,Software Configuration for A1C,A1C,GREEN,🟢,No alert
+2025-10-28,UI Technologies checks,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
+2025-10-28,Upgrade Planning,A1C,GREEN,🟢,No alert
+2025-11-04,Financial Data Quality,A1C,GREEN,🟢,No alert
+2025-11-04,Hardware Capacity,A1C,GREEN,🟢,No alert
+2025-11-04,Performance Overview A1C,A1C,GREEN,🟢,No alert
+2025-11-04,SAP HANA Database A1H,A1C,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
+2025-11-04,SAP Netwear gateway,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
+2025-11-04,SAP System Operating A1C,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
+2025-11-04,Security,A1C,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
+2025-11-04,Service Data Quality and Service Readiness,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
+2025-11-04,Service summary,A1C,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
+2025-11-04,Software Change and Transport Management of A1C,A1C,GREEN,🟢,No alert
+2025-11-04,Software Configuration for A1C,A1C,GREEN,🟢,No alert
+2025-11-04,UI Technologies checks,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
+2025-11-04,Upgrade Planning,A1C,GREEN,🟢,No alert
+2025-11-11,Financial Data Quality,A1C,GREEN,🟢,No alert
+2025-11-11,Hardware Capacity,A1C,GREEN,🟢,No alert
+2025-11-11,Performance Overview A1C,A1C,GREEN,🟢,No alert
+2025-11-11,SAP HANA Database A1H,A1C,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
+2025-11-11,SAP Netwear gateway,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
+2025-11-11,SAP System Operating A1C,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
+2025-11-11,Security,A1C,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
+2025-11-11,Service Data Quality and Service Readiness,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
+2025-11-11,Service summary,A1C,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
+2025-11-11,Software Change and Transport Management of A1C,A1C,GREEN,🟢,No alert
+2025-11-11,Software Configuration for A1C,A1C,GREEN,🟢,No alert
+2025-11-11,UI Technologies checks,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
+2025-11-11,Upgrade Planning,A1C,GREEN,🟢,No alert
+2025-11-18,Financial Data Quality,A1C,GREEN,🟢,No alert
+2025-11-18,Hardware Capacity,A1C,GREEN,🟢,No alert
+2025-11-18,Performance Overview A1C,A1C,GREEN,🟢,No alert
+2025-11-18,SAP HANA Database A1H,A1C,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
+2025-11-18,SAP Netwear gateway,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
+2025-11-18,SAP System Operating A1C,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
+2025-11-18,Security,A1C,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
+2025-11-18,Service Data Quality and Service Readiness,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
+2025-11-18,Service summary,A1C,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
+2025-11-18,Software Change and Transport Management of A1C,A1C,GREEN,🟢,No alert
+2025-11-18,Software Configuration for A1C,A1C,GREEN,🟢,No alert
+2025-11-18,UI Technologies checks,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
+2025-11-18,Upgrade Planning,A1C,GREEN,🟢,No alert
+2025-11-25,Financial Data Quality,A1C,GREEN,🟢,No alert
+2025-11-25,Hardware Capacity,A1C,GREEN,🟢,No alert
+2025-11-25,Performance Overview A1C,A1C,GREEN,🟢,No alert
+2025-11-25,SAP HANA Database A1H,A1C,RED,🔴,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
+2025-11-25,SAP Netwear gateway,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
+2025-11-25,SAP System Operating A1C,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
+2025-11-25,Security,A1C,RED,🔴,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
+2025-11-25,Service Data Quality and Service Readiness,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
+2025-11-25,Service summary,A1C,RED,🔴,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
+2025-11-25,Software Change and Transport Management of A1C,A1C,GREEN,🟢,No alert
+2025-11-25,Software Configuration for A1C,A1C,GREEN,🟢,No alert
+2025-11-25,UI Technologies checks,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
+2025-11-25,Upgrade Planning,A1C,GREEN,🟢,No alert
+2025-12-02,Financial Data Quality,A1C,GREEN,🟢,No alert
+2025-12-02,Hardware Capacity,A1C,GREEN,🟢,No alert
+2025-12-02,Performance Overview A1C,A1C,GREEN,🟢,No alert
+2025-12-02,SAP HANA Database A1H,A1C,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
+2025-12-02,SAP Netwear gateway,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
+2025-12-02,SAP System Operating A1C,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
+2025-12-02,Security,A1C,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
+2025-12-02,Service Data Quality and Service Readiness,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
+2025-12-02,Service summary,A1C,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
+2025-12-02,Software Change and Transport Management of A1C,A1C,GREEN,🟢,No alert
+2025-12-02,Software Configuration for A1C,A1C,GREEN,🟢,No alert
+2025-12-02,UI Technologies checks,A1C,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
+2025-12-02,Upgrade Planning,A1C,GREEN,🟢,No alert

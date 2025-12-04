@@ -1,0 +1,15 @@
+python-docx
+Pillow
+pandas
+scikit-learn
+joblib
+streamlit
+openai>=1.0.0
+pywin32
+matplotlib
+python-dotenv
+openpyxl
+olefile
+beautifulsoup4
+lxml
+plotly
