@@ -1,0 +1,744 @@
+report_date,clean_section,severity,final_status,status_symbol
+2025-09-30,Activated But Unused Icf Services In Ui5 Apps,2,YELLOW,🟡
+2025-09-30,Activation Status And Validity Of User System,3,RED,🔴
+2025-09-30,Age Of Support Packages,2,YELLOW,🟡
+2025-09-30,Backup And Recovery,2,YELLOW,🟡
+2025-09-30,Column Tables With Largest Delta Stores,1,GREEN,🟢
+2025-09-30,Configuring A1C For SAP Note Assistant,1,GREEN,🟢
+2025-09-30,Cpu Usage Of SAP HANA Server,1,GREEN,🟢
+2025-09-30,"Critical Authorizations, Which Allow To Do Anything",3,RED,🔴
+2025-09-30,"Critical Authorizations, Which Should Only See Very Limited Use In Production",2,YELLOW,🟡
+2025-09-30,Data Quality,1,GREEN,🟢
+2025-09-30,Database - Maintenance Phases,1,GREEN,🟢
+2025-09-30,Db Load Profile,1,GREEN,🟢
+2025-09-30,Diagnosis Files,2,YELLOW,🟡
+2025-09-30,Disk Configuration,1,GREEN,🟢
+2025-09-30,Disk Usage,1,GREEN,🟢
+2025-09-30,Enhanced Hardware Monitoring In Cloud Environments,2,YELLOW,🟡
+2025-09-30,Failed Changes,3,RED,🔴
+2025-09-30,Financial Data Quality,2,YELLOW,🟡
+2025-09-30,Fiori Checks For A1C,2,YELLOW,🟡
+2025-09-30,Global Consistency Check Run,3,RED,🔴
+2025-09-30,HANA Database Version For A1H,1,GREEN,🟢
+2025-09-30,HANA Database Version For D1H,1,GREEN,🟢
+2025-09-30,HANA Database Version For Q1H,1,GREEN,🟢
+2025-09-30,HANA Database Version For S2H,1,GREEN,🟢
+2025-09-30,Hardware Capacity,1,GREEN,🟢
+2025-09-30,Http/2 Support,1,GREEN,🟢
+2025-09-30,Important Periodic Jobs,2,YELLOW,🟡
+2025-09-30,Important SAP Notes For SAP HANA,1,GREEN,🟢
+2025-09-30,Largest Non-Partitioned Column Tables (Records),1,GREEN,🟢
+2025-09-30,License Information,1,GREEN,🟢
+2025-09-30,Memory Allocation Of Tables,1,GREEN,🟢
+2025-09-30,Memory Consumption Of Indexserver,2,YELLOW,🟡
+2025-09-30,Memory Usage Of SAP HANA Instance,1,GREEN,🟢
+2025-09-30,Memory Usage Of SAP HANA Server,1,GREEN,🟢
+2025-09-30,Operating System(S) - Maintenance Phases,1,GREEN,🟢
+2025-09-30,Overview System A1C,1,GREEN,🟢
+2025-09-30,Parameter Recommendation,2,YELLOW,🟡
+2025-09-30,Performance Evaluation,1,GREEN,🟢
+2025-09-30,Performance Indicators For A1C,1,GREEN,🟢
+2025-09-30,Performance Overview A1C,1,GREEN,🟢
+2025-09-30,Remote Function Call For - A1C,3,RED,🔴
+2025-09-30,Row Store Fragmentation,1,GREEN,🟢
+2025-09-30,Row Store Size,1,GREEN,🟢
+2025-09-30,SAP Application Release - Maintenance Phases,3,RED,🔴
+2025-09-30,SAP Fiori Front-End Server Version,1,GREEN,🟢
+2025-09-30,SAP Fiori Launchpad - Spaces And Pages Adoption,1,GREEN,🟢
+2025-09-30,SAP Fiori Launchpad Performance - Home Page Mode,1,GREEN,🟢
+2025-09-30,SAP HANA Alerts,2,YELLOW,🟡
+2025-09-30,SAP HANA Database A1H,3,RED,🔴
+2025-09-30,SAP HANA Database D1H,2,YELLOW,🟡
+2025-09-30,SAP HANA Database Q1H,2,YELLOW,🟡
+2025-09-30,SAP HANA Database S2H,2,YELLOW,🟡
+2025-09-30,SAP HANA Dumps,2,YELLOW,🟡
+2025-09-30,SAP HANA Resource Consumption,1,GREEN,🟢
+2025-09-30,SAP HANA Service Restarts,2,YELLOW,🟡
+2025-09-30,SAP HANA Workload Management,2,YELLOW,🟡
+2025-09-30,SAP HANA: Installed Dbsl Version,1,GREEN,🟢
+2025-09-30,SAP HANA: Installed Sqldbc Version,1,GREEN,🟢
+2025-09-30,SAP Netweaver Application Server ABAP Of A1C,3,RED,🔴
+2025-09-30,SAP Netweaver Gateway,2,YELLOW,🟡
+2025-09-30,SAP System Operating A1C,2,YELLOW,🟡
+2025-09-30,SAPui5 Version,1,GREEN,🟢
+2025-09-30,Security,3,RED,🔴
+2025-09-30,Security Risk Due To Outdated Support Packages,2,YELLOW,🟡
+2025-09-30,Sending Earlywatch Alert Of A1C To SAP Backbone,1,GREEN,🟢
+2025-09-30,Service Data Quality And Service Readiness,2,YELLOW,🟡
+2025-09-30,Service Preparation Check (Rtcctool),2,YELLOW,🟡
+2025-09-30,Service Preparation Of A1C,2,YELLOW,🟡
+2025-09-30,Service Summary,3,RED,🔴
+2025-09-30,Software Change And Transport Management Of A1C,3,RED,🔴
+2025-09-30,Software Configuration For A1C,2,YELLOW,🟡
+2025-09-30,Statisticsserver And Monitoring,1,GREEN,🟢
+2025-09-30,Transportation Management System Checks,2,YELLOW,🟡
+2025-09-30,Ui Technologies Checks,2,YELLOW,🟡
+2025-10-07,Activated But Unused Icf Services In Ui5 Apps,2,YELLOW,🟡
+2025-10-07,Activation Status And Validity Of User System,3,RED,🔴
+2025-10-07,Age Of Support Packages,2,YELLOW,🟡
+2025-10-07,Backup And Recovery,2,YELLOW,🟡
+2025-10-07,Column Tables With Largest Delta Stores,1,GREEN,🟢
+2025-10-07,Configuring A1C For SAP Note Assistant,1,GREEN,🟢
+2025-10-07,Cpu Usage Of SAP HANA Server,1,GREEN,🟢
+2025-10-07,"Critical Authorizations, Which Allow To Do Anything",3,RED,🔴
+2025-10-07,"Critical Authorizations, Which Should Only See Very Limited Use In Production",2,YELLOW,🟡
+2025-10-07,Data Quality,1,GREEN,🟢
+2025-10-07,Database - Maintenance Phases,1,GREEN,🟢
+2025-10-07,Db Load Profile,1,GREEN,🟢
+2025-10-07,Diagnosis Files,2,YELLOW,🟡
+2025-10-07,Disk Configuration,1,GREEN,🟢
+2025-10-07,Disk Usage,1,GREEN,🟢
+2025-10-07,Enhanced Hardware Monitoring In Cloud Environments,2,YELLOW,🟡
+2025-10-07,Failed Changes,3,RED,🔴
+2025-10-07,Financial Data Quality,2,YELLOW,🟡
+2025-10-07,Fiori Checks For A1C,2,YELLOW,🟡
+2025-10-07,Global Consistency Check Run,3,RED,🔴
+2025-10-07,HANA Database Version For A1H,1,GREEN,🟢
+2025-10-07,HANA Database Version For D1H,1,GREEN,🟢
+2025-10-07,HANA Database Version For Q1H,1,GREEN,🟢
+2025-10-07,HANA Database Version For S2H,1,GREEN,🟢
+2025-10-07,Hardware Capacity,1,GREEN,🟢
+2025-10-07,Http/2 Support,1,GREEN,🟢
+2025-10-07,Important Periodic Jobs,2,YELLOW,🟡
+2025-10-07,Important SAP Notes For SAP HANA,1,GREEN,🟢
+2025-10-07,Largest Non-Partitioned Column Tables (Records),1,GREEN,🟢
+2025-10-07,License Information,1,GREEN,🟢
+2025-10-07,Memory Allocation Of Tables,1,GREEN,🟢
+2025-10-07,Memory Consumption Of Indexserver,2,YELLOW,🟡
+2025-10-07,Memory Usage Of SAP HANA Instance,1,GREEN,🟢
+2025-10-07,Memory Usage Of SAP HANA Server,1,GREEN,🟢
+2025-10-07,Operating System(S) - Maintenance Phases,1,GREEN,🟢
+2025-10-07,Overview System A1C,1,GREEN,🟢
+2025-10-07,Parameter Recommendation,2,YELLOW,🟡
+2025-10-07,Performance Evaluation,1,GREEN,🟢
+2025-10-07,Performance Indicators For A1C,1,GREEN,🟢
+2025-10-07,Performance Overview A1C,1,GREEN,🟢
+2025-10-07,Remote Function Call For - A1C,3,RED,🔴
+2025-10-07,Row Store Fragmentation,1,GREEN,🟢
+2025-10-07,Row Store Size,1,GREEN,🟢
+2025-10-07,SAP Application Release - Maintenance Phases,3,RED,🔴
+2025-10-07,SAP Fiori Front-End Server Version,1,GREEN,🟢
+2025-10-07,SAP Fiori Launchpad - Spaces And Pages Adoption,1,GREEN,🟢
+2025-10-07,SAP Fiori Launchpad Performance - Home Page Mode,1,GREEN,🟢
+2025-10-07,SAP HANA Alerts,2,YELLOW,🟡
+2025-10-07,SAP HANA Database A1H,3,RED,🔴
+2025-10-07,SAP HANA Database D1H,2,YELLOW,🟡
+2025-10-07,SAP HANA Database Q1H,2,YELLOW,🟡
+2025-10-07,SAP HANA Database S2H,2,YELLOW,🟡
+2025-10-07,SAP HANA Dumps,2,YELLOW,🟡
+2025-10-07,SAP HANA Resource Consumption,1,GREEN,🟢
+2025-10-07,SAP HANA Service Restarts,1,GREEN,🟢
+2025-10-07,SAP HANA Workload Management,2,YELLOW,🟡
+2025-10-07,SAP HANA: Installed Dbsl Version,1,GREEN,🟢
+2025-10-07,SAP HANA: Installed Sqldbc Version,1,GREEN,🟢
+2025-10-07,SAP Netweaver Application Server ABAP Of A1C,3,RED,🔴
+2025-10-07,SAP Netweaver Gateway,2,YELLOW,🟡
+2025-10-07,SAP System Operating A1C,2,YELLOW,🟡
+2025-10-07,SAPui5 Version,1,GREEN,🟢
+2025-10-07,Security,3,RED,🔴
+2025-10-07,Security Risk Due To Outdated Support Packages,2,YELLOW,🟡
+2025-10-07,Sending Earlywatch Alert Of A1C To SAP Backbone,1,GREEN,🟢
+2025-10-07,Service Data Quality And Service Readiness,2,YELLOW,🟡
+2025-10-07,Service Preparation Check (Rtcctool),2,YELLOW,🟡
+2025-10-07,Service Preparation Of A1C,2,YELLOW,🟡
+2025-10-07,Service Summary,3,RED,🔴
+2025-10-07,Software Change And Transport Management Of A1C,3,RED,🔴
+2025-10-07,Software Configuration For A1C,2,YELLOW,🟡
+2025-10-07,Statisticsserver And Monitoring,1,GREEN,🟢
+2025-10-07,Transportation Management System Checks,2,YELLOW,🟡
+2025-10-07,Ui Technologies Checks,2,YELLOW,🟡
+2025-10-14,Activated But Unused Icf Services In Ui5 Apps,2,YELLOW,🟡
+2025-10-14,Activation Status And Validity Of User System,3,RED,🔴
+2025-10-14,Age Of Support Packages,2,YELLOW,🟡
+2025-10-14,Backup And Recovery,2,YELLOW,🟡
+2025-10-14,Column Tables With Largest Delta Stores,1,GREEN,🟢
+2025-10-14,Configuring A1C For SAP Note Assistant,1,GREEN,🟢
+2025-10-14,Cpu Usage Of SAP HANA Server,1,GREEN,🟢
+2025-10-14,"Critical Authorizations, Which Allow To Do Anything",3,RED,🔴
+2025-10-14,"Critical Authorizations, Which Should Only See Very Limited Use In Production",2,YELLOW,🟡
+2025-10-14,Data Quality,1,GREEN,🟢
+2025-10-14,Database - Maintenance Phases,1,GREEN,🟢
+2025-10-14,Db Load Profile,1,GREEN,🟢
+2025-10-14,Diagnosis Files,2,YELLOW,🟡
+2025-10-14,Disk Configuration,1,GREEN,🟢
+2025-10-14,Disk Usage,1,GREEN,🟢
+2025-10-14,Enhanced Hardware Monitoring In Cloud Environments,2,YELLOW,🟡
+2025-10-14,Failed Changes,2,YELLOW,🟡
+2025-10-14,Financial Data Quality,2,YELLOW,🟡
+2025-10-14,Fiori Checks For A1C,2,YELLOW,🟡
+2025-10-14,Global Consistency Check Run,3,RED,🔴
+2025-10-14,HANA Database Version For A1H,1,GREEN,🟢
+2025-10-14,HANA Database Version For D1H,1,GREEN,🟢
+2025-10-14,HANA Database Version For Q1H,1,GREEN,🟢
+2025-10-14,HANA Database Version For S2H,1,GREEN,🟢
+2025-10-14,Hardware Capacity,1,GREEN,🟢
+2025-10-14,Http/2 Support,1,GREEN,🟢
+2025-10-14,Important Periodic Jobs,2,YELLOW,🟡
+2025-10-14,Important SAP Notes For SAP HANA,1,GREEN,🟢
+2025-10-14,Largest Non-Partitioned Column Tables (Records),1,GREEN,🟢
+2025-10-14,License Information,1,GREEN,🟢
+2025-10-14,Memory Allocation Of Tables,1,GREEN,🟢
+2025-10-14,Memory Consumption Of Indexserver,2,YELLOW,🟡
+2025-10-14,Memory Usage Of SAP HANA Instance,1,GREEN,🟢
+2025-10-14,Memory Usage Of SAP HANA Server,1,GREEN,🟢
+2025-10-14,Operating System(S) - Maintenance Phases,1,GREEN,🟢
+2025-10-14,Overview System A1C,1,GREEN,🟢
+2025-10-14,Parameter Recommendation,2,YELLOW,🟡
+2025-10-14,Performance Evaluation,1,GREEN,🟢
+2025-10-14,Performance Indicators For A1C,1,GREEN,🟢
+2025-10-14,Performance Overview A1C,1,GREEN,🟢
+2025-10-14,Remote Function Call For - A1C,2,YELLOW,🟡
+2025-10-14,Row Store Fragmentation,1,GREEN,🟢
+2025-10-14,Row Store Size,1,GREEN,🟢
+2025-10-14,SAP Application Release - Maintenance Phases,3,RED,🔴
+2025-10-14,SAP Fiori Front-End Server Version,1,GREEN,🟢
+2025-10-14,SAP Fiori Launchpad - Spaces And Pages Adoption,1,GREEN,🟢
+2025-10-14,SAP Fiori Launchpad Performance - Home Page Mode,1,GREEN,🟢
+2025-10-14,SAP HANA Alerts,2,YELLOW,🟡
+2025-10-14,SAP HANA Column Unloads,2,YELLOW,🟡
+2025-10-14,SAP HANA Database A1H,3,RED,🔴
+2025-10-14,SAP HANA Database D1H,2,YELLOW,🟡
+2025-10-14,SAP HANA Database Q1H,2,YELLOW,🟡
+2025-10-14,SAP HANA Database S2H,2,YELLOW,🟡
+2025-10-14,SAP HANA Dumps,2,YELLOW,🟡
+2025-10-14,SAP HANA Resource Consumption,1,GREEN,🟢
+2025-10-14,SAP HANA Service Restarts,1,GREEN,🟢
+2025-10-14,SAP HANA Workload Management,2,YELLOW,🟡
+2025-10-14,SAP HANA: Installed Dbsl Version,1,GREEN,🟢
+2025-10-14,SAP HANA: Installed Sqldbc Version,1,GREEN,🟢
+2025-10-14,SAP Netweaver Application Server ABAP Of A1C,2,YELLOW,🟡
+2025-10-14,SAP Netweaver Gateway,2,YELLOW,🟡
+2025-10-14,SAP System Operating A1C,2,YELLOW,🟡
+2025-10-14,SAPui5 Version,1,GREEN,🟢
+2025-10-14,Security,3,RED,🔴
+2025-10-14,Security Risk Due To Outdated Support Packages,2,YELLOW,🟡
+2025-10-14,Sending Earlywatch Alert Of A1C To SAP Backbone,1,GREEN,🟢
+2025-10-14,Service Data Quality And Service Readiness,2,YELLOW,🟡
+2025-10-14,Service Preparation Check (Rtcctool),2,YELLOW,🟡
+2025-10-14,Service Preparation Of A1C,2,YELLOW,🟡
+2025-10-14,Service Summary,3,RED,🔴
+2025-10-14,Software Change And Transport Management Of A1C,2,YELLOW,🟡
+2025-10-14,Software Configuration For A1C,2,YELLOW,🟡
+2025-10-14,Statisticsserver And Monitoring,2,YELLOW,🟡
+2025-10-14,Transportation Management System Checks,2,YELLOW,🟡
+2025-10-14,Ui Technologies Checks,2,YELLOW,🟡
+2025-10-21,Activated But Unused Icf Services In Ui5 Apps,2,YELLOW,🟡
+2025-10-21,Activation Status And Validity Of User System,3,RED,🔴
+2025-10-21,Age Of Support Packages,2,YELLOW,🟡
+2025-10-21,Backup And Recovery,2,YELLOW,🟡
+2025-10-21,Column Tables With Largest Delta Stores,1,GREEN,🟢
+2025-10-21,Configuring A1C For SAP Note Assistant,1,GREEN,🟢
+2025-10-21,Cpu Usage Of SAP HANA Server,1,GREEN,🟢
+2025-10-21,"Critical Authorizations, Which Allow To Do Anything",3,RED,🔴
+2025-10-21,"Critical Authorizations, Which Should Only See Very Limited Use In Production",2,YELLOW,🟡
+2025-10-21,Data Quality,1,GREEN,🟢
+2025-10-21,Database - Maintenance Phases,1,GREEN,🟢
+2025-10-21,Db Load Profile,1,GREEN,🟢
+2025-10-21,Diagnosis Files,2,YELLOW,🟡
+2025-10-21,Disk Configuration,1,GREEN,🟢
+2025-10-21,Disk Usage,1,GREEN,🟢
+2025-10-21,Enhanced Hardware Monitoring In Cloud Environments,2,YELLOW,🟡
+2025-10-21,Failed Changes,1,GREEN,🟢
+2025-10-21,Financial Data Quality,2,YELLOW,🟡
+2025-10-21,Fiori Checks For A1C,2,YELLOW,🟡
+2025-10-21,Global Consistency Check Run,3,RED,🔴
+2025-10-21,HANA Database Version For A1H,1,GREEN,🟢
+2025-10-21,HANA Database Version For D1H,1,GREEN,🟢
+2025-10-21,HANA Database Version For Q1H,1,GREEN,🟢
+2025-10-21,HANA Database Version For S2H,1,GREEN,🟢
+2025-10-21,Hardware Capacity,3,RED,🔴
+2025-10-21,Http/2 Support,1,GREEN,🟢
+2025-10-21,Important Periodic Jobs,2,YELLOW,🟡
+2025-10-21,Important SAP Notes For SAP HANA,1,GREEN,🟢
+2025-10-21,Largest Non-Partitioned Column Tables (Records),1,GREEN,🟢
+2025-10-21,License Information,1,GREEN,🟢
+2025-10-21,Memory Allocation Of Tables,1,GREEN,🟢
+2025-10-21,Memory Consumption Of Indexserver,2,YELLOW,🟡
+2025-10-21,Memory Usage Of SAP HANA Instance,1,GREEN,🟢
+2025-10-21,Memory Usage Of SAP HANA Server,1,GREEN,🟢
+2025-10-21,Operating System(S) - Maintenance Phases,1,GREEN,🟢
+2025-10-21,Overview System A1C,1,GREEN,🟢
+2025-10-21,Parameter Recommendation,2,YELLOW,🟡
+2025-10-21,Performance Evaluation,1,GREEN,🟢
+2025-10-21,Performance Indicators For A1C,1,GREEN,🟢
+2025-10-21,Performance Overview A1C,1,GREEN,🟢
+2025-10-21,Remote Function Call For - A1C,2,YELLOW,🟡
+2025-10-21,Row Store Fragmentation,1,GREEN,🟢
+2025-10-21,Row Store Size,1,GREEN,🟢
+2025-10-21,SAP Application Release - Maintenance Phases,3,RED,🔴
+2025-10-21,SAP Fiori Front-End Server Version,1,GREEN,🟢
+2025-10-21,SAP Fiori Launchpad - Spaces And Pages Adoption,1,GREEN,🟢
+2025-10-21,SAP Fiori Launchpad Performance - Home Page Mode,1,GREEN,🟢
+2025-10-21,SAP HANA Alerts,2,YELLOW,🟡
+2025-10-21,SAP HANA Database A1H,3,RED,🔴
+2025-10-21,SAP HANA Database D1H,2,YELLOW,🟡
+2025-10-21,SAP HANA Database Q1H,2,YELLOW,🟡
+2025-10-21,SAP HANA Database S2H,2,YELLOW,🟡
+2025-10-21,SAP HANA Dumps,2,YELLOW,🟡
+2025-10-21,SAP HANA Resource Consumption,1,GREEN,🟢
+2025-10-21,SAP HANA Service Restarts,1,GREEN,🟢
+2025-10-21,SAP HANA Workload Management,2,YELLOW,🟡
+2025-10-21,SAP HANA: Installed Dbsl Version,1,GREEN,🟢
+2025-10-21,SAP HANA: Installed Sqldbc Version,1,GREEN,🟢
+2025-10-21,SAP Netweaver Application Server ABAP Of A1C,1,GREEN,🟢
+2025-10-21,SAP Netweaver Gateway,2,YELLOW,🟡
+2025-10-21,SAP System Operating A1C,1,GREEN,🟢
+2025-10-21,SAPui5 Version,1,GREEN,🟢
+2025-10-21,Security,3,RED,🔴
+2025-10-21,Security Risk Due To Outdated Support Packages,2,YELLOW,🟡
+2025-10-21,Sending Earlywatch Alert Of A1C To SAP Backbone,1,GREEN,🟢
+2025-10-21,Service Data Quality And Service Readiness,2,YELLOW,🟡
+2025-10-21,Service Preparation Check (Rtcctool),2,YELLOW,🟡
+2025-10-21,Service Preparation Of A1C,2,YELLOW,🟡
+2025-10-21,Service Summary,3,RED,🔴
+2025-10-21,Software Change And Transport Management Of A1C,1,GREEN,🟢
+2025-10-21,Software Configuration For A1C,2,YELLOW,🟡
+2025-10-21,Statisticsserver And Monitoring,2,YELLOW,🟡
+2025-10-21,Transportation Management System Checks,2,YELLOW,🟡
+2025-10-21,Ui Technologies Checks,2,YELLOW,🟡
+2025-10-28,Activated But Unused Icf Services In Ui5 Apps,2,YELLOW,🟡
+2025-10-28,Activation Status And Validity Of User System,3,RED,🔴
+2025-10-28,Age Of Support Packages,2,YELLOW,🟡
+2025-10-28,Backup And Recovery,2,YELLOW,🟡
+2025-10-28,Column Tables With Largest Delta Stores,1,GREEN,🟢
+2025-10-28,Configuring A1C For SAP Note Assistant,1,GREEN,🟢
+2025-10-28,Cpu Usage Of SAP HANA Server,1,GREEN,🟢
+2025-10-28,"Critical Authorizations, Which Allow To Do Anything",3,RED,🔴
+2025-10-28,"Critical Authorizations, Which Should Only See Very Limited Use In Production",2,YELLOW,🟡
+2025-10-28,Data Quality,1,GREEN,🟢
+2025-10-28,Database - Maintenance Phases,1,GREEN,🟢
+2025-10-28,Db Load Profile,1,GREEN,🟢
+2025-10-28,Diagnosis Files,2,YELLOW,🟡
+2025-10-28,Disk Configuration,1,GREEN,🟢
+2025-10-28,Disk Usage,1,GREEN,🟢
+2025-10-28,Enhanced Hardware Monitoring In Cloud Environments,2,YELLOW,🟡
+2025-10-28,Failed Changes,1,GREEN,🟢
+2025-10-28,Financial Data Quality,2,YELLOW,🟡
+2025-10-28,Fiori Checks For A1C,2,YELLOW,🟡
+2025-10-28,Global Consistency Check Run,3,RED,🔴
+2025-10-28,HANA Database Version For A1H,1,GREEN,🟢
+2025-10-28,HANA Database Version For D1H,1,GREEN,🟢
+2025-10-28,HANA Database Version For Q1H,1,GREEN,🟢
+2025-10-28,HANA Database Version For S2H,1,GREEN,🟢
+2025-10-28,Hardware Capacity,1,GREEN,🟢
+2025-10-28,Http/2 Support,1,GREEN,🟢
+2025-10-28,Important Periodic Jobs,2,YELLOW,🟡
+2025-10-28,Important SAP Notes For SAP HANA,1,GREEN,🟢
+2025-10-28,Largest Non-Partitioned Column Tables (Records),1,GREEN,🟢
+2025-10-28,License Information,1,GREEN,🟢
+2025-10-28,Memory Allocation Of Tables,1,GREEN,🟢
+2025-10-28,Memory Consumption Of Indexserver,2,YELLOW,🟡
+2025-10-28,Memory Usage Of SAP HANA Instance,1,GREEN,🟢
+2025-10-28,Memory Usage Of SAP HANA Server,1,GREEN,🟢
+2025-10-28,Operating System(S) - Maintenance Phases,1,GREEN,🟢
+2025-10-28,Overview System A1C,1,GREEN,🟢
+2025-10-28,Parameter Recommendation,2,YELLOW,🟡
+2025-10-28,Performance Evaluation,2,YELLOW,🟡
+2025-10-28,Performance Indicators For A1C,1,GREEN,🟢
+2025-10-28,Performance Overview A1C,1,GREEN,🟢
+2025-10-28,Remote Function Call For - A1C,3,RED,🔴
+2025-10-28,Row Store Fragmentation,1,GREEN,🟢
+2025-10-28,Row Store Size,1,GREEN,🟢
+2025-10-28,SAP Application Release - Maintenance Phases,3,RED,🔴
+2025-10-28,SAP Fiori Front-End Server Version,1,GREEN,🟢
+2025-10-28,SAP Fiori Launchpad - Spaces And Pages Adoption,1,GREEN,🟢
+2025-10-28,SAP Fiori Launchpad Performance - Home Page Mode,1,GREEN,🟢
+2025-10-28,SAP HANA Alerts,2,YELLOW,🟡
+2025-10-28,SAP HANA Database A1H,3,RED,🔴
+2025-10-28,SAP HANA Database D1H,2,YELLOW,🟡
+2025-10-28,SAP HANA Database Q1H,2,YELLOW,🟡
+2025-10-28,SAP HANA Database S2H,2,YELLOW,🟡
+2025-10-28,SAP HANA Dumps,2,YELLOW,🟡
+2025-10-28,SAP HANA Resource Consumption,1,GREEN,🟢
+2025-10-28,SAP HANA Service Restarts,1,GREEN,🟢
+2025-10-28,SAP HANA Workload Management,2,YELLOW,🟡
+2025-10-28,SAP HANA: Installed Dbsl Version,1,GREEN,🟢
+2025-10-28,SAP HANA: Installed Sqldbc Version,1,GREEN,🟢
+2025-10-28,SAP Netweaver Application Server ABAP Of A1C,1,GREEN,🟢
+2025-10-28,SAP Netweaver Gateway,2,YELLOW,🟡
+2025-10-28,SAP System Operating A1C,1,GREEN,🟢
+2025-10-28,SAPui5 Version,1,GREEN,🟢
+2025-10-28,Security,3,RED,🔴
+2025-10-28,Security Risk Due To Outdated Support Packages,2,YELLOW,🟡
+2025-10-28,Sending Earlywatch Alert Of A1C To SAP Backbone,1,GREEN,🟢
+2025-10-28,Service Data Quality And Service Readiness,2,YELLOW,🟡
+2025-10-28,Service Preparation Check (Rtcctool),2,YELLOW,🟡
+2025-10-28,Service Preparation Of A1C,2,YELLOW,🟡
+2025-10-28,Service Summary,3,RED,🔴
+2025-10-28,Software Change And Transport Management Of A1C,1,GREEN,🟢
+2025-10-28,Software Configuration For A1C,2,YELLOW,🟡
+2025-10-28,Statisticsserver And Monitoring,2,YELLOW,🟡
+2025-10-28,Transportation Management System Checks,2,YELLOW,🟡
+2025-10-28,Ui Technologies Checks,2,YELLOW,🟡
+2025-11-04,Activated But Unused Icf Services In Ui5 Apps,2,YELLOW,🟡
+2025-11-04,Activation Status And Validity Of User System,3,RED,🔴
+2025-11-04,Age Of Support Packages,2,YELLOW,🟡
+2025-11-04,Backup And Recovery,3,RED,🔴
+2025-11-04,Column Tables With Largest Delta Stores,1,GREEN,🟢
+2025-11-04,Configuring A1C For SAP Note Assistant,1,GREEN,🟢
+2025-11-04,Cpu Usage Of SAP HANA Server,1,GREEN,🟢
+2025-11-04,"Critical Authorizations, Which Allow To Do Anything",3,RED,🔴
+2025-11-04,"Critical Authorizations, Which Should Only See Very Limited Use In Production",2,YELLOW,🟡
+2025-11-04,Data Quality,1,GREEN,🟢
+2025-11-04,Database - Maintenance Phases,1,GREEN,🟢
+2025-11-04,Db Load Profile,1,GREEN,🟢
+2025-11-04,Diagnosis Files,2,YELLOW,🟡
+2025-11-04,Disk Configuration,1,GREEN,🟢
+2025-11-04,Disk Usage,1,GREEN,🟢
+2025-11-04,Enhanced Hardware Monitoring In Cloud Environments,2,YELLOW,🟡
+2025-11-04,Failed Changes,3,RED,🔴
+2025-11-04,Financial Data Quality,2,YELLOW,🟡
+2025-11-04,Fiori Checks For A1C,2,YELLOW,🟡
+2025-11-04,Global Consistency Check Run,3,RED,🔴
+2025-11-04,HANA Database Version For A1H,1,GREEN,🟢
+2025-11-04,HANA Database Version For D1H,1,GREEN,🟢
+2025-11-04,HANA Database Version For Q1H,1,GREEN,🟢
+2025-11-04,HANA Database Version For S2H,1,GREEN,🟢
+2025-11-04,Hardware Capacity,1,GREEN,🟢
+2025-11-04,Http/2 Support,1,GREEN,🟢
+2025-11-04,Important Periodic Jobs,2,YELLOW,🟡
+2025-11-04,Important SAP Notes For SAP HANA,1,GREEN,🟢
+2025-11-04,Largest Non-Partitioned Column Tables (Records),1,GREEN,🟢
+2025-11-04,License Information,1,GREEN,🟢
+2025-11-04,Memory Allocation Of Tables,1,GREEN,🟢
+2025-11-04,Memory Consumption Of Indexserver,2,YELLOW,🟡
+2025-11-04,Memory Usage Of SAP HANA Instance,1,GREEN,🟢
+2025-11-04,Memory Usage Of SAP HANA Server,1,GREEN,🟢
+2025-11-04,Operating System(S) - Maintenance Phases,1,GREEN,🟢
+2025-11-04,Overview System A1C,1,GREEN,🟢
+2025-11-04,Parameter Recommendation,2,YELLOW,🟡
+2025-11-04,Performance Evaluation,1,GREEN,🟢
+2025-11-04,Performance Indicators For A1C,1,GREEN,🟢
+2025-11-04,Performance Overview A1C,1,GREEN,🟢
+2025-11-04,Remote Function Call For - A1C,3,RED,🔴
+2025-11-04,Row Store Fragmentation,1,GREEN,🟢
+2025-11-04,Row Store Size,1,GREEN,🟢
+2025-11-04,SAP Application Release - Maintenance Phases,3,RED,🔴
+2025-11-04,SAP Fiori Front-End Server Version,1,GREEN,🟢
+2025-11-04,SAP Fiori Launchpad - Spaces And Pages Adoption,1,GREEN,🟢
+2025-11-04,SAP Fiori Launchpad Performance - Home Page Mode,1,GREEN,🟢
+2025-11-04,SAP HANA Alerts,2,YELLOW,🟡
+2025-11-04,SAP HANA Database A1H,3,RED,🔴
+2025-11-04,SAP HANA Database D1H,3,RED,🔴
+2025-11-04,SAP HANA Database Q1H,2,YELLOW,🟡
+2025-11-04,SAP HANA Database S2H,2,YELLOW,🟡
+2025-11-04,SAP HANA Dumps,2,YELLOW,🟡
+2025-11-04,SAP HANA Resource Consumption,1,GREEN,🟢
+2025-11-04,SAP HANA Service Restarts,1,GREEN,🟢
+2025-11-04,SAP HANA Workload Management,2,YELLOW,🟡
+2025-11-04,SAP HANA: Installed Dbsl Version,1,GREEN,🟢
+2025-11-04,SAP HANA: Installed Sqldbc Version,1,GREEN,🟢
+2025-11-04,SAP Netweaver Application Server ABAP Of A1C,3,RED,🔴
+2025-11-04,SAP Netweaver Gateway,2,YELLOW,🟡
+2025-11-04,SAP System Operating A1C,2,YELLOW,🟡
+2025-11-04,SAPui5 Version,1,GREEN,🟢
+2025-11-04,Security,3,RED,🔴
+2025-11-04,Security Risk Due To Outdated Support Packages,2,YELLOW,🟡
+2025-11-04,Sending Earlywatch Alert Of A1C To SAP Backbone,1,GREEN,🟢
+2025-11-04,Service Data Quality And Service Readiness,2,YELLOW,🟡
+2025-11-04,Service Preparation Check (Rtcctool),2,YELLOW,🟡
+2025-11-04,Service Preparation Of A1C,2,YELLOW,🟡
+2025-11-04,Service Summary,3,RED,🔴
+2025-11-04,Software Change And Transport Management Of A1C,3,RED,🔴
+2025-11-04,Software Configuration For A1C,2,YELLOW,🟡
+2025-11-04,Statisticsserver And Monitoring,2,YELLOW,🟡
+2025-11-04,Transportation Management System Checks,2,YELLOW,🟡
+2025-11-04,Ui Technologies Checks,2,YELLOW,🟡
+2025-11-11,Activated But Unused Icf Services In Ui5 Apps,2,YELLOW,🟡
+2025-11-11,Activation Status And Validity Of User System,3,RED,🔴
+2025-11-11,Age Of Support Packages,2,YELLOW,🟡
+2025-11-11,Backup And Recovery,2,YELLOW,🟡
+2025-11-11,Column Tables With Largest Delta Stores,1,GREEN,🟢
+2025-11-11,Configuring A1C For SAP Note Assistant,1,GREEN,🟢
+2025-11-11,Cpu Usage Of SAP HANA Server,1,GREEN,🟢
+2025-11-11,"Critical Authorizations, Which Allow To Do Anything",3,RED,🔴
+2025-11-11,"Critical Authorizations, Which Should Only See Very Limited Use In Production",2,YELLOW,🟡
+2025-11-11,Data Quality,1,GREEN,🟢
+2025-11-11,Database - Maintenance Phases,1,GREEN,🟢
+2025-11-11,Db Load Profile,1,GREEN,🟢
+2025-11-11,Diagnosis Files,2,YELLOW,🟡
+2025-11-11,Disk Configuration,1,GREEN,🟢
+2025-11-11,Disk Usage,1,GREEN,🟢
+2025-11-11,Enhanced Hardware Monitoring In Cloud Environments,2,YELLOW,🟡
+2025-11-11,Failed Changes,3,RED,🔴
+2025-11-11,Financial Data Quality,2,YELLOW,🟡
+2025-11-11,Fiori Checks For A1C,2,YELLOW,🟡
+2025-11-11,Global Consistency Check Run,3,RED,🔴
+2025-11-11,HANA Database Version For A1H,1,GREEN,🟢
+2025-11-11,HANA Database Version For D1H,1,GREEN,🟢
+2025-11-11,HANA Database Version For Q1H,1,GREEN,🟢
+2025-11-11,HANA Database Version For S2H,1,GREEN,🟢
+2025-11-11,Hardware Capacity,1,GREEN,🟢
+2025-11-11,Http/2 Support,1,GREEN,🟢
+2025-11-11,Important Periodic Jobs,2,YELLOW,🟡
+2025-11-11,Important SAP Notes For SAP HANA,1,GREEN,🟢
+2025-11-11,Largest Non-Partitioned Column Tables (Records),1,GREEN,🟢
+2025-11-11,License Information,1,GREEN,🟢
+2025-11-11,Memory Allocation Of Tables,1,GREEN,🟢
+2025-11-11,Memory Consumption Of Indexserver,3,RED,🔴
+2025-11-11,Memory Usage Of SAP HANA Instance,1,GREEN,🟢
+2025-11-11,Memory Usage Of SAP HANA Server,1,GREEN,🟢
+2025-11-11,Operating System(S) - Maintenance Phases,1,GREEN,🟢
+2025-11-11,Overview System A1C,1,GREEN,🟢
+2025-11-11,Parameter Recommendation,2,YELLOW,🟡
+2025-11-11,Performance Evaluation,1,GREEN,🟢
+2025-11-11,Performance Indicators For A1C,1,GREEN,🟢
+2025-11-11,Performance Overview A1C,1,GREEN,🟢
+2025-11-11,Remote Function Call For - A1C,3,RED,🔴
+2025-11-11,Row Store Fragmentation,1,GREEN,🟢
+2025-11-11,Row Store Size,1,GREEN,🟢
+2025-11-11,SAP Application Release - Maintenance Phases,3,RED,🔴
+2025-11-11,SAP Fiori Front-End Server Version,1,GREEN,🟢
+2025-11-11,SAP Fiori Launchpad - Spaces And Pages Adoption,1,GREEN,🟢
+2025-11-11,SAP Fiori Launchpad Performance - Home Page Mode,1,GREEN,🟢
+2025-11-11,SAP HANA Alerts,2,YELLOW,🟡
+2025-11-11,SAP HANA Column Unloads,2,YELLOW,🟡
+2025-11-11,SAP HANA Database A1H,3,RED,🔴
+2025-11-11,SAP HANA Database D1H,3,RED,🔴
+2025-11-11,SAP HANA Database Q1H,2,YELLOW,🟡
+2025-11-11,SAP HANA Database S2H,2,YELLOW,🟡
+2025-11-11,SAP HANA Dumps,3,RED,🔴
+2025-11-11,SAP HANA Resource Consumption,1,GREEN,🟢
+2025-11-11,SAP HANA Service Restarts,1,GREEN,🟢
+2025-11-11,SAP HANA Workload Management,2,YELLOW,🟡
+2025-11-11,SAP HANA: Installed Dbsl Version,1,GREEN,🟢
+2025-11-11,SAP HANA: Installed Sqldbc Version,1,GREEN,🟢
+2025-11-11,SAP Netweaver Application Server ABAP Of A1C,3,RED,🔴
+2025-11-11,SAP Netweaver Gateway,2,YELLOW,🟡
+2025-11-11,SAP System Operating A1C,2,YELLOW,🟡
+2025-11-11,SAPui5 Version,1,GREEN,🟢
+2025-11-11,Security,3,RED,🔴
+2025-11-11,Security Risk Due To Outdated Support Packages,2,YELLOW,🟡
+2025-11-11,Sending Earlywatch Alert Of A1C To SAP Backbone,1,GREEN,🟢
+2025-11-11,Service Data Quality And Service Readiness,2,YELLOW,🟡
+2025-11-11,Service Preparation Check (Rtcctool),2,YELLOW,🟡
+2025-11-11,Service Preparation Of A1C,2,YELLOW,🟡
+2025-11-11,Service Summary,3,RED,🔴
+2025-11-11,Software Change And Transport Management Of A1C,3,RED,🔴
+2025-11-11,Software Configuration For A1C,2,YELLOW,🟡
+2025-11-11,Statisticsserver And Monitoring,2,YELLOW,🟡
+2025-11-11,Transportation Management System Checks,2,YELLOW,🟡
+2025-11-11,Ui Technologies Checks,2,YELLOW,🟡
+2025-11-18,Activated But Unused Icf Services In Ui5 Apps,2,YELLOW,🟡
+2025-11-18,Activation Status And Validity Of User System,3,RED,🔴
+2025-11-18,Age Of Support Packages,2,YELLOW,🟡
+2025-11-18,Backup And Recovery,2,YELLOW,🟡
+2025-11-18,Column Tables With Largest Delta Stores,1,GREEN,🟢
+2025-11-18,Configuring A1C For SAP Note Assistant,1,GREEN,🟢
+2025-11-18,Cpu Usage Of SAP HANA Server,1,GREEN,🟢
+2025-11-18,"Critical Authorizations, Which Allow To Do Anything",3,RED,🔴
+2025-11-18,"Critical Authorizations, Which Should Only See Very Limited Use In Production",2,YELLOW,🟡
+2025-11-18,Data Quality,1,GREEN,🟢
+2025-11-18,Database - Maintenance Phases,1,GREEN,🟢
+2025-11-18,Db Load Profile,1,GREEN,🟢
+2025-11-18,Diagnosis Files,2,YELLOW,🟡
+2025-11-18,Disk Configuration,1,GREEN,🟢
+2025-11-18,Disk Usage,1,GREEN,🟢
+2025-11-18,Failed Changes,3,RED,🔴
+2025-11-18,Financial Data Quality,2,YELLOW,🟡
+2025-11-18,Fiori Checks For A1C,2,YELLOW,🟡
+2025-11-18,Global Consistency Check Run,2,YELLOW,🟡
+2025-11-18,HANA Database Version For A1H,1,GREEN,🟢
+2025-11-18,HANA Database Version For D1H,1,GREEN,🟢
+2025-11-18,HANA Database Version For Q1H,1,GREEN,🟢
+2025-11-18,HANA Database Version For S2H,1,GREEN,🟢
+2025-11-18,Hardware Capacity,3,RED,🔴
+2025-11-18,Http/2 Support,1,GREEN,🟢
+2025-11-18,Important Periodic Jobs,2,YELLOW,🟡
+2025-11-18,Important SAP Notes For SAP HANA,1,GREEN,🟢
+2025-11-18,Largest Non-Partitioned Column Tables (Records),1,GREEN,🟢
+2025-11-18,License Information,1,GREEN,🟢
+2025-11-18,Memory Allocation Of Tables,1,GREEN,🟢
+2025-11-18,Memory Consumption Of Indexserver,3,RED,🔴
+2025-11-18,Memory Usage Of SAP HANA Instance,1,GREEN,🟢
+2025-11-18,Memory Usage Of SAP HANA Server,1,GREEN,🟢
+2025-11-18,Operating System(S) - Maintenance Phases,1,GREEN,🟢
+2025-11-18,Overview System A1C,1,GREEN,🟢
+2025-11-18,Parameter Recommendation,2,YELLOW,🟡
+2025-11-18,Performance Evaluation,1,GREEN,🟢
+2025-11-18,Performance Indicators For A1C,1,GREEN,🟢
+2025-11-18,Performance Overview A1C,1,GREEN,🟢
+2025-11-18,Problematic Sql Statements In A1H,2,YELLOW,🟡
+2025-11-18,Remote Function Call For - A1C,3,RED,🔴
+2025-11-18,Row Store Fragmentation,1,GREEN,🟢
+2025-11-18,Row Store Size,1,GREEN,🟢
+2025-11-18,SAP Application Release - Maintenance Phases,3,RED,🔴
+2025-11-18,SAP Fiori Front-End Server Version,1,GREEN,🟢
+2025-11-18,SAP Fiori Launchpad - Spaces And Pages Adoption,1,GREEN,🟢
+2025-11-18,SAP HANA Alerts,2,YELLOW,🟡
+2025-11-18,SAP HANA Column Unloads,3,RED,🔴
+2025-11-18,SAP HANA Database A1H,3,RED,🔴
+2025-11-18,SAP HANA Database D1H,3,RED,🔴
+2025-11-18,SAP HANA Database Q1H,2,YELLOW,🟡
+2025-11-18,SAP HANA Database S2H,3,RED,🔴
+2025-11-18,SAP HANA Dumps,2,YELLOW,🟡
+2025-11-18,SAP HANA Resource Consumption,1,GREEN,🟢
+2025-11-18,SAP HANA Service Restarts,1,GREEN,🟢
+2025-11-18,SAP HANA Workload Management,2,YELLOW,🟡
+2025-11-18,SAP HANA: Installed Dbsl Version,1,GREEN,🟢
+2025-11-18,SAP HANA: Installed Sqldbc Version,1,GREEN,🟢
+2025-11-18,SAP Netweaver Application Server ABAP Of A1C,3,RED,🔴
+2025-11-18,SAP Netweaver Gateway,2,YELLOW,🟡
+2025-11-18,SAP System Operating A1C,2,YELLOW,🟡
+2025-11-18,SAPui5 Version,1,GREEN,🟢
+2025-11-18,Security,3,RED,🔴
+2025-11-18,Security Risk Due To Outdated Support Packages,2,YELLOW,🟡
+2025-11-18,Sending Earlywatch Alert Of A1C To SAP Backbone,1,GREEN,🟢
+2025-11-18,Service Data Quality And Service Readiness,2,YELLOW,🟡
+2025-11-18,Service Preparation Check (Rtcctool),2,YELLOW,🟡
+2025-11-18,Service Preparation Of A1C,2,YELLOW,🟡
+2025-11-18,Service Summary,3,RED,🔴
+2025-11-18,Software Change And Transport Management Of A1C,3,RED,🔴
+2025-11-18,Software Configuration For A1C,2,YELLOW,🟡
+2025-11-18,Statisticsserver And Monitoring,2,YELLOW,🟡
+2025-11-18,Transportation Management System Checks,2,YELLOW,🟡
+2025-11-18,Ui Technologies Checks,2,YELLOW,🟡
+2025-11-25,Activated But Unused Icf Services In Ui5 Apps,2,YELLOW,🟡
+2025-11-25,Activation Status And Validity Of User System,3,RED,🔴
+2025-11-25,Age Of Support Packages,2,YELLOW,🟡
+2025-11-25,Backup And Recovery,2,YELLOW,🟡
+2025-11-25,Column Tables With Largest Delta Stores,1,GREEN,🟢
+2025-11-25,Configuring A1C For SAP Note Assistant,1,GREEN,🟢
+2025-11-25,Cpu Usage Of SAP HANA Server,1,GREEN,🟢
+2025-11-25,"Critical Authorizations, Which Allow To Do Anything",3,RED,🔴
+2025-11-25,"Critical Authorizations, Which Should Only See Very Limited Use In Production",2,YELLOW,🟡
+2025-11-25,Data Quality,1,GREEN,🟢
+2025-11-25,Database - Maintenance Phases,1,GREEN,🟢
+2025-11-25,Db Load Profile,1,GREEN,🟢
+2025-11-25,Diagnosis Files,2,YELLOW,🟡
+2025-11-25,Disk Configuration,1,GREEN,🟢
+2025-11-25,Disk Usage,1,GREEN,🟢
+2025-11-25,Duration Of Blocking Savepoint Phase,3,RED,🔴
+2025-11-25,Failed Changes,1,GREEN,🟢
+2025-11-25,Financial Data Quality,2,YELLOW,🟡
+2025-11-25,Fiori Checks For A1C,2,YELLOW,🟡
+2025-11-25,Global Consistency Check Run,2,YELLOW,🟡
+2025-11-25,HANA Database Version For A1H,1,GREEN,🟢
+2025-11-25,HANA Database Version For D1H,1,GREEN,🟢
+2025-11-25,HANA Database Version For Q1H,1,GREEN,🟢
+2025-11-25,HANA Database Version For S2H,1,GREEN,🟢
+2025-11-25,Hardware Capacity,1,GREEN,🟢
+2025-11-25,Http/2 Support,1,GREEN,🟢
+2025-11-25,Important Periodic Jobs,2,YELLOW,🟡
+2025-11-25,Important SAP Notes For SAP HANA,1,GREEN,🟢
+2025-11-25,Largest Non-Partitioned Column Tables (Records),1,GREEN,🟢
+2025-11-25,License Information,2,YELLOW,🟡
+2025-11-25,Memory Allocation Of Tables,1,GREEN,🟢
+2025-11-25,Memory Consumption Of Indexserver,3,RED,🔴
+2025-11-25,Memory Usage Of SAP HANA Instance,1,GREEN,🟢
+2025-11-25,Memory Usage Of SAP HANA Server,1,GREEN,🟢
+2025-11-25,Operating System(S) - Maintenance Phases,1,GREEN,🟢
+2025-11-25,Overview System A1C,1,GREEN,🟢
+2025-11-25,Parameter Recommendation,2,YELLOW,🟡
+2025-11-25,Performance Evaluation,1,GREEN,🟢
+2025-11-25,Performance Indicators For A1C,1,GREEN,🟢
+2025-11-25,Performance Overview A1C,1,GREEN,🟢
+2025-11-25,Problematic Sql Statements In D1H,2,YELLOW,🟡
+2025-11-25,Remote Function Call For - A1C,3,RED,🔴
+2025-11-25,Row Store Fragmentation,1,GREEN,🟢
+2025-11-25,Row Store Size,1,GREEN,🟢
+2025-11-25,SAP Application Release - Maintenance Phases,3,RED,🔴
+2025-11-25,SAP Fiori Front-End Server Version,1,GREEN,🟢
+2025-11-25,SAP Fiori Launchpad - Spaces And Pages Adoption,1,GREEN,🟢
+2025-11-25,SAP Fiori Launchpad Performance - Home Page Mode,1,GREEN,🟢
+2025-11-25,SAP HANA Alerts,2,YELLOW,🟡
+2025-11-25,SAP HANA Column Unloads,2,YELLOW,🟡
+2025-11-25,SAP HANA Database A1H,3,RED,🔴
+2025-11-25,SAP HANA Database D1H,3,RED,🔴
+2025-11-25,SAP HANA Database Q1H,2,YELLOW,🟡
+2025-11-25,SAP HANA Database S2H,2,YELLOW,🟡
+2025-11-25,SAP HANA Dumps,3,RED,🔴
+2025-11-25,SAP HANA Resource Consumption,1,GREEN,🟢
+2025-11-25,SAP HANA Service Restarts,1,GREEN,🟢
+2025-11-25,SAP HANA Workload Management,2,YELLOW,🟡
+2025-11-25,SAP HANA: Installed Dbsl Version,1,GREEN,🟢
+2025-11-25,SAP HANA: Installed Sqldbc Version,1,GREEN,🟢
+2025-11-25,SAP Netweaver Application Server ABAP Of A1C,1,GREEN,🟢
+2025-11-25,SAP Netweaver Gateway,2,YELLOW,🟡
+2025-11-25,SAP System Operating A1C,2,YELLOW,🟡
+2025-11-25,SAPui5 Version,1,GREEN,🟢
+2025-11-25,Security,3,RED,🔴
+2025-11-25,Security Risk Due To Outdated Support Packages,2,YELLOW,🟡
+2025-11-25,Sending Earlywatch Alert Of A1C To SAP Backbone,1,GREEN,🟢
+2025-11-25,Service Data Quality And Service Readiness,2,YELLOW,🟡
+2025-11-25,Service Preparation Check (Rtcctool),2,YELLOW,🟡
+2025-11-25,Service Preparation Of A1C,2,YELLOW,🟡
+2025-11-25,Service Summary,3,RED,🔴
+2025-11-25,Software Change And Transport Management Of A1C,1,GREEN,🟢
+2025-11-25,Software Configuration For A1C,2,YELLOW,🟡
+2025-11-25,Statisticsserver And Monitoring,2,YELLOW,🟡
+2025-11-25,Transportation Management System Checks,2,YELLOW,🟡
+2025-11-25,Ui Technologies Checks,2,YELLOW,🟡
+2025-12-02,Activated But Unused Icf Services In Ui5 Apps,2,YELLOW,🟡
+2025-12-02,Activation Status And Validity Of User System,3,RED,🔴
+2025-12-02,Age Of Support Packages,2,YELLOW,🟡
+2025-12-02,Backup And Recovery,2,YELLOW,🟡
+2025-12-02,Column Tables With Largest Delta Stores,1,GREEN,🟢
+2025-12-02,Configuring A1C For SAP Note Assistant,1,GREEN,🟢
+2025-12-02,Cpu Usage Of SAP HANA Server,1,GREEN,🟢
+2025-12-02,"Critical Authorizations, Which Allow To Do Anything",3,RED,🔴
+2025-12-02,"Critical Authorizations, Which Should Only See Very Limited Use In Production",2,YELLOW,🟡
+2025-12-02,Data Quality,1,GREEN,🟢
+2025-12-02,Database - Maintenance Phases,1,GREEN,🟢
+2025-12-02,Db Load Profile,1,GREEN,🟢
+2025-12-02,Diagnosis Files,2,YELLOW,🟡
+2025-12-02,Disk Configuration,1,GREEN,🟢
+2025-12-02,Disk Usage,1,GREEN,🟢
+2025-12-02,Failed Changes,3,RED,🔴
+2025-12-02,Financial Data Quality,2,YELLOW,🟡
+2025-12-02,Fiori Checks For A1C,2,YELLOW,🟡
+2025-12-02,Global Consistency Check Run,2,YELLOW,🟡
+2025-12-02,HANA Database Version For A1H,1,GREEN,🟢
+2025-12-02,HANA Database Version For D1H,1,GREEN,🟢
+2025-12-02,HANA Database Version For Q1H,1,GREEN,🟢
+2025-12-02,HANA Database Version For S2H,1,GREEN,🟢
+2025-12-02,Hardware Capacity,1,GREEN,🟢
+2025-12-02,Http/2 Support,1,GREEN,🟢
+2025-12-02,Important Periodic Jobs,2,YELLOW,🟡
+2025-12-02,Important SAP Notes For SAP HANA,1,GREEN,🟢
+2025-12-02,Largest Non-Partitioned Column Tables (Records),1,GREEN,🟢
+2025-12-02,License Information,2,YELLOW,🟡
+2025-12-02,Memory Allocation Of Tables,1,GREEN,🟢
+2025-12-02,Memory Consumption Of Indexserver,3,RED,🔴
+2025-12-02,Memory Usage Of SAP HANA Instance,1,GREEN,🟢
+2025-12-02,Memory Usage Of SAP HANA Server,1,GREEN,🟢
+2025-12-02,Operating System(S) - Maintenance Phases,1,GREEN,🟢
+2025-12-02,Overview System A1C,1,GREEN,🟢
+2025-12-02,Parameter Recommendation,2,YELLOW,🟡
+2025-12-02,Performance Evaluation,2,YELLOW,🟡
+2025-12-02,Performance Indicators For A1C,1,GREEN,🟢
+2025-12-02,Performance Overview A1C,1,GREEN,🟢
+2025-12-02,Remote Function Call For - A1C,3,RED,🔴
+2025-12-02,Row Store Fragmentation,1,GREEN,🟢
+2025-12-02,Row Store Size,1,GREEN,🟢
+2025-12-02,SAP Application Release - Maintenance Phases,3,RED,🔴
+2025-12-02,SAP Fiori Front-End Server Version,1,GREEN,🟢
+2025-12-02,SAP Fiori Launchpad - Spaces And Pages Adoption,1,GREEN,🟢
+2025-12-02,SAP HANA Alerts,2,YELLOW,🟡
+2025-12-02,SAP HANA Column Unloads,2,YELLOW,🟡
+2025-12-02,SAP HANA Database A1H,3,RED,🔴
+2025-12-02,SAP HANA Database D1H,3,RED,🔴
+2025-12-02,SAP HANA Database Q1H,2,YELLOW,🟡
+2025-12-02,SAP HANA Database S2H,2,YELLOW,🟡
+2025-12-02,SAP HANA Dumps,2,YELLOW,🟡
+2025-12-02,SAP HANA Resource Consumption,1,GREEN,🟢
+2025-12-02,SAP HANA Service Restarts,1,GREEN,🟢
+2025-12-02,SAP HANA Workload Management,2,YELLOW,🟡
+2025-12-02,SAP HANA: Installed Dbsl Version,1,GREEN,🟢
+2025-12-02,SAP HANA: Installed Sqldbc Version,1,GREEN,🟢
+2025-12-02,SAP Netweaver Application Server ABAP Of A1C,3,RED,🔴
+2025-12-02,SAP Netweaver Gateway,2,YELLOW,🟡
+2025-12-02,SAP System Operating A1C,2,YELLOW,🟡
+2025-12-02,SAPui5 Version,1,GREEN,🟢
+2025-12-02,Security,3,RED,🔴
+2025-12-02,Security Risk Due To Outdated Support Packages,2,YELLOW,🟡
+2025-12-02,Sending Earlywatch Alert Of A1C To SAP Backbone,1,GREEN,🟢
+2025-12-02,Service Data Quality And Service Readiness,2,YELLOW,🟡
+2025-12-02,Service Preparation Check (Rtcctool),2,YELLOW,🟡
+2025-12-02,Service Preparation Of A1C,2,YELLOW,🟡
+2025-12-02,Service Summary,3,RED,🔴
+2025-12-02,Software Change And Transport Management Of A1C,3,RED,🔴
+2025-12-02,Software Configuration For A1C,2,YELLOW,🟡
+2025-12-02,Statisticsserver And Monitoring,2,YELLOW,🟡
+2025-12-02,Transportation Management System Checks,2,YELLOW,🟡
+2025-12-02,Ui Technologies Checks,2,YELLOW,🟡

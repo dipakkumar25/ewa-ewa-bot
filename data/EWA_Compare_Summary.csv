@@ -1,0 +1,14 @@
+primary_kpi,status_name_old,source_file_old,status_name_new,source_file_new,Change
+Service summary,RED,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,RED,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,🔄 No Change
+Service Data Quality and Service Readiness,YELLOW,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,YELLOW,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,🔄 No Change
+Software Configuration for A1C,YELLOW,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,YELLOW,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,🔄 No Change
+Hardware Capacity,RED,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,RED,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,🔄 No Change
+Performance Overview A1C,RED,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,RED,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,🔄 No Change
+SAP System Operating A1C,YELLOW,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,YELLOW,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,🔄 No Change
+Security,RED,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,RED,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,🔄 No Change
+Software Change and Transport Management of A1C,RED,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,YELLOW,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,➕ Improvement
+Financial Data Quality,RED,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,RED,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,🔄 No Change
+Upgrade Planning,RED,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,RED,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,🔄 No Change
+SAP HANA Database A1H,RED,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,RED,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,🔄 No Change
+SAP Netwear gateway,RED,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,YELLOW,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,➕ Improvement
+UI Technologies checks,YELLOW,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,YELLOW,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,🔄 No Change
