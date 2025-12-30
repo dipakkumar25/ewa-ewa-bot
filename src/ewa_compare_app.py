@@ -4,6 +4,13 @@ import pandas as pd
 import streamlit as st
 from pathlib import Path
 from datetime import datetime
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # <-- THIS loads .env into environment
+
+
+
 
 # =========================
 # CONFIG
@@ -22,19 +29,28 @@ KPI_COL = "clean_section"
 USE_LLM = True
 OPENAI_AVAILABLE = True
 
+# ----------------------------
+# OpenAI Client Initialization
+# ----------------------------
+client = None
+
 try:
     from openai import OpenAI
-    if os.getenv("OPENAI_API_KEY"):
-        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    import os
+
+    api_key = os.getenv("OPENAI_API_KEY")
+    print("OPENAI_API_KEY =", api_key)
+    if api_key:
+        client = OpenAI(api_key=api_key)
         OPENAI_AVAILABLE = True
 except Exception:
     OPENAI_AVAILABLE = False
 
 
+
 def llm_action_advice(kpi, prev, curr, change, root_cause):
-    """Generate corrective action using LLM (safe, constrained)."""
-    if not OPENAI_AVAILABLE:
-        return "LLM not enabled."
+    if not OPENAI_AVAILABLE or client is None:
+        return "LLM not available (API key not configured)."
 
     prompt = f"""
 KPI: {kpi}
@@ -43,24 +59,30 @@ Current Status: {curr}
 Change: {change}
 Root Cause: {root_cause}
 
-Suggest corrective actions in 2-3 concise bullet points.
+Suggest corrective actions in 2–3 concise bullet points.
 """
 
     try:
-        resp = client.chat.completions.create(
+        response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
                 {
                     "role": "system",
-                    "content": "You are an SAP technical advisor. Respond concisely and factually."
+                    "content": (
+                        "You are an SAP BASIS and SAP Operations expert. "
+                        "Base your answer ONLY on the provided information. "
+                        "Do not assume missing data. Be precise and actionable."
+                    ),
                 },
                 {"role": "user", "content": prompt},
             ],
-            temperature=0.2,
+            temperature=0.1,
         )
-        return resp.choices[0].message.content.strip()
+        return response.choices[0].message.content.strip()
+
     except Exception as e:
-        return f"LLM error: {e}"
+        return f"LLM execution error: {str(e)}"
+
 
 
 # =========================
