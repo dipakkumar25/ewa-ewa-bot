@@ -1,131 +1,126 @@
 """
 ewa_kpi_cleaner.py
 
-Cleans and consolidates KPI signals extracted by ewa_html_processor.py.
-Produces a stable summary file for dashboards, trend analysis, and WoW comparison.
+Multi-SID KPI cleaner for SAP EWA project.
 
-Input:
-    data/ewa_html_traffic_lights_A1C.csv
+Features:
+- Reads all ewa_html_traffic_lights_<SID>.csv files
+- Merges all systems into one dataset
+- Cleans section names (removes numbering)
+- Normalizes KPI text
+- Applies worst-severity logic per KPI per day
+- Outputs a single consolidated clean file
 
 Output:
-    data/ewa_kpi_clean_summary.csv
+data/ewa_kpi_clean_summary_all.csv
 """
 
-import pandas as pd
 import re
 from pathlib import Path
+import pandas as pd
 
-# Input & output CSV locations
-BASE_DIR = Path(__file__).resolve().parent.parent
-DETAIL_FILE = BASE_DIR / "data" / "ewa_html_traffic_lights_A1C.csv"
-OUTPUT_FILE = BASE_DIR / "data" / "ewa_kpi_clean_summary.csv"
+# -------------------
+# CONFIG
+# -------------------
 
-# ----------------------------------------
-# 1. Load Detail Data
-# ----------------------------------------
-def load_detail_file():
-    if not DETAIL_FILE.exists():
-        raise FileNotFoundError(f"ERROR: Input CSV not found → {DETAIL_FILE}")
+ROOT_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT_DIR / "data"
+OUTPUT_FILE = DATA_DIR / "ewa_kpi_clean_summary_all.csv"
 
-    df = pd.read_csv(DETAIL_FILE)
-    df["report_date"] = pd.to_datetime(df["report_date"], errors="coerce")
+SEVERITY_RANK = {"GREEN": 1, "YELLOW": 2, "RED": 3}
+REVERSE_RANK = {1: "GREEN", 2: "YELLOW", 3: "RED"}
 
-    print(f"Loaded {len(df)} rows from {DETAIL_FILE}")
-    return df
+# -------------------
+# CLEANING FUNCTIONS
+# -------------------
 
-
-# ----------------------------------------
-# 2. Remove numeric prefixes from the section text
-# ----------------------------------------
-def clean_section_name(text):
-    if pd.isna(text):
+def clean_section(text: str) -> str:
+    """Remove numbering like '10.1.4', '1 ', '2.3 ' from section headers"""
+    if not isinstance(text, str):
         return ""
-    # Remove patterns like "1", "1.1", "10.3.5"
-    cleaned = re.sub(r"^\s*\d+(\.\d+)*\s*", "", str(text)).strip()
-    return cleaned
+    text = re.sub(r"^\d+(\.\d+)*\s*", "", text)
+    return text.strip()
 
-
-# ----------------------------------------
-# 3. Normalize KPI names (remove extra spaces, set proper capitalization)
-# ----------------------------------------
-def normalize_section(text):
-    if pd.isna(text):
+def normalize_text(text: str) -> str:
+    if not isinstance(text, str):
         return ""
-    
-    t = text.replace("_", " ").strip()
-    t = re.sub(r"\s+", " ", t)
-    t = t.title()
+    return re.sub(r"\s+", " ", text).strip()
 
-    # Fix common patterns
-    fixes = {
-        "Sap": "SAP",
-        "Abap": "ABAP",
-        "Hana": "HANA",
-        "Netwear": "Netweaver",
-    }
-    for bad, good in fixes.items():
-        t = t.replace(bad, good)
+# -------------------
+# LOAD ALL SIDS
+# -------------------
 
-    return t
+def load_all_sid_files() -> pd.DataFrame:
+    files = list(DATA_DIR.glob("ewa_html_traffic_lights_*.csv"))
+    if not files:
+        raise FileNotFoundError("No ewa_html_traffic_lights_<SID>.csv files found")
 
+    print(f"📂 Found {len(files)} SID file(s)")
 
-# ----------------------------------------
-# 4. Severity Mapping
-# ----------------------------------------
-SEV_MAP = {"GREEN": 1, "YELLOW": 2, "RED": 3}
-REV_MAP = {1: "GREEN", 2: "YELLOW", 3: "RED"}
-SYM = {"GREEN": "🟢", "YELLOW": "🟡", "RED": "🔴"}
+    all_df = []
+    for f in files:
+        print(f"✔ Loading {f.name}")
+        df = pd.read_csv(f)
+        df["system"] = df["system"].astype(str)
+        df["report_date"] = pd.to_datetime(df["report_date"])
+        all_df.append(df)
 
+    return pd.concat(all_df, ignore_index=True)
 
-# ----------------------------------------
-# 5. Build Final KPI Summary (worst severity per date)
-# ----------------------------------------
-def build_summary(df):
-    df["severity"] = df["status_name"].map(SEV_MAP)
+# -------------------
+# CORE CLEANING LOGIC
+# -------------------
 
-    # Consolidation:
-    # If multiple rows exist for same KPI in same date → take worst severity
-    summary = (
-        df.groupby(["report_date", "clean_section"], as_index=False)
-          .agg({"severity": "max"})
+def clean_and_aggregate(df: pd.DataFrame) -> pd.DataFrame:
+
+    print("🧹 Cleaning section names & KPI text...")
+
+    df["clean_section"] = df["section"].apply(clean_section)
+    df["clean_kpi"] = df["kpi_text"].apply(normalize_text)
+
+    df = df[[
+        "system",
+        "report_date",
+        "clean_section",
+        "clean_kpi",
+        "status_name",
+        "source_file"
+    ]]
+
+    print("⚖ Applying worst-severity logic per KPI per day...")
+
+    df["severity"] = df["status_name"].map(SEVERITY_RANK)
+
+    worst = (
+        df.sort_values("severity", ascending=False)
+          .groupby(["system", "report_date", "clean_section", "clean_kpi"], as_index=False)
+          .first()
     )
 
-    summary["final_status"] = summary["severity"].map(REV_MAP)
-    summary["status_symbol"] = summary["final_status"].map(SYM)
+    worst["final_status"] = worst["severity"].map(REVERSE_RANK)
 
-    return summary.sort_values(["report_date", "clean_section"])
+    final_df = worst.drop(columns=["severity", "status_name"])\
+                    .rename(columns={"final_status": "status_name"})
 
+    return final_df.sort_values(["system", "report_date", "clean_section"])
 
-# ----------------------------------------
-# MAIN PIPELINE
-# ----------------------------------------
+# -------------------
+# MAIN
+# -------------------
+
 def main():
-    print("\n=== KPI CLEANER STARTED ===")
+    print("\n🚀 Starting multi-SID KPI cleaning process...\n")
 
-    df = load_detail_file()
+    df_raw = load_all_sid_files()
+    df_clean = clean_and_aggregate(df_raw)
 
-    # Step A: Clean numeric prefixes
-    df["clean_section"] = df["section"].apply(clean_section_name)
+    df_clean.to_csv(OUTPUT_FILE, index=False)
 
-    # Step B: Normalize names for consistency
-    df["clean_section"] = df["clean_section"].apply(normalize_section)
-
-    # 🚨 IMPORTANT FIX: Remove blank/empty KPI groups
-    df = df[df["clean_section"].str.strip() != ""]
-
-
-    # Build summary
-    df_summary = build_summary(df)
-
-    # Save cleaned summary
-    df_summary.to_csv(OUTPUT_FILE, index=False)
-
-    print(f"\n✔ Clean KPI summary saved → {OUTPUT_FILE}")
-    print(f"Total KPI groups: {df_summary['clean_section'].nunique()}")
-    print(df_summary.head(15))
-
-    print("\n=== KPI CLEANER COMPLETED ===")
-
+    print("\n✅ CLEAN KPI MASTER FILE GENERATED")
+    print(f"📄 {OUTPUT_FILE}")
+    print("\nSample:")
+    print(df_clean.head(12))
 
 if __name__ == "__main__":
     main()
+

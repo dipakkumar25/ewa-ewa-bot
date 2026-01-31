@@ -1,227 +1,165 @@
-import os
-import re
-import pandas as pd
-import streamlit as st
-from pathlib import Path
-from datetime import datetime
-from dotenv import load_dotenv
-import os
-
-load_dotenv()  # <-- THIS loads .env into environment
-
-
-
-
-# =========================
-# CONFIG
-# =========================
-CLEAN_FILE = Path("data/ewa_kpi_clean_summary.csv")
-DETAIL_FILE = Path("data/ewa_html_traffic_lights_A1C.csv")
-
-STATUS_RANK = {"GREEN": 3, "YELLOW": 2, "RED": 1}
-
-# KPI column name used in clean CSV
-KPI_COL = "clean_section"
-
-# =========================
-# OPTIONAL LLM SETUP
-# =========================
-USE_LLM = True
-OPENAI_AVAILABLE = True
-
-# ----------------------------
-# OpenAI Client Initialization
-# ----------------------------
-client = None
-
-try:
-    from openai import OpenAI
-    import os
-
-    api_key = os.getenv("OPENAI_API_KEY")
-    print("OPENAI_API_KEY =", api_key)
-    if api_key:
-        client = OpenAI(api_key=api_key)
-        OPENAI_AVAILABLE = True
-except Exception:
-    OPENAI_AVAILABLE = False
-
-
-
-def llm_action_advice(kpi, prev, curr, change, root_cause):
-    if not OPENAI_AVAILABLE or client is None:
-        return "LLM not available (API key not configured)."
-
-    prompt = f"""
-KPI: {kpi}
-Previous Status: {prev}
-Current Status: {curr}
-Change: {change}
-Root Cause: {root_cause}
-
-Suggest corrective actions in 2–3 concise bullet points.
+# src/ewa_compare_app.py
+"""
+Intelligent SAP EWA KPI Comparison Dashboard
+---------------------------------------------
+• Multi-SID support
+• Robust report_date parsing
+• Deduplicates KPIs per date (worst severity wins)
+• KPI heatmap
+• Weekly KPI view
+• Top 10 weekly risks
+• Two-week comparison
 """
 
-    try:
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You are an SAP BASIS and SAP Operations expert. "
-                        "Base your answer ONLY on the provided information. "
-                        "Do not assume missing data. Be precise and actionable."
-                    ),
-                },
-                {"role": "user", "content": prompt},
-            ],
-            temperature=0.1,
-        )
-        return response.choices[0].message.content.strip()
+import pandas as pd
+import streamlit as st
+import plotly.express as px
+from pathlib import Path
 
-    except Exception as e:
-        return f"LLM execution error: {str(e)}"
+# ---------------- CONFIG ----------------
+DATA_FILE = Path("data/ewa_kpi_clean_summary_all.csv")
 
+STATUS_ORDER = {"GREEN": 0, "YELLOW": 1, "RED": 2}
+STATUS_RANK = {"GREEN": 1, "YELLOW": 2, "RED": 3}
 
+st.set_page_config(page_title="Intelligent SAP EWA Dashboard", layout="wide")
+st.title("📊 Intelligent SAP EWA – KPI Risk & Comparison Dashboard")
 
-# =========================
-# ROOT CAUSE SUMMARIZER
-# =========================
-def summarize_root_cause(kpi, date, df_detail):
-    """Extract worst technical finding for KPI/date."""
-    possible_cols = ["clean_section", "section", "primary_kpi"]
-
-    kpi_col = next((c for c in possible_cols if c in df_detail.columns), None)
-    if not kpi_col:
-        return "Root cause unavailable."
-
-    subset = df_detail[
-        (df_detail[kpi_col].str.lower() == kpi.lower())
-        & (df_detail["report_date"] == date)
-    ].copy()
-
-    if subset.empty:
-        return "No technical alerts found."
-
-    subset["severity"] = subset["status_name"].map(STATUS_RANK)
-    subset = subset.sort_values("severity")
-
-    findings = []
-    for t in subset["kpi_text"].dropna():
-        t = re.sub(r"^\d+(\.\d+)*\s*", "", t.strip())
-        if len(t) > 5:
-            findings.append(t)
-
-    return "; ".join(findings[:3]) if findings else "Issues detected."
-
-
-# =========================
-# STREAMLIT UI
-# =========================
-st.set_page_config(page_title="EWA KPI Comparison with AI Actions", layout="wide")
-st.title("📊 SAP EWA KPI Comparison & AI Action Advisor")
-
-if not CLEAN_FILE.exists():
-    st.error(f"❌ Clean KPI file not found: {CLEAN_FILE}")
+# ---------------- LOAD DATA ----------------
+if not DATA_FILE.exists():
+    st.error(f"❌ File not found: {DATA_FILE}")
     st.stop()
 
-df = pd.read_csv(CLEAN_FILE)
-df["report_date"] = pd.to_datetime(df["report_date"])
+df = pd.read_csv(DATA_FILE)
+df.columns = df.columns.str.strip().str.lower()
 
-df_detail = pd.read_csv(DETAIL_FILE)
-df_detail["report_date"] = pd.to_datetime(df_detail["report_date"])
+if "final_status" not in df.columns and "status_name" in df.columns:
+    df["final_status"] = df["status_name"]
+
+if "clean_section" not in df.columns and "section" in df.columns:
+    df["clean_section"] = df["section"]
+
+df["report_date"] = pd.to_datetime(df["report_date"], dayfirst=True, errors="coerce")
+df = df[df["report_date"].notna()]
+
+df["final_status"] = df["final_status"].fillna("GREEN")
+df["severity"] = df["final_status"].map(STATUS_RANK).fillna(1)
+
+# -------- Deduplicate (worst wins) --------
+df = (
+    df.sort_values("severity", ascending=False)
+      .groupby(["system", "report_date", "clean_section"], as_index=False)
+      .first()
+)
+
+# ---------------- SID FILTER ----------------
+systems = sorted(df["system"].dropna().unique())
+sid = st.sidebar.selectbox("Select System SID", systems)
+df = df[df["system"] == sid]
 
 dates = sorted(df["report_date"].unique())
+if not dates:
+    st.warning("No valid report dates found.")
+    st.stop()
 
-# =========================
-# DATE SELECTION
-# =========================
-c1, c2 = st.columns(2)
-date1 = c1.selectbox("Older report date", dates, index=0)
-date2 = c2.selectbox("Newer report date", dates, index=len(dates) - 1)
+# ---------------- DEVIATION LOGIC ----------------
+df = df.sort_values(["clean_section", "report_date"])
+df["prev_status"] = df.groupby("clean_section")["final_status"].shift(1)
 
-df_old = df[df["report_date"] == date1].set_index(KPI_COL)
-df_new = df[df["report_date"] == date2].set_index(KPI_COL)
-
-merged = df_old.join(
-    df_new,
-    lsuffix="_old",
-    rsuffix="_new",
-    how="outer"
-)
-
-# Fill missing KPIs as GREEN
-merged["final_status_old"] = merged["final_status_old"].fillna("GREEN")
-merged["final_status_new"] = merged["final_status_new"].fillna("GREEN")
-
-# =========================
-# CHANGE CLASSIFICATION
-# =========================
-def classify(old, new):
-    if STATUS_RANK[new] > STATUS_RANK[old]:
-        return "➕ Improvement"
-    if STATUS_RANK[new] < STATUS_RANK[old]:
-        return "➖ Deterioration"
+def deviation(old, new):
+    if pd.isna(old): return "🆕 New"
+    if STATUS_RANK[new] > STATUS_RANK[old]: return "➖ Deterioration"
+    if STATUS_RANK[new] < STATUS_RANK[old]: return "➕ Improvement"
     return "🔄 No Change"
 
+df["deviation"] = df.apply(lambda r: deviation(r["prev_status"], r["final_status"]), axis=1)
 
-merged["Change"] = merged.apply(
-    lambda r: classify(r["final_status_old"], r["final_status_new"]),
-    axis=1
-)
+# ---------------- TABS ----------------
+tab1, tab2, tab3, tab4 = st.tabs([
+    "🔥 KPI Heatmap",
+    "📅 Weekly KPI View",
+    "📉 Top Weekly Risks",
+    "🔍 Compare Two Weeks"
+])
 
-# =========================
-# ROOT CAUSE
-# =========================
-merged["Root Cause"] = merged.apply(
-    lambda r: summarize_root_cause(r.name, date2, df_detail),
-    axis=1
-)
+# ================= TAB 1 =================
+with tab1:
+    pivot = df.pivot_table(index="clean_section", columns="report_date",
+                           values="final_status", aggfunc="first")
+    pivot_num = pivot.replace(STATUS_ORDER)
 
-# =========================
-# OPTIONAL LLM TOGGLE
-# =========================
-USE_LLM = st.checkbox("🤖 Generate AI Action Recommendations", value=False)
-
-if USE_LLM and OPENAI_AVAILABLE:
-    merged["AI Action"] = merged.apply(
-        lambda r: llm_action_advice(
-            r.name,
-            r["final_status_old"],
-            r["final_status_new"],
-            r["Change"],
-            r["Root Cause"],
-        )
-        if r["Change"] == "➖ Deterioration"
-        else "No action required.",
-        axis=1,
+    fig = px.imshow(
+        pivot_num,
+        color_continuous_scale=[[0, "#00B050"], [0.5, "#FFC000"], [1, "#FF0000"]],
+        aspect="auto"
     )
-elif USE_LLM:
-    merged["AI Action"] = "LLM not enabled."
+    fig.update_layout(height=750, coloraxis_showscale=False)
+    st.plotly_chart(fig, use_container_width=True)
 
-# =========================
-# DISPLAY
-# =========================
-display_cols = [
-    "final_status_old",
-    "final_status_new",
-    "Change",
-    "Root Cause",
-]
+# ================= TAB 2 =================
+with tab2:
+    st.subheader("KPI Status by Date")
+    selected_date = st.selectbox("Select report date", dates, index=len(dates)-1)
 
-if "AI Action" in merged.columns:
-    display_cols.append("AI Action")
+    df_day = (
+        df[df["report_date"] == selected_date]
+        .sort_values("severity", ascending=False)
+        .reset_index(drop=True)
+    )
 
-st.subheader("📌 KPI Comparison Result")
-st.dataframe(merged[display_cols], use_container_width=True)
+    df_day.index = df_day.index + 1
 
-# =========================
-# DOWNLOAD
-# =========================
-st.download_button(
-    "⬇️ Download Comparison Report",
-    data=merged.reset_index().to_csv(index=False).encode("utf-8"),
-    file_name=f"EWA_Comparison_{date2.date()}_vs_{date1.date()}.csv",
-    mime="text/csv",
-)
+    st.dataframe(df_day[[
+        "clean_section", "final_status", "prev_status", "deviation"
+    ]], use_container_width=True)
+
+# ================= TAB 3 =================
+with tab3:
+    st.subheader("🚨 Top 10 Weekly Risks")
+    risk_date = st.selectbox("Select week", dates, index=len(dates)-1)
+
+    df_risk = df[df["report_date"] == risk_date].copy()
+    df_risk["risk_score"] = df_risk["severity"] * 30
+
+    top10 = (
+        df_risk.sort_values("risk_score", ascending=False)
+               .head(10)
+               .reset_index(drop=True)
+    )
+
+    top10.index = top10.index + 1
+
+    st.dataframe(top10[[
+        "clean_section", "final_status", "prev_status", "deviation", "risk_score"
+    ]], use_container_width=True)
+
+# ================= TAB 4 =================
+with tab4:
+    st.subheader("Compare Any Two EWA Reports")
+
+    c1, c2 = st.columns(2)
+    week1 = c1.selectbox("Older report", dates, index=0)
+    week2 = c2.selectbox("Newer report", dates, index=len(dates)-1)
+
+    d1 = df[df["report_date"] == week1][["clean_section", "final_status"]]
+    d2 = df[df["report_date"] == week2][["clean_section", "final_status"]]
+
+    merged = d1.merge(d2, on="clean_section", how="outer", suffixes=("_old", "_new"))
+    merged.fillna("GREEN", inplace=True)
+
+    merged["Change"] = merged.apply(
+        lambda r: deviation(r["final_status_old"], r["final_status_new"]), axis=1
+    )
+
+    merged["Severity Shift"] = merged["final_status_old"] + " → " + merged["final_status_new"]
+
+    st.dataframe(merged, use_container_width=True)
+
+    st.download_button(
+        "⬇️ Download Comparison CSV",
+        data=merged.to_csv(index=False).encode("utf-8"),
+        file_name=f"EWA_Comparison_{sid}.csv",
+        mime="text/csv"
+    )
+
+st.caption("🧠 Intelligent EWA | Risk-based SAP KPI Dashboard")
