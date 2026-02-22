@@ -30,7 +30,9 @@ def load_data():
         df = pd.read_csv(MASTER_FILE)
         df["report_date"] = pd.to_datetime(df["report_date"], errors="coerce")
         df = df[df["report_date"].notna()]
-        if "clean_section" in df.columns and "primary_kpi" not in df.columns:
+        if "KPI name" in df.columns:
+            df["primary_kpi"] = df["KPI name"]
+        elif "clean_section" in df.columns and "primary_kpi" not in df.columns:
             df["primary_kpi"] = df["clean_section"]
         return df, list(df["system"].unique()) if "system" in df.columns else []
     if LEGACY_FILE.exists():
@@ -201,7 +203,7 @@ with tab_forecast:
                 forecast_df, x="report_date", y="severity_pred", color="kpi",
                 title="Predicted severity (1=Green, 2=Yellow, 3=Red)", labels={"severity_pred": "Severity (predicted)"}
             )
-            fig_f.update_yaxis(dtick=1)
+            fig_f.update_yaxes(dtick=1)
             st.plotly_chart(fig_f, use_container_width=True)
     except Exception as e:
         st.warning(f"Forecast failed: {e}")

@@ -4,7 +4,7 @@ Multi-SID SAP EWA HTML KPI extractor (Corrected)
 
 Fixes:
 ✔ Generic KPI names (no A1C/P1C/Q1C leakage)
-✔ Clean, reusable clean_section column
+✔ Clean, reusable KPI name column
 ✔ Proper row numbering (starts from 1)
 ✔ Multi-SID safe
 """
@@ -173,15 +173,15 @@ def process_all_systems():
 
         df = pd.DataFrame(all_rows)
 
-        df["clean_section"] = df["kpi_text"].apply(map_to_primary_kpi)
-        df = df[df["clean_section"].notna()].copy()
+        df["KPI name"] = df["kpi_text"].apply(map_to_primary_kpi)
+        df = df[df["KPI name"].notna()].copy()
 
         df["severity"] = df["status_name"].map(SEVERITY_ORDER)
 
         # Worst severity per KPI/date
         summary = (
             df.sort_values("severity", ascending=False)
-              .groupby(["system", "report_date", "clean_section"], as_index=False)
+              .groupby(["system", "report_date", "KPI name"], as_index=False)
               .first()
         )
 

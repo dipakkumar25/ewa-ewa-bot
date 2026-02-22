@@ -40,12 +40,14 @@ def _ensure_severity(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def _kpi_column(df: pd.DataFrame) -> str:
-    """Return the KPI column name (clean_section or primary_kpi)."""
+    """Return the KPI column name (KPI name, clean_section, or primary_kpi)."""
+    if "KPI name" in df.columns:
+        return "KPI name"
     if "clean_section" in df.columns:
         return "clean_section"
     if "primary_kpi" in df.columns:
         return "primary_kpi"
-    raise ValueError("DataFrame must have 'clean_section' or 'primary_kpi'")
+    raise ValueError("DataFrame must have 'KPI name', 'clean_section' or 'primary_kpi'")
 
 
 def compute_trend(

@@ -45,6 +45,12 @@ if not DATA_FILE.exists():
     st.stop()
 
 df = pd.read_csv(DATA_FILE)
+df.columns = df.columns.str.strip()
+# Normalize KPI column: legacy clean_section / primary_kpi -> KPI name
+if "clean_section" in df.columns and "KPI name" not in df.columns:
+    df.rename(columns={"clean_section": "KPI name"}, inplace=True)
+if "primary_kpi" in df.columns and "KPI name" not in df.columns:
+    df.rename(columns={"primary_kpi": "KPI name"}, inplace=True)
 df["report_date"] = pd.to_datetime(df["report_date"], dayfirst=True, errors="coerce")
 df = df[df["report_date"].notna()]
 
@@ -67,7 +73,7 @@ dates = sorted(df["report_date"].unique())
 # =========================
 df = (
     df.sort_values("severity", ascending=False)
-      .groupby(["system", "report_date", "clean_section"], as_index=False)
+      .groupby(["system", "report_date", "KPI name"], as_index=False)
       .first()
 )
 
@@ -98,7 +104,7 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
 # TAB 1 – HEATMAP
 # =====================================================
 with tab1:
-    pivot = df.pivot(index="clean_section", columns="report_date", values="severity")
+    pivot = df.pivot(index="KPI name", columns="report_date", values="severity")
     fig = px.imshow(
         pivot,
         color_continuous_scale=[[0, "#00B050"], [0.5, "#FFC000"], [1, "#FF0000"]],
@@ -112,8 +118,10 @@ with tab1:
 # =====================================================
 with tab2:
     sel_date = st.selectbox("Select report date", dates, index=len(dates)-1)
-    view = df[df["report_date"] == sel_date].sort_values("severity", ascending=False)
-    st.dataframe(view[["clean_section", "final_status"]], use_container_width=True)
+    view = df[df["report_date"] == sel_date].sort_values("severity", ascending=False).reset_index(drop=True)
+    view = view.copy()
+    view.insert(0, "No.", range(1, len(view) + 1))
+    st.dataframe(view[["No.", "KPI name", "final_status"]], use_container_width=True, hide_index=True)
 
 # =====================================================
 # TAB 3 – TOP RISKS (attention score + rule-based)
@@ -122,7 +130,7 @@ with tab3:
     st.subheader("⚠️ KPIs Needing Special Attention (ML)")
     st.caption("Ranked by attention score: current severity, trend, % weeks in RED, volatility.")
     try:
-        att = attention_score(df_ml, system=sid, kpi_col="clean_section")
+        att = attention_score(df_ml, system=sid, kpi_col="KPI name")
         if not att.empty:
             st.dataframe(att, use_container_width=True)
             top = att.head(10)
@@ -139,7 +147,7 @@ with tab3:
     risks = df[df["report_date"] == risk_date]
     risks["risk_score"] = risks["severity"] * 30
     top10 = risks.sort_values("risk_score", ascending=False).head(10)
-    st.dataframe(top10[["clean_section", "final_status", "risk_score"]], use_container_width=True)
+    st.dataframe(top10[["KPI name", "final_status", "risk_score"]], use_container_width=True)
 
 # =====================================================
 # TAB 4 – LOGISTIC REGRESSION (RISK)
@@ -172,7 +180,7 @@ with tab5:
     # Per-KPI trend table
     st.markdown("**Trend by KPI** (improving: slope below -0.03 | deteriorating: slope above 0.03)")
     try:
-        trend_df = compute_trend(df_ml, system=sid, kpi_col="clean_section")
+        trend_df = compute_trend(df_ml, system=sid, kpi_col="KPI name")
         if not trend_df.empty:
             display_cols = [c for c in ["kpi", "slope", "trend_direction", "n_weeks"] if c in trend_df.columns]
             st.dataframe(trend_df.sort_values("slope", ascending=False)[display_cols], use_container_width=True)
@@ -188,7 +196,7 @@ with tab5:
     st.markdown("**Forecast: Next N Weeks**")
     periods = st.slider("Weeks to forecast", 2, 8, 4, key="forecast_periods")
     try:
-        fcast = forecast_severity(df_ml, system=sid, kpi_col="clean_section", periods_ahead=periods)
+        fcast = forecast_severity(df_ml, system=sid, kpi_col="KPI name", periods_ahead=periods)
         if not fcast.empty:
             REV = {1: "GREEN", 2: "YELLOW", 3: "RED"}
             fcast_disp = fcast.copy()
@@ -196,7 +204,7 @@ with tab5:
             st.dataframe(fcast_disp, use_container_width=True)
             fig_f = px.line(fcast, x="report_date", y="severity_pred", color="kpi",
                             title="Predicted Severity (1=Green, 2=Yellow, 3=Red)")
-            fig_f.update_yaxis(dtick=1)
+            fig_f.update_yaxes(dtick=1)
             st.plotly_chart(fig_f, use_container_width=True)
         else:
             st.info("Not enough data for forecast.")
@@ -205,8 +213,8 @@ with tab5:
 
     # Single-KPI linear regression (legacy)
     st.markdown("**Single KPI: Linear Regression Fit**")
-    kpi = st.selectbox("Select KPI", sorted(df["clean_section"].unique()), key="trend_kpi")
-    kdf = df[df["clean_section"] == kpi].sort_values("report_date")
+    kpi = st.selectbox("Select KPI", sorted(df["KPI name"].unique()), key="trend_kpi")
+    kdf = df[df["KPI name"] == kpi].sort_values("report_date")
     if len(kdf) >= 3:
         X = kdf[["date_ordinal"]]
         y = kdf["severity"]
@@ -227,13 +235,13 @@ with tab6:
     st.caption("KPIs with sudden severity increase vs rolling mean. See Tab 3 for ML attention ranking.")
 
     ew = df.copy()
-    ew = ew.sort_values(["clean_section", "report_date"])
+    ew = ew.sort_values(["KPI name", "report_date"])
 
-    ew["rolling_mean"] = ew.groupby("clean_section")["severity"].transform(
+    ew["rolling_mean"] = ew.groupby("KPI name")["severity"].transform(
         lambda x: x.rolling(3, min_periods=2).mean()
     )
 
-    ew["trend"] = ew.groupby("clean_section")["rolling_mean"].diff()
+    ew["trend"] = ew.groupby("KPI name")["rolling_mean"].diff()
 
     warnings = ew[(ew["trend"] > 0.5) & (ew["severity"] >= 1)]
 
@@ -241,7 +249,7 @@ with tab6:
         st.info("No early warning signals detected.")
     else:
         st.dataframe(
-            warnings[["clean_section", "report_date", "final_status", "trend"]].sort_values("trend", ascending=False),
+            warnings[["KPI name", "report_date", "final_status", "trend"]].sort_values("trend", ascending=False),
             use_container_width=True
         )
 

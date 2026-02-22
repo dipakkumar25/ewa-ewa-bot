@@ -44,17 +44,21 @@ for file in INPUT_FILES:
     df = pd.read_csv(file)
     df.columns = df.columns.str.strip().str.lower()
 
-    if "primary_kpi" in df.columns and "clean_section" not in df.columns:
-        df.rename(columns={"primary_kpi": "clean_section"}, inplace=True)
+    if "primary_kpi" in df.columns and "KPI name" not in df.columns:
+        df.rename(columns={"primary_kpi": "KPI name"}, inplace=True)
+    if "clean_section" in df.columns and "KPI name" not in df.columns:
+        df.rename(columns={"clean_section": "KPI name"}, inplace=True)
+    if "kpi name" in df.columns and "KPI name" not in df.columns:
+        df.rename(columns={"kpi name": "KPI name"}, inplace=True)
     if "system" not in df.columns:
         df["system"] = _infer_system_from_filename(file.name)
 
-    required = {"report_date", "clean_section", "status_name"}
+    required = {"report_date", "KPI name", "status_name"}
     missing = required - set(df.columns)
     if missing:
         raise ValueError(f"{file.name} missing required columns {missing}")
 
-    keep_cols = [c for c in ["system", "report_date", "clean_section", "status_name", "status_symbol", "source_file"] if c in df.columns]
+    keep_cols = [c for c in ["system", "report_date", "KPI name", "status_name", "status_symbol", "source_file"] if c in df.columns]
     df = df[keep_cols]
     frames.append(df)
 
@@ -72,21 +76,21 @@ df_all = df_all[df_all["report_date"].notna()]
 df_all["status_name"] = df_all["status_name"].astype(str).str.upper().str.strip()
 df_all["severity"] = df_all["status_name"].map(SEVERITY_RANK)
 
-df_all["clean_section"] = df_all["clean_section"].astype(str).str.strip()
+df_all["KPI name"] = df_all["KPI name"].astype(str).str.strip()
 
 # ===============================
 # ENFORCE WORST KPI PER DATE
 # ===============================
 df_final = (
     df_all.sort_values("severity", ascending=False)
-          .groupby(["system", "report_date", "clean_section"], as_index=False)
+          .groupby(["system", "report_date", "KPI name"], as_index=False)
           .first()
 )
 
 # ===============================
 # FINAL TOUCHES
 # ===============================
-df_final = df_final.sort_values(["system","report_date","clean_section"]).reset_index(drop=True)
+df_final = df_final.sort_values(["system","report_date","KPI name"]).reset_index(drop=True)
 df_final["row_id"] = df_final.index + 1
 
 # ===============================
