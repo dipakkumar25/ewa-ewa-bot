@@ -1,4 +1,4 @@
-system,report_date,clean_section,status_name,status_symbol,source_file,severity,row_id
+system,report_date,KPI name,status_name,status_symbol,source_file,severity,row_id
 A1C,2025-09-30,Financial Data Quality,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,2,1
 A1C,2025-09-30,Hardware Capacity,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,2,2
 A1C,2025-09-30,Performance Overview,GREEN,🟢,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,1,3
