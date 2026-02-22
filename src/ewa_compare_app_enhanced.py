@@ -27,7 +27,7 @@ st.set_page_config(
     page_title="SAP EWA Intelligence Hub",
     page_icon="🛰️",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 # ─────────────────────────────────────────────
@@ -118,9 +118,10 @@ section[data-testid="stSidebar"] * { color: #CBD5E1; }
 /* ── Metric cards ── */
 .metric-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 14px;
     margin-bottom: 1.5rem;
+    width: 100%;
 }
 .metric-card {
     background: #0F1923;
@@ -608,74 +609,115 @@ df_all = prep(raw_df)
 detail_df = load_detail()
 
 # ─────────────────────────────────────────────
-# SIDEBAR
+# SIDEBAR  (ML sliders only – optional panel)
 # ─────────────────────────────────────────────
 with st.sidebar:
-    st.markdown('<div style="font-family:Space Mono,monospace;font-size:0.65rem;color:#334155;text-transform:uppercase;letter-spacing:0.15em;margin-bottom:12px">🛰 SAP EWA Intelligence Hub</div>', unsafe_allow_html=True)
-
-    systems = sorted(df_all["system"].unique())
-    selected_sid = st.selectbox("System SID", systems, index=len(systems)-1)
-
-    df = df_all[df_all["system"] == selected_sid].copy()
-    dates = sorted(df["report_date"].unique())
-
-    st.markdown("---")
-    st.markdown('<div style="font-size:0.72rem;color:#64748B;text-transform:uppercase;letter-spacing:0.08em;font-family:Space Mono,monospace">Early Warning Thresholds</div>', unsafe_allow_html=True)
-    ew_window   = st.slider("Rolling window (weeks)", 2, 6, 3)
-    ew_z        = st.slider("Z-score threshold", 1.0, 3.0, 1.8, 0.1)
-    fc_periods  = st.slider("Forecast weeks", 2, 8, 4)
-
-    st.markdown("---")
-    kpi_col = "KPI name"
-    kpis = sorted(df[kpi_col].unique())
-    compare_dates = st.multiselect("Compare Dates (max 2)", [str(d.date()) for d in dates],
-                                    default=[str(dates[-2].date()), str(dates[-1].date())] if len(dates) >= 2 else [])
-    st.caption(f"Source: `{source}` · {len(dates)} reports · {len(kpis)} KPIs")
+    st.markdown(
+        '<div style="font-family:Space Mono,monospace;font-size:0.65rem;color:#38BDF8;'
+        'text-transform:uppercase;letter-spacing:0.15em;margin-bottom:16px">'
+        '⚙️ ML Settings</div>',
+        unsafe_allow_html=True,
+    )
+    st.markdown('<div style="font-size:0.7rem;color:#64748B;margin-bottom:6px">Early Warning</div>', unsafe_allow_html=True)
+    ew_window  = st.slider("Rolling window (weeks)", 2, 6, 3)
+    ew_z       = st.slider("Z-score threshold", 1.0, 3.0, 1.8, 0.1)
+    st.markdown('<div style="font-size:0.7rem;color:#64748B;margin-top:12px;margin-bottom:6px">Forecast</div>', unsafe_allow_html=True)
+    fc_periods = st.slider("Forecast weeks", 2, 8, 4)
 
 
 # ─────────────────────────────────────────────
-# HEADER
+# MAIN CONTROL BAR  (always visible)
 # ─────────────────────────────────────────────
-st.markdown(f"""
+kpi_col = "KPI name"
+
+# Header row
+st.markdown("""
 <div class="ewa-header">
   <div style="font-size:2rem">🛰️</div>
   <div style="flex:1">
     <div class="ewa-title">SAP EWA Intelligence Hub</div>
     <div class="ewa-sub">Early Watch Alert · Multi-SID · AI-Powered Risk Analysis</div>
   </div>
-  <div style="display:flex;gap:10px;align-items:center">
-    <span class="ewa-badge"><span class="live-dot"></span>SYSTEM&nbsp;{selected_sid}</span>
-    <span class="ewa-badge">{len(dates)} REPORTS</span>
-    <span class="ewa-badge">{len(kpis)} KPIs</span>
-  </div>
 </div>
 """, unsafe_allow_html=True)
+
+# Control bar: SID + date range + compare picker — always in main area
+ctrl_c1, ctrl_c2, ctrl_c3, ctrl_c4 = st.columns([1, 1, 2, 1])
+
+with ctrl_c1:
+    systems = sorted(df_all["system"].unique())
+    selected_sid = st.selectbox("🖥️ System SID", systems, index=len(systems) - 1)
+
+df = df_all[df_all["system"] == selected_sid].copy()
+dates = sorted(df["report_date"].unique())
+kpis = sorted(df[kpi_col].unique())
+_date_str_list = [str(d.date()) for d in dates]
+
+with ctrl_c2:
+    # Latest report date selector
+    picked_latest = st.selectbox(
+        "📅 Active Report Date",
+        options=_date_str_list,
+        index=len(_date_str_list) - 1,
+    )
+    # Override dates[-1] with user pick for weekly view
+    active_date = pd.Timestamp(picked_latest)
+
+with ctrl_c3:
+    _default_cmp = _date_str_list[-2:] if len(_date_str_list) >= 2 else _date_str_list
+    compare_dates = st.multiselect(
+        "🔍 Compare Dates (pick 2 for Tab 4)",
+        options=_date_str_list,
+        default=_default_cmp,
+    )
+
+with ctrl_c4:
+    if dates:
+        date_range_str = f"{dates[0].strftime('%d %b %Y')} → {dates[-1].strftime('%d %b %Y')}"
+        st.markdown(
+            f'''<div style="background:#0A1628;border:1px solid #1E3A5F;border-radius:8px;
+                         padding:10px 12px;margin-top:4px;font-family:Space Mono,monospace">
+              <div style="font-size:0.6rem;color:#64748B;text-transform:uppercase;letter-spacing:0.08em">Date Range</div>
+              <div style="font-size:0.72rem;color:#38BDF8;margin-top:3px">{date_range_str}</div>
+              <div style="font-size:0.65rem;color:#475569;margin-top:2px">{len(dates)} reports · {len(kpis)} KPIs</div>
+            </div>''',
+            unsafe_allow_html=True,
+        )
+    active_date = active_date if "active_date" in dir() else dates[-1]
+
+st.markdown("<div style='margin-bottom:1rem'></div>", unsafe_allow_html=True)
 
 # ─────────────────────────────────────────────
 # KPI SUMMARY METRICS
 # ─────────────────────────────────────────────
-latest_df = df[df["report_date"] == dates[-1]]
-prev_df   = df[df["report_date"] == dates[-2]] if len(dates) >= 2 else pd.DataFrame()
+# Use active_date selected by user in control bar
+_active = active_date if "active_date" in dir() else dates[-1]
+latest_df = df[df["report_date"] == _active]
+# Previous = the date just before active_date
+_prev_dates = [d for d in dates if d < _active]
+prev_df = df[df["report_date"] == _prev_dates[-1]] if _prev_dates else pd.DataFrame()
 
 n_red    = int((latest_df["severity"] == 3).sum())
 n_yellow = int((latest_df["severity"] == 2).sum())
 n_green  = int((latest_df["severity"] == 1).sum())
-n_total  = len(latest_df)
+n_total  = max(len(latest_df), 1)  # guard division by zero
 
-prev_red = int((prev_df["severity"] == 3).sum()) if not prev_df.empty else 0
-red_delta = n_red - prev_red
+prev_red   = int((prev_df["severity"] == 3).sum()) if not prev_df.empty else 0
+red_delta  = n_red - prev_red
+_arrow     = "▲" if red_delta > 0 else ("▼" if red_delta < 0 else "→")
+_cls       = "up" if red_delta > 0 else ("down" if red_delta < 0 else "")
+_delta_str = f"{_arrow} {abs(red_delta)} vs last week"
+_health    = f"{n_green / n_total * 100:.0f}% health rate"
 
 trend_data = compute_trend(df, kpi_col=kpi_col)
-n_deteri = int((trend_data["trend"] == "🔴 Deteriorating").sum())
+n_deteri   = int((trend_data["trend"] == "🔴 Deteriorating").sum()) if not trend_data.empty else 0
 
-st.markdown(f"""
-<div class="metric-grid">
+st.markdown(
+    f'''<div class="metric-grid">
   <div class="metric-card red">
     <div class="metric-label">🔴 Critical</div>
     <div class="metric-value">{n_red}</div>
-    <div class="metric-delta {'up' if red_delta>0 else 'down' if red_delta<0 else ''}">
-      {'▲' if red_delta>0 else '▼' if red_delta<0 else '→'} {abs(red_delta)} vs last week
-    </div>
+    <div class="metric-delta {_cls}">{_delta_str}</div>
   </div>
   <div class="metric-card yellow">
     <div class="metric-label">🟡 Warning</div>
@@ -685,15 +727,16 @@ st.markdown(f"""
   <div class="metric-card green">
     <div class="metric-label">🟢 Healthy</div>
     <div class="metric-value">{n_green}</div>
-    <div class="metric-delta">{n_green/n_total*100:.0f}% health rate</div>
+    <div class="metric-delta">{_health}</div>
   </div>
   <div class="metric-card blue">
     <div class="metric-label">📈 Deteriorating Trends</div>
     <div class="metric-value">{n_deteri}</div>
     <div class="metric-delta">KPIs worsening over time</div>
   </div>
-</div>
-""", unsafe_allow_html=True)
+</div>''',
+    unsafe_allow_html=True,
+)
 
 # ─────────────────────────────────────────────
 # TABS
@@ -749,7 +792,7 @@ with tab_heat:
             hole=0.62,
             textfont=dict(family="Space Mono", size=10, color="#E2E8F0"),
         ))
-        apply_dark(fig_d, f"Week of {dates[-1].strftime('%d %b')}", height=240)
+        apply_dark(fig_d, f"Week of {_active.strftime('%d %b')}", height=240)
         fig_d.update_layout(showlegend=True,
             legend=dict(orientation="v", font=dict(size=10), x=0.0),
             margin=dict(l=0,r=0,t=40,b=0))
@@ -772,7 +815,11 @@ with tab_heat:
 # ════════════════════════════════════════════
 with tab_weekly:
     st.markdown('<div class="section-title">KPI Status for Selected Week</div>', unsafe_allow_html=True)
-    picked = st.selectbox("Report date", dates, index=len(dates)-1, key="tab2")
+    # Default to the active date chosen in the control bar
+    _tab2_idx = _date_str_list.index(str(_active.date())) if str(_active.date()) in _date_str_list else len(dates)-1
+    picked = dates[st.selectbox("Report date", range(len(dates)),
+                                 format_func=lambda i: _date_str_list[i],
+                                 index=_tab2_idx, key="tab2")]
     day_df = df[df["report_date"] == picked].sort_values("severity", ascending=False).reset_index(drop=True)
 
     # Color-coded table rows
@@ -795,7 +842,7 @@ with tab_weekly:
 # ════════════════════════════════════════════
 with tab_wow:
     st.markdown('<div class="section-title">Week-over-Week KPI Changes</div>', unsafe_allow_html=True)
-    wow = wow_delta(df, kpi_col=kpi_col)
+    wow = wow_delta(df[df["report_date"].isin([_prev_dates[-1] if _prev_dates else dates[-2], _active])], kpi_col=kpi_col) if _prev_dates else wow_delta(df, kpi_col=kpi_col)
     if wow.empty:
         st.markdown('<div class="ok-banner">✅ Not enough data for WoW comparison.</div>', unsafe_allow_html=True)
     else:
@@ -813,7 +860,7 @@ with tab_wow:
 
         # Mini bar chart for severity distribution change
         c1, c2 = st.columns(2)
-        for label, col_, date_ in [("Previous Week", c1, dates[-2]), ("This Week", c2, dates[-1])]:
+        for label, col_, date_ in [("Previous Week", c1, _prev_dates[-1] if _prev_dates else dates[-2]), ("This Week", c2, _active)]:
             with col_:
                 d_ = df[df["report_date"] == date_]["status_name"].value_counts()
                 fig_ = go.Figure(go.Bar(
@@ -834,6 +881,9 @@ with tab_cmp:
     else:
         d1 = pd.Timestamp(compare_dates[0])
         d2 = pd.Timestamp(compare_dates[1])
+        # Normalize to match df report_date dtype
+        d1 = df["report_date"].iloc[0].__class__(d1)
+        d2 = df["report_date"].iloc[0].__class__(d2)
         df1 = df[df["report_date"] == d1].set_index(kpi_col)[["status_name"]]
         df2 = df[df["report_date"] == d2].set_index(kpi_col)[["status_name"]]
         merged = df1.join(df2, lsuffix="_d1", rsuffix="_d2", how="outer").reset_index()
