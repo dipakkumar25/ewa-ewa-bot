@@ -13,3 +13,5 @@ olefile
 beautifulsoup4
 lxml
 plotly
+statsmodels
+numpy

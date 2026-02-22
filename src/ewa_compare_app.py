@@ -1,227 +1,248 @@
-import os
-import re
+"""
+Intelligent SAP EWA – KPI Risk & Comparison Dashboard (ML Enhanced)
+------------------------------------------------------------------
+Adds:
+• Logistic Regression (Risk Prediction)
+• Linear Regression (Trend Forecasting)
+• Time-Series Early Warning Signals
+• KPI Trends (per-KPI slope: improving / deteriorating / stable)
+• Severity Forecast (ExponentialSmoothing time series)
+• Attention Score (rank KPIs needing special attention)
+"""
+
 import pandas as pd
+import numpy as np
 import streamlit as st
+import plotly.express as px
+import plotly.graph_objects as go
 from pathlib import Path
-from datetime import datetime
-from dotenv import load_dotenv
-import os
 
-load_dotenv()  # <-- THIS loads .env into environment
+from sklearn.linear_model import LogisticRegression, LinearRegression
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.preprocessing import StandardScaler
 
-
-
+try:
+    from .ewa_kpi_ml import compute_trend, forecast_severity, attention_score
+except ImportError:
+    from ewa_kpi_ml import compute_trend, forecast_severity, attention_score
 
 # =========================
 # CONFIG
 # =========================
-CLEAN_FILE = Path("data/ewa_kpi_clean_summary.csv")
-DETAIL_FILE = Path("data/ewa_html_traffic_lights_A1C.csv")
+DATA_FILE = Path("data/ewa_kpi_clean_summary_all.csv")
 
-STATUS_RANK = {"GREEN": 3, "YELLOW": 2, "RED": 1}
+STATUS_MAP = {"GREEN": 0, "YELLOW": 1, "RED": 2}
+REVERSE_STATUS = {0: "GREEN", 1: "YELLOW", 2: "RED"}
 
-# KPI column name used in clean CSV
-KPI_COL = "clean_section"
-
-# =========================
-# OPTIONAL LLM SETUP
-# =========================
-USE_LLM = True
-OPENAI_AVAILABLE = True
-
-# ----------------------------
-# OpenAI Client Initialization
-# ----------------------------
-client = None
-
-try:
-    from openai import OpenAI
-    import os
-
-    api_key = os.getenv("OPENAI_API_KEY")
-    print("OPENAI_API_KEY =", api_key)
-    if api_key:
-        client = OpenAI(api_key=api_key)
-        OPENAI_AVAILABLE = True
-except Exception:
-    OPENAI_AVAILABLE = False
-
-
-
-def llm_action_advice(kpi, prev, curr, change, root_cause):
-    if not OPENAI_AVAILABLE or client is None:
-        return "LLM not available (API key not configured)."
-
-    prompt = f"""
-KPI: {kpi}
-Previous Status: {prev}
-Current Status: {curr}
-Change: {change}
-Root Cause: {root_cause}
-
-Suggest corrective actions in 2–3 concise bullet points.
-"""
-
-    try:
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You are an SAP BASIS and SAP Operations expert. "
-                        "Base your answer ONLY on the provided information. "
-                        "Do not assume missing data. Be precise and actionable."
-                    ),
-                },
-                {"role": "user", "content": prompt},
-            ],
-            temperature=0.1,
-        )
-        return response.choices[0].message.content.strip()
-
-    except Exception as e:
-        return f"LLM execution error: {str(e)}"
-
-
+st.set_page_config(page_title="Intelligent SAP EWA Dashboard", layout="wide")
+st.title("📊 Intelligent SAP EWA – KPI Risk & Comparison Dashboard")
 
 # =========================
-# ROOT CAUSE SUMMARIZER
+# LOAD DATA
 # =========================
-def summarize_root_cause(kpi, date, df_detail):
-    """Extract worst technical finding for KPI/date."""
-    possible_cols = ["clean_section", "section", "primary_kpi"]
-
-    kpi_col = next((c for c in possible_cols if c in df_detail.columns), None)
-    if not kpi_col:
-        return "Root cause unavailable."
-
-    subset = df_detail[
-        (df_detail[kpi_col].str.lower() == kpi.lower())
-        & (df_detail["report_date"] == date)
-    ].copy()
-
-    if subset.empty:
-        return "No technical alerts found."
-
-    subset["severity"] = subset["status_name"].map(STATUS_RANK)
-    subset = subset.sort_values("severity")
-
-    findings = []
-    for t in subset["kpi_text"].dropna():
-        t = re.sub(r"^\d+(\.\d+)*\s*", "", t.strip())
-        if len(t) > 5:
-            findings.append(t)
-
-    return "; ".join(findings[:3]) if findings else "Issues detected."
-
-
-# =========================
-# STREAMLIT UI
-# =========================
-st.set_page_config(page_title="EWA KPI Comparison with AI Actions", layout="wide")
-st.title("📊 SAP EWA KPI Comparison & AI Action Advisor")
-
-if not CLEAN_FILE.exists():
-    st.error(f"❌ Clean KPI file not found: {CLEAN_FILE}")
+if not DATA_FILE.exists():
+    st.error(f"File not found: {DATA_FILE}")
     st.stop()
 
-df = pd.read_csv(CLEAN_FILE)
-df["report_date"] = pd.to_datetime(df["report_date"])
+df = pd.read_csv(DATA_FILE)
+df["report_date"] = pd.to_datetime(df["report_date"], dayfirst=True, errors="coerce")
+df = df[df["report_date"].notna()]
 
-df_detail = pd.read_csv(DETAIL_FILE)
-df_detail["report_date"] = pd.to_datetime(df_detail["report_date"])
+# Normalize columns
+df["final_status"] = df.get("final_status", df.get("status_name"))
+df["severity"] = df["final_status"].map(STATUS_MAP)
+df = df.dropna(subset=["severity"])
+
+# =========================
+# SID FILTER
+# =========================
+systems = sorted(df["system"].unique())
+sid = st.sidebar.selectbox("Select System SID", systems)
+df = df[df["system"] == sid].copy()
 
 dates = sorted(df["report_date"].unique())
 
 # =========================
-# DATE SELECTION
+# DEDUPLICATION (WORST WINS)
 # =========================
-c1, c2 = st.columns(2)
-date1 = c1.selectbox("Older report date", dates, index=0)
-date2 = c2.selectbox("Newer report date", dates, index=len(dates) - 1)
-
-df_old = df[df["report_date"] == date1].set_index(KPI_COL)
-df_new = df[df["report_date"] == date2].set_index(KPI_COL)
-
-merged = df_old.join(
-    df_new,
-    lsuffix="_old",
-    rsuffix="_new",
-    how="outer"
-)
-
-# Fill missing KPIs as GREEN
-merged["final_status_old"] = merged["final_status_old"].fillna("GREEN")
-merged["final_status_new"] = merged["final_status_new"].fillna("GREEN")
-
-# =========================
-# CHANGE CLASSIFICATION
-# =========================
-def classify(old, new):
-    if STATUS_RANK[new] > STATUS_RANK[old]:
-        return "➕ Improvement"
-    if STATUS_RANK[new] < STATUS_RANK[old]:
-        return "➖ Deterioration"
-    return "🔄 No Change"
-
-
-merged["Change"] = merged.apply(
-    lambda r: classify(r["final_status_old"], r["final_status_new"]),
-    axis=1
+df = (
+    df.sort_values("severity", ascending=False)
+      .groupby(["system", "report_date", "clean_section"], as_index=False)
+      .first()
 )
 
 # =========================
-# ROOT CAUSE
+# ML FEATURE PREP
 # =========================
-merged["Root Cause"] = merged.apply(
-    lambda r: summarize_root_cause(r.name, date2, df_detail),
-    axis=1
-)
+df["is_risk"] = (df["final_status"] == "RED").astype(int)
+df["date_ordinal"] = df["report_date"].map(pd.Timestamp.toordinal)
+
+# ML module expects severity 1=GREEN, 2=YELLOW, 3=RED
+df_ml = df.copy()
+df_ml["severity"] = df_ml["final_status"].str.upper().map({"GREEN": 1, "YELLOW": 2, "RED": 3})
+df_ml["status_name"] = df_ml["final_status"]
 
 # =========================
-# OPTIONAL LLM TOGGLE
+# TABS
 # =========================
-USE_LLM = st.checkbox("🤖 Generate AI Action Recommendations", value=False)
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+    "🔥 Heatmap",
+    "📅 Weekly KPI View",
+    "📉 Top Risks",
+    "🤖 Risk Prediction (ML)",
+    "📈 Trend Forecast (ML)",
+    "⚠️ Early Warning"
+])
 
-if USE_LLM and OPENAI_AVAILABLE:
-    merged["AI Action"] = merged.apply(
-        lambda r: llm_action_advice(
-            r.name,
-            r["final_status_old"],
-            r["final_status_new"],
-            r["Change"],
-            r["Root Cause"],
-        )
-        if r["Change"] == "➖ Deterioration"
-        else "No action required.",
-        axis=1,
+# =====================================================
+# TAB 1 – HEATMAP
+# =====================================================
+with tab1:
+    pivot = df.pivot(index="clean_section", columns="report_date", values="severity")
+    fig = px.imshow(
+        pivot,
+        color_continuous_scale=[[0, "#00B050"], [0.5, "#FFC000"], [1, "#FF0000"]],
+        aspect="auto"
     )
-elif USE_LLM:
-    merged["AI Action"] = "LLM not enabled."
+    fig.update_layout(height=700, coloraxis_showscale=False)
+    st.plotly_chart(fig, use_container_width=True)
 
-# =========================
-# DISPLAY
-# =========================
-display_cols = [
-    "final_status_old",
-    "final_status_new",
-    "Change",
-    "Root Cause",
-]
+# =====================================================
+# TAB 2 – WEEKLY VIEW
+# =====================================================
+with tab2:
+    sel_date = st.selectbox("Select report date", dates, index=len(dates)-1)
+    view = df[df["report_date"] == sel_date].sort_values("severity", ascending=False)
+    st.dataframe(view[["clean_section", "final_status"]], use_container_width=True)
 
-if "AI Action" in merged.columns:
-    display_cols.append("AI Action")
+# =====================================================
+# TAB 3 – TOP RISKS (attention score + rule-based)
+# =====================================================
+with tab3:
+    st.subheader("⚠️ KPIs Needing Special Attention (ML)")
+    st.caption("Ranked by attention score: current severity, trend, % weeks in RED, volatility.")
+    try:
+        att = attention_score(df_ml, system=sid, kpi_col="clean_section")
+        if not att.empty:
+            st.dataframe(att, use_container_width=True)
+            top = att.head(10)
+            fig_a = go.Figure(go.Bar(x=top["attention_score"], y=top["kpi"], orientation="h"))
+            fig_a.update_layout(title="Top 10 KPIs by Attention Score", xaxis_title="Attention score", height=400)
+            st.plotly_chart(fig_a, use_container_width=True)
+        else:
+            st.info("No attention scores available.")
+    except Exception as e:
+        st.warning(f"Attention score failed: {e}")
 
-st.subheader("📌 KPI Comparison Result")
-st.dataframe(merged[display_cols], use_container_width=True)
+    st.subheader("📋 Rule-based Top Risks (selected week)")
+    risk_date = st.selectbox("Risk week", dates, index=len(dates)-1, key="risk_date")
+    risks = df[df["report_date"] == risk_date]
+    risks["risk_score"] = risks["severity"] * 30
+    top10 = risks.sort_values("risk_score", ascending=False).head(10)
+    st.dataframe(top10[["clean_section", "final_status", "risk_score"]], use_container_width=True)
 
-# =========================
-# DOWNLOAD
-# =========================
-st.download_button(
-    "⬇️ Download Comparison Report",
-    data=merged.reset_index().to_csv(index=False).encode("utf-8"),
-    file_name=f"EWA_Comparison_{date2.date()}_vs_{date1.date()}.csv",
-    mime="text/csv",
-)
+# =====================================================
+# TAB 4 – LOGISTIC REGRESSION (RISK)
+# =====================================================
+with tab4:
+    st.subheader("🤖 Risk Prediction (Logistic Regression)")
+
+    X = df[["severity"]]
+    y = df["is_risk"]
+
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+
+    model = LogisticRegression()
+    model.fit(X_scaled, y)
+
+    preds = model.predict(X_scaled)
+    acc = accuracy_score(y, preds)
+
+    st.metric("Model Accuracy", f"{acc:.2f}")
+    st.text("Classification Report")
+    st.text(classification_report(y, preds))
+
+# =====================================================
+# TAB 5 – TREND + FORECAST (ML)
+# =====================================================
+with tab5:
+    st.subheader("📈 KPI Trends & Severity Forecast (ML)")
+
+    # Per-KPI trend table
+    st.markdown("**Trend by KPI** (improving: slope below -0.03 | deteriorating: slope above 0.03)")
+    try:
+        trend_df = compute_trend(df_ml, system=sid, kpi_col="clean_section")
+        if not trend_df.empty:
+            display_cols = [c for c in ["kpi", "slope", "trend_direction", "n_weeks"] if c in trend_df.columns]
+            st.dataframe(trend_df.sort_values("slope", ascending=False)[display_cols], use_container_width=True)
+            dir_counts = trend_df["trend_direction"].value_counts()
+            fig_t = px.bar(x=dir_counts.index, y=dir_counts.values, labels={"x": "Trend", "y": "Count"}, title="Trend Direction Summary")
+            st.plotly_chart(fig_t, use_container_width=True)
+        else:
+            st.info("Not enough history for trends.")
+    except Exception as e:
+        st.warning(f"Trend failed: {e}")
+
+    # Severity forecast
+    st.markdown("**Forecast: Next N Weeks**")
+    periods = st.slider("Weeks to forecast", 2, 8, 4, key="forecast_periods")
+    try:
+        fcast = forecast_severity(df_ml, system=sid, kpi_col="clean_section", periods_ahead=periods)
+        if not fcast.empty:
+            REV = {1: "GREEN", 2: "YELLOW", 3: "RED"}
+            fcast_disp = fcast.copy()
+            fcast_disp["severity_label"] = fcast_disp["severity_pred"].map(lambda x: REV.get(round(x), "?"))
+            st.dataframe(fcast_disp, use_container_width=True)
+            fig_f = px.line(fcast, x="report_date", y="severity_pred", color="kpi",
+                            title="Predicted Severity (1=Green, 2=Yellow, 3=Red)")
+            fig_f.update_yaxis(dtick=1)
+            st.plotly_chart(fig_f, use_container_width=True)
+        else:
+            st.info("Not enough data for forecast.")
+    except Exception as e:
+        st.warning(f"Forecast failed: {e}")
+
+    # Single-KPI linear regression (legacy)
+    st.markdown("**Single KPI: Linear Regression Fit**")
+    kpi = st.selectbox("Select KPI", sorted(df["clean_section"].unique()), key="trend_kpi")
+    kdf = df[df["clean_section"] == kpi].sort_values("report_date")
+    if len(kdf) >= 3:
+        X = kdf[["date_ordinal"]]
+        y = kdf["severity"]
+        lr = LinearRegression()
+        lr.fit(X, y)
+        kdf = kdf.copy()
+        kdf["predicted_severity"] = lr.predict(X)
+        fig = px.line(kdf, x="report_date", y=["severity", "predicted_severity"])
+        st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.info("Not enough data points for this KPI.")
+
+# =====================================================
+# TAB 6 – EARLY WARNING (TIME SERIES)
+# =====================================================
+with tab6:
+    st.subheader("⚠️ Early Warning Signals (Rolling Trend)")
+    st.caption("KPIs with sudden severity increase vs rolling mean. See Tab 3 for ML attention ranking.")
+
+    ew = df.copy()
+    ew = ew.sort_values(["clean_section", "report_date"])
+
+    ew["rolling_mean"] = ew.groupby("clean_section")["severity"].transform(
+        lambda x: x.rolling(3, min_periods=2).mean()
+    )
+
+    ew["trend"] = ew.groupby("clean_section")["rolling_mean"].diff()
+
+    warnings = ew[(ew["trend"] > 0.5) & (ew["severity"] >= 1)]
+
+    if warnings.empty:
+        st.info("No early warning signals detected.")
+    else:
+        st.dataframe(
+            warnings[["clean_section", "report_date", "final_status", "trend"]].sort_values("trend", ascending=False),
+            use_container_width=True
+        )
+
+st.caption("🧠 Intelligent SAP EWA | ML-Enhanced Risk & Trend Analysis")

@@ -1,131 +1,121 @@
-system,report_date,primary_kpi,status_name,status_symbol,source_file
-A1C,2025-09-30,Service summary,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
-A1C,2025-09-30,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
-A1C,2025-09-30,Software Configuration for A1C,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
-A1C,2025-09-30,Hardware Capacity,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
-A1C,2025-09-30,Performance Overview A1C,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
-A1C,2025-09-30,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
-A1C,2025-09-30,Security,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
-A1C,2025-09-30,Software Change and Transport Management of A1C,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
-A1C,2025-09-30,Financial Data Quality,GREEN,🟢,No alert
-A1C,2025-09-30,Upgrade Planning,GREEN,🟢,No alert
-A1C,2025-09-30,SAP HANA Database A1H,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
-A1C,2025-09-30,SAP Netwear gateway,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
-A1C,2025-09-30,UI Technologies checks,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm
-A1C,2025-10-07,Service summary,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
-A1C,2025-10-07,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
-A1C,2025-10-07,Software Configuration for A1C,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
-A1C,2025-10-07,Hardware Capacity,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
-A1C,2025-10-07,Performance Overview A1C,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
-A1C,2025-10-07,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
-A1C,2025-10-07,Security,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
-A1C,2025-10-07,Software Change and Transport Management of A1C,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
-A1C,2025-10-07,Financial Data Quality,GREEN,🟢,No alert
-A1C,2025-10-07,Upgrade Planning,GREEN,🟢,No alert
-A1C,2025-10-07,SAP HANA Database A1H,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
-A1C,2025-10-07,SAP Netwear gateway,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
-A1C,2025-10-07,UI Technologies checks,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm
-A1C,2025-10-14,Service summary,RED,🔴,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
-A1C,2025-10-14,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
-A1C,2025-10-14,Software Configuration for A1C,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
-A1C,2025-10-14,Hardware Capacity,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
-A1C,2025-10-14,Performance Overview A1C,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
-A1C,2025-10-14,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
-A1C,2025-10-14,Security,RED,🔴,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
-A1C,2025-10-14,Software Change and Transport Management of A1C,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
-A1C,2025-10-14,Financial Data Quality,GREEN,🟢,No alert
-A1C,2025-10-14,Upgrade Planning,GREEN,🟢,No alert
-A1C,2025-10-14,SAP HANA Database A1H,RED,🔴,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
-A1C,2025-10-14,SAP Netwear gateway,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
-A1C,2025-10-14,UI Technologies checks,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm
-A1C,2025-10-21,Service summary,RED,🔴,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
-A1C,2025-10-21,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
-A1C,2025-10-21,Software Configuration for A1C,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
-A1C,2025-10-21,Hardware Capacity,RED,🔴,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
-A1C,2025-10-21,Performance Overview A1C,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
-A1C,2025-10-21,SAP System Operating A1C,GREEN,🟢,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
-A1C,2025-10-21,Security,RED,🔴,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
-A1C,2025-10-21,Software Change and Transport Management of A1C,GREEN,🟢,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
-A1C,2025-10-21,Financial Data Quality,GREEN,🟢,No alert
-A1C,2025-10-21,Upgrade Planning,GREEN,🟢,No alert
-A1C,2025-10-21,SAP HANA Database A1H,RED,🔴,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
-A1C,2025-10-21,SAP Netwear gateway,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
-A1C,2025-10-21,UI Technologies checks,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm
-A1C,2025-10-28,Service summary,RED,🔴,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
-A1C,2025-10-28,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
-A1C,2025-10-28,Software Configuration for A1C,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
-A1C,2025-10-28,Hardware Capacity,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
-A1C,2025-10-28,Performance Overview A1C,RED,🔴,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
-A1C,2025-10-28,SAP System Operating A1C,GREEN,🟢,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
-A1C,2025-10-28,Security,RED,🔴,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
-A1C,2025-10-28,Software Change and Transport Management of A1C,GREEN,🟢,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
-A1C,2025-10-28,Financial Data Quality,GREEN,🟢,No alert
-A1C,2025-10-28,Upgrade Planning,GREEN,🟢,No alert
-A1C,2025-10-28,SAP HANA Database A1H,RED,🔴,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
-A1C,2025-10-28,SAP Netwear gateway,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
-A1C,2025-10-28,UI Technologies checks,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm
-A1C,2025-11-04,Service summary,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
-A1C,2025-11-04,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
-A1C,2025-11-04,Software Configuration for A1C,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
-A1C,2025-11-04,Hardware Capacity,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
-A1C,2025-11-04,Performance Overview A1C,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
-A1C,2025-11-04,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
-A1C,2025-11-04,Security,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
-A1C,2025-11-04,Software Change and Transport Management of A1C,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
-A1C,2025-11-04,Financial Data Quality,GREEN,🟢,No alert
-A1C,2025-11-04,Upgrade Planning,GREEN,🟢,No alert
-A1C,2025-11-04,SAP HANA Database A1H,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
-A1C,2025-11-04,SAP Netwear gateway,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
-A1C,2025-11-04,UI Technologies checks,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm
-A1C,2025-11-11,Service summary,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
-A1C,2025-11-11,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
-A1C,2025-11-11,Software Configuration for A1C,YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
-A1C,2025-11-11,Hardware Capacity,YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
-A1C,2025-11-11,Performance Overview A1C,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
-A1C,2025-11-11,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
-A1C,2025-11-11,Security,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
-A1C,2025-11-11,Software Change and Transport Management of A1C,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
-A1C,2025-11-11,Financial Data Quality,GREEN,🟢,No alert
-A1C,2025-11-11,Upgrade Planning,GREEN,🟢,No alert
-A1C,2025-11-11,SAP HANA Database A1H,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
-A1C,2025-11-11,SAP Netwear gateway,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
-A1C,2025-11-11,UI Technologies checks,YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm
-A1C,2025-11-18,Service summary,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
-A1C,2025-11-18,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
-A1C,2025-11-18,Software Configuration for A1C,YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
-A1C,2025-11-18,Hardware Capacity,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
-A1C,2025-11-18,Performance Overview A1C,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
-A1C,2025-11-18,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
-A1C,2025-11-18,Security,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
-A1C,2025-11-18,Software Change and Transport Management of A1C,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
-A1C,2025-11-18,Financial Data Quality,GREEN,🟢,No alert
-A1C,2025-11-18,Upgrade Planning,GREEN,🟢,No alert
-A1C,2025-11-18,SAP HANA Database A1H,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
-A1C,2025-11-18,SAP Netwear gateway,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
-A1C,2025-11-18,UI Technologies checks,YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm
-A1C,2025-11-25,Service summary,RED,🔴,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
-A1C,2025-11-25,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
-A1C,2025-11-25,Software Configuration for A1C,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
-A1C,2025-11-25,Hardware Capacity,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
-A1C,2025-11-25,Performance Overview A1C,RED,🔴,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
-A1C,2025-11-25,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
-A1C,2025-11-25,Security,RED,🔴,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
-A1C,2025-11-25,Software Change and Transport Management of A1C,GREEN,🟢,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
-A1C,2025-11-25,Financial Data Quality,GREEN,🟢,No alert
-A1C,2025-11-25,Upgrade Planning,GREEN,🟢,No alert
-A1C,2025-11-25,SAP HANA Database A1H,RED,🔴,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
-A1C,2025-11-25,SAP Netwear gateway,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
-A1C,2025-11-25,UI Technologies checks,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm
-A1C,2025-12-02,Service summary,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
-A1C,2025-12-02,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
-A1C,2025-12-02,Software Configuration for A1C,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
-A1C,2025-12-02,Hardware Capacity,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
-A1C,2025-12-02,Performance Overview A1C,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
-A1C,2025-12-02,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
-A1C,2025-12-02,Security,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
-A1C,2025-12-02,Software Change and Transport Management of A1C,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
-A1C,2025-12-02,Financial Data Quality,GREEN,🟢,No alert
-A1C,2025-12-02,Upgrade Planning,GREEN,🟢,No alert
-A1C,2025-12-02,SAP HANA Database A1H,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
-A1C,2025-12-02,SAP Netwear gateway,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
-A1C,2025-12-02,UI Technologies checks,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm
+system,report_date,clean_section,kpi_text,status_name,status_symbol,source_file,severity,row_id
+A1C,2025-09-30,Financial Data Quality,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,2,1
+A1C,2025-09-30,Hardware Capacity,The trace directory contains a high number of diagnosis files or the files occupy a lot of disk space.,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,2,2
+A1C,2025-09-30,Performance Overview,The performance of your system was analyzed with respect to the average                                                           response times and total workload. We did not detect any major problems that could affect the performance of your system.,GREEN,🟢,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,1,3
+A1C,2025-09-30,SAP HANA Database,HANA-A1H: SAP HANA database: No consistency checks are scheduled.,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,3,4
+A1C,2025-09-30,SAP Netweaver Gateway,Gateway Error Logs,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,2,5
+A1C,2025-09-30,SAP System Operating,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,2,6
+A1C,2025-09-30,Security,"Users with critical authorizations, which allow to do anything in client 000",RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,3,7
+A1C,2025-09-30,Service Data Quality and Service Readiness,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,2,8
+A1C,2025-09-30,Software Change and Transport Management,Transport execution errors occurred during import into production,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,3,9
+A1C,2025-09-30,Software Configuration,SAP HANA Database Configuration,YELLOW,🟡,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,2,10
+A1C,2025-09-30,UI Technologies checks,Remote Function Call issues that require your attention have been found.                                                          Take action immediately to ensure optimal system performance and stability.,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,3,11
+A1C,2025-09-30,Upgrade Planning,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_A1C~ABAP_20250930_Critical (Yellow).htm,3,12
+A1C,2025-10-07,Financial Data Quality,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm,2,13
+A1C,2025-10-07,Hardware Capacity,The trace directory contains a high number of diagnosis files or the files occupy a lot of disk space.,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm,2,14
+A1C,2025-10-07,Performance Overview,The performance of your system was analyzed with respect to the average                                                           response times and total workload. We did not detect any major problems that could affect the performance of your system.,GREEN,🟢,EWA_A1C~ABAP_20251007_Critical (Yellow).htm,1,15
+A1C,2025-10-07,SAP HANA Database,HANA-A1H: SAP HANA database: No consistency checks are scheduled.,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm,3,16
+A1C,2025-10-07,SAP Netweaver Gateway,SAP NetWeaver Gateway,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm,2,17
+A1C,2025-10-07,SAP System Operating,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm,2,18
+A1C,2025-10-07,Security,"Users with critical authorizations, which allow to do anything in client 000",RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm,3,19
+A1C,2025-10-07,Service Data Quality and Service Readiness,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm,2,20
+A1C,2025-10-07,Software Change and Transport Management,Critical software change management issues were found in your system.See the information in the following sections.,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm,3,21
+A1C,2025-10-07,Software Configuration,Software Configuration for A1C,YELLOW,🟡,EWA_A1C~ABAP_20251007_Critical (Yellow).htm,2,22
+A1C,2025-10-07,UI Technologies checks,Remote Function Call issues that require your attention have been found.                                                          Take action immediately to ensure optimal system performance and stability.,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm,3,23
+A1C,2025-10-07,Upgrade Planning,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_A1C~ABAP_20251007_Critical (Yellow).htm,3,24
+A1C,2025-10-14,Financial Data Quality,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm,2,25
+A1C,2025-10-14,Hardware Capacity,gc_unused_memory_threshold_abs,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm,2,26
+A1C,2025-10-14,Performance Overview,The performance of your system was analyzed with respect to the average                                                           response times and total workload. We did not detect any major problems that could affect the performance of your system.,GREEN,🟢,EWA_A1C~ABAP_20251014_Critical (Yellow).htm,1,27
+A1C,2025-10-14,SAP HANA Database,HANA-A1H: SAP HANA database: No consistency checks are scheduled.,RED,🔴,EWA_A1C~ABAP_20251014_Critical (Yellow).htm,3,28
+A1C,2025-10-14,SAP Netweaver Gateway,SAP NetWeaver Gateway,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm,2,29
+A1C,2025-10-14,SAP System Operating,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm,2,30
+A1C,2025-10-14,Security,"Critical authorizations, which allow to do anything",RED,🔴,EWA_A1C~ABAP_20251014_Critical (Yellow).htm,3,31
+A1C,2025-10-14,Service Data Quality and Service Readiness,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm,2,32
+A1C,2025-10-14,Software Change and Transport Management,622  Transportation Management relevant Post Processing Framework actions are scheduled but not processed,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm,2,33
+A1C,2025-10-14,Software Configuration,SAP HANA Database Configuration,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm,2,34
+A1C,2025-10-14,UI Technologies checks,Fiori Checks for A1C,YELLOW,🟡,EWA_A1C~ABAP_20251014_Critical (Yellow).htm,2,35
+A1C,2025-10-14,Upgrade Planning,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_A1C~ABAP_20251014_Critical (Yellow).htm,3,36
+A1C,2025-10-21,Financial Data Quality,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm,2,37
+A1C,2025-10-21,Hardware Capacity,The trace directory contains a high number of diagnosis files or the files occupy a lot of disk space.,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm,2,38
+A1C,2025-10-21,Performance Overview,The performance of your system was analyzed with respect to the average                                                           response times and total workload. We did not detect any major problems that could affect the performance of your system.,GREEN,🟢,EWA_A1C~ABAP_20251021_Critical (Yellow).htm,1,39
+A1C,2025-10-21,SAP HANA Database,HANA-A1H: SAP HANA database: User SYSTEM is active and valid.,RED,🔴,EWA_A1C~ABAP_20251021_Critical (Yellow).htm,3,40
+A1C,2025-10-21,SAP Netweaver Gateway,SAP NetWeaver Gateway,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm,2,41
+A1C,2025-10-21,SAP System Operating,SAP System Operating A1C,GREEN,🟢,EWA_A1C~ABAP_20251021_Critical (Yellow).htm,1,42
+A1C,2025-10-21,Security,"Users with critical authorizations, which allow to do anything in client 000",RED,🔴,EWA_A1C~ABAP_20251021_Critical (Yellow).htm,3,43
+A1C,2025-10-21,Service Data Quality and Service Readiness,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm,2,44
+A1C,2025-10-21,Software Change and Transport Management,370  Transportation Management relevant Post Processing Framework actions are scheduled but not processed,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm,2,45
+A1C,2025-10-21,Software Configuration,SAP HANA Database Configuration,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm,2,46
+A1C,2025-10-21,UI Technologies checks,Fiori Checks for A1C,YELLOW,🟡,EWA_A1C~ABAP_20251021_Critical (Yellow).htm,2,47
+A1C,2025-10-21,Upgrade Planning,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_A1C~ABAP_20251021_Critical (Yellow).htm,3,48
+A1C,2025-10-28,Financial Data Quality,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm,2,49
+A1C,2025-10-28,Hardware Capacity,The memory consumption of the index server is critical.,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm,2,50
+A1C,2025-10-28,Performance Overview,The performance of your system was analyzed with respect to the average                                                           response times and total workload. We did not detect any major problems that could affect the performance of your system.,GREEN,🟢,EWA_A1C~ABAP_20251028_Critical (Yellow).htm,1,51
+A1C,2025-10-28,SAP HANA Database,HANA-A1H: SAP HANA database: No consistency checks are scheduled.,RED,🔴,EWA_A1C~ABAP_20251028_Critical (Yellow).htm,3,52
+A1C,2025-10-28,SAP Netweaver Gateway,SAP NetWeaver Gateway,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm,2,53
+A1C,2025-10-28,SAP System Operating,SAP System Operating A1C,GREEN,🟢,EWA_A1C~ABAP_20251028_Critical (Yellow).htm,1,54
+A1C,2025-10-28,Security,"Users with critical authorizations, which allow to do anything in client 000",RED,🔴,EWA_A1C~ABAP_20251028_Critical (Yellow).htm,3,55
+A1C,2025-10-28,Service Data Quality and Service Readiness,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm,2,56
+A1C,2025-10-28,Software Change and Transport Management,479  Transportation Management relevant Post Processing Framework actions are scheduled but not processed,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm,2,57
+A1C,2025-10-28,Software Configuration,SAP HANA Database Configuration,YELLOW,🟡,EWA_A1C~ABAP_20251028_Critical (Yellow).htm,2,58
+A1C,2025-10-28,UI Technologies checks,Remote Function Call issues that require your attention have been found.                                                          Take action immediately to ensure optimal system performance and stability.,RED,🔴,EWA_A1C~ABAP_20251028_Critical (Yellow).htm,3,59
+A1C,2025-10-28,Upgrade Planning,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_A1C~ABAP_20251028_Critical (Yellow).htm,3,60
+A1C,2025-11-04,Financial Data Quality,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm,2,61
+A1C,2025-11-04,Hardware Capacity,The memory consumption of the index server is critical.,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm,2,62
+A1C,2025-11-04,Performance Overview,Performance Overview A1C,GREEN,🟢,EWA_A1C~ABAP_20251104_Very Critical (Red).htm,1,63
+A1C,2025-11-04,SAP HANA Database,We have checked your SAP HANA environment and found some issues that                                                              might                                                                                                                              have a negative impact on your overall system stability. Review the report carefully and implement our recommendations.,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm,3,64
+A1C,2025-11-04,SAP Netweaver Gateway,Gateway Error Logs,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm,2,65
+A1C,2025-11-04,SAP System Operating,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm,2,66
+A1C,2025-11-04,Security,"Critical authorizations, which allow to do anything",RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm,3,67
+A1C,2025-11-04,Service Data Quality and Service Readiness,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm,2,68
+A1C,2025-11-04,Software Change and Transport Management,Critical software change management issues were found in your system.See the information in the following sections.,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm,3,69
+A1C,2025-11-04,Software Configuration,"The gateway configuration and administration of your SAP S/4HANA system                                                           A1C have been analyzed and areas that require your attention have been                                                              highlighted. To ensure system stability, you should implement the recommendations in the following section.",YELLOW,🟡,EWA_A1C~ABAP_20251104_Very Critical (Red).htm,2,70
+A1C,2025-11-04,UI Technologies checks,Remote Function Call issues that require your attention have been found.                                                          Take action immediately to ensure optimal system performance and stability.,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm,3,71
+A1C,2025-11-04,Upgrade Planning,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_A1C~ABAP_20251104_Very Critical (Red).htm,3,72
+A1C,2025-11-11,Financial Data Quality,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm,2,73
+A1C,2025-11-11,Hardware Capacity,The memory consumption of the index server was critical.,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm,3,74
+A1C,2025-11-11,Performance Overview,Performance Overview A1C,GREEN,🟢,EWA_A1C~ABAP_20251111_Very Critical (Red).htm,1,75
+A1C,2025-11-11,SAP HANA Database,We have checked your SAP HANA environment and found some issues that                                                              might                                                                                                                              have a negative impact on your overall system stability. Review the report carefully and implement our recommendations.,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm,3,76
+A1C,2025-11-11,SAP Netweaver Gateway,Gateway Error Logs,YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm,2,77
+A1C,2025-11-11,SAP System Operating,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm,2,78
+A1C,2025-11-11,Security,"Critical authorizations, which allow to do anything",RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm,3,79
+A1C,2025-11-11,Service Data Quality and Service Readiness,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm,2,80
+A1C,2025-11-11,Software Change and Transport Management,Critical software change management issues were found in your system.See the information in the following sections.,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm,3,81
+A1C,2025-11-11,Software Configuration,"The UI technology configuration and administration of your SAP S/4HANA                                                            system A1C have been analyzed and areas that require your attention have                                                            been highlighted. To ensure system stability, you should implement the recommendations in the following section.",YELLOW,🟡,EWA_A1C~ABAP_20251111_Very Critical (Red).htm,2,82
+A1C,2025-11-11,UI Technologies checks,Remote Function Call issues that require your attention have been found.                                                          Take action immediately to ensure optimal system performance and stability.,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm,3,83
+A1C,2025-11-11,Upgrade Planning,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_A1C~ABAP_20251111_Very Critical (Red).htm,3,84
+A1C,2025-11-18,Financial Data Quality,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,2,85
+A1C,2025-11-18,Hardware Capacity,The memory consumption of the index server was critical.,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,3,86
+A1C,2025-11-18,Performance Overview,Performance Overview A1C,GREEN,🟢,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,1,87
+A1C,2025-11-18,SAP HANA Database,We have checked your SAP HANA environment and found some issues that                                                              might                                                                                                                              have a negative impact on your overall system stability. Review the report carefully and implement our recommendations.,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,3,88
+A1C,2025-11-18,SAP Netweaver Gateway,Gateway Error Logs,YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,2,89
+A1C,2025-11-18,SAP System Operating,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,2,90
+A1C,2025-11-18,Security,Security,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,3,91
+A1C,2025-11-18,Service Data Quality and Service Readiness,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,2,92
+A1C,2025-11-18,Software Change and Transport Management,Critical software change management issues were found in your system.See the information in the following sections.,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,3,93
+A1C,2025-11-18,Software Configuration,"The UI technology configuration and administration of your SAP S/4HANA                                                            system A1C have been analyzed and areas that require your attention have                                                            been highlighted. To ensure system stability, you should implement the recommendations in the following section.",YELLOW,🟡,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,2,94
+A1C,2025-11-18,UI Technologies checks,Remote Function Call issues that require your attention have been found.                                                          Take action immediately to ensure optimal system performance and stability.,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,3,95
+A1C,2025-11-18,Upgrade Planning,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_A1C~ABAP_20251118_Very Critical (Red).htm,3,96
+A1C,2025-11-25,Financial Data Quality,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,2,97
+A1C,2025-11-25,Hardware Capacity,The memory consumption of the index server was critical.,RED,🔴,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,3,98
+A1C,2025-11-25,Performance Overview,Performance Overview A1C,GREEN,🟢,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,1,99
+A1C,2025-11-25,SAP HANA Database,HANA-A1H: Activation Status and Validity of User SYSTEM,RED,🔴,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,3,100
+A1C,2025-11-25,SAP Netweaver Gateway,Gateway Error Logs,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,2,101
+A1C,2025-11-25,SAP System Operating,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,2,102
+A1C,2025-11-25,Security,Security,RED,🔴,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,3,103
+A1C,2025-11-25,Service Data Quality and Service Readiness,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,2,104
+A1C,2025-11-25,Software Change and Transport Management,Transportation Management application relevant checks were performed successfully.Potential issues are identified and highlighted below.,YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,2,105
+A1C,2025-11-25,Software Configuration,"The gateway configuration and administration of your SAP S/4HANA system                                                           A1C have been analyzed and areas that require your attention have been                                                              highlighted. To ensure system stability, you should implement the recommendations in the following section.",YELLOW,🟡,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,2,106
+A1C,2025-11-25,UI Technologies checks,Remote Function Call issues that require your attention have been found.                                                          Take action immediately to ensure optimal system performance and stability.,RED,🔴,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,3,107
+A1C,2025-11-25,Upgrade Planning,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_A1C~ABAP_20251125_Very Critical (Red).htm,3,108
+A1C,2025-12-02,Financial Data Quality,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm,2,109
+A1C,2025-12-02,Hardware Capacity,The memory consumption of the index server was critical.,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm,3,110
+A1C,2025-12-02,Performance Overview,Performance Overview A1C,GREEN,🟢,EWA_A1C~ABAP_20251202_Critical (Yellow).htm,1,111
+A1C,2025-12-02,SAP HANA Database,HANA-A1H: Activation Status and Validity of User SYSTEM,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm,3,112
+A1C,2025-12-02,SAP Netweaver Gateway,Gateway Error Logs,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm,2,113
+A1C,2025-12-02,SAP System Operating,SAP System Operating A1C,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm,2,114
+A1C,2025-12-02,Security,Critical security issues were found in your system.See the information in the following sections.,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm,3,115
+A1C,2025-12-02,Service Data Quality and Service Readiness,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm,2,116
+A1C,2025-12-02,Software Change and Transport Management,Transport execution errors occurred during import into production,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm,3,117
+A1C,2025-12-02,Software Configuration,SAP HANA Database Configuration,YELLOW,🟡,EWA_A1C~ABAP_20251202_Critical (Yellow).htm,2,118
+A1C,2025-12-02,UI Technologies checks,Remote Function Call issues that require your attention have been found.                                                          Take action immediately to ensure optimal system performance and stability.,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm,3,119
+A1C,2025-12-02,Upgrade Planning,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_A1C~ABAP_20251202_Critical (Yellow).htm,3,120
