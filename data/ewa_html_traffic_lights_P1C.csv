@@ -1,0 +1,1118 @@
+system,report_date,section,kpi_text,status_name,status_symbol,source_file,primary_kpi
+P1C,2025-12-30,,"Analysis from22.12.2025Until28.12.2025Report:P1C, ProductiveInstallation:0021277797Session:7000000093337",GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,The                                                                                                                              EarlyWatch                                                                                                                          Alert service has detected severe problems that may cause you to lose business.Please evaluate the recommendations.,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP HANA database: Number of Records exceeds critical limit.,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,We found some Freight Settlement Documents' lifecycle status are inconsistent,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP Software on this system is outdated. Support with SAP Security Notes is no longer ensured.,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,"Users with critical authorizations, which allow to do anything in client 000",RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,"Users with critical authorizations, which allow to do anything in other client(s) than 000",RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,263  Transportation Management relevant Post Processing Framework actions are scheduled but not processed,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2025-12-30,,148  Transportation Management relevant inbound bgRFCs are in error state,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2025-12-30,,61405  Freight Order Management and 47  Freight Settlement documents are open more than one year,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Some Transportation Management relevant important Jobs are not scheduled,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2025-12-30,,111  Transportation Management Post Processing Framework actions are in error state,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2025-12-30,,We found more than 30 ABAP dumps in your system.,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP HANA database: Parameters are not set in accordance with the recommendation.,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,Readiness of your system for SAP Remote Service has not been verified by running report RTCCTOOL.,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Missing index causes expensive SQL statement.,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP HANA database: Users with critical privilege DATA ADMIN.,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,Performance Overview P1C,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Performance Overview A1C
+P1C,2025-12-30,,Software Change and Transport Management of P1C,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2025-12-30,,Number of Changes,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Emergency Changes,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Failed Changes,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Software Configuration for P1C,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Software Configuration for A1C
+P1C,2025-12-30,,SAP Application Release - Maintenance Phases,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Upgrade Planning
+P1C,2025-12-30,,Maintenance and Update Strategy for SAP Fiori Front-End Server,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Upgrade Planning
+P1C,2025-12-30,,Security Risk Due to Outdated Support Packages,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,Database - Maintenance Phases,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Upgrade Planning
+P1C,2025-12-30,,Operating System(s) - Maintenance Phases,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Upgrade Planning
+P1C,2025-12-30,,SAP Kernel Release,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,HANA Database Version for P1H,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP System Operating P1C,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP System Operating A1C
+P1C,2025-12-30,,Availability based on Collector Protocols,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Program Errors (ABAP Dumps),YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Update Errors,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Table Reorganization,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Critical Number Ranges,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Workload Distribution P1C,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Workload by Application Module,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,DB Load Profile,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP HANA Database P1H,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Stability and Alerts,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Database Configuration,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Resource Consumption,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Workload and Performance,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,Size and Growth,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Administration,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Hardware Capacity,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,SAP NetWeaver Gateway,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP Netwear gateway
+P1C,2025-12-30,,MetaData Cache Activation,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Logging Configuration,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Gateway Error Logs*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP Netwear gateway
+P1C,2025-12-30,,Important Periodic Jobs,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Service Data Quality and Service Readiness
+P1C,2025-12-30,,Sending EarlyWatch Alert of P1C to SAP Backbone,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Configuring P1C for SAP Note Assistant,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Service Preparation of P1C,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Security,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,System Recommendations (HANA)*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,Maintenance Status of current SAP HANA Database Revision*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Upgrade Planning
+P1C,2025-12-30,,SAP HANA System Privilege DATA ADMIN,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Password Policy*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Audit Trail*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA SQL Trace Level*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Network Settings for Internal Services*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Network Settings for System Replication Communication (listeninterface)*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,Activation Status and Validity of User SYSTEM*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,System Recommendations (ABAP)*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Age of Support Packages,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Default Passwords of Standard Users*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Control of the Automatic Login User SAP**,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Protection of Passwords in Database Connections*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,ABAP Password Policy,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,RFC Gateway Security*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,Message Server Security*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,"Critical authorizations, which allow to do anything",RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,"Critical authorizations, which should not be used in production*",GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,"Critical authorizations, which should only see very limited use in production*",GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,Fiori Checks for P1C,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,SAP Fiori Cache Buster Activation,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,HTTP/2 Support,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP Fiori Launchpad Performance - Home Page Mode,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,SAP Fiori Launchpad - Spaces and Pages adoption,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,Activated but unused ICF services in UI5 apps,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,Active Users (>400 steps),GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Fiori Users,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,Avg. Availability per Week,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Avg. Response Time in Dialog Task,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Performance Overview A1C
+P1C,2025-12-30,,Max. Dialog Steps per Hour,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Avg. Response Time at Peak Dialog Hour,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Performance Overview A1C
+P1C,2025-12-30,,Avg. Response Time in RFC Task,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Performance Overview A1C
+P1C,2025-12-30,,Max. Number of RFCs per Hour,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Avg. RFC Response Time at Peak Hour,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Performance Overview A1C
+P1C,2025-12-30,,Max. CPU Utilization on DB Server,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,Max. CPU Utilization on Appl. Server,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,Avg. DB Request Time in Dialog Task,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Avg. DB Request Time for RFC,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Avg. DB Request Time in Update Task,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Database Space Management,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,DB Growth Last Month,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Configuration hints for optional service data are provided.The SAP S/4HANA system P1C is not fully prepared for delivery of futureremote services.,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,Sending EarlyWatch Alert of P1C to SAP Backbone,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Configuring P1C for SAP Note Assistant,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Service Preparation of P1C,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,System P1C is prepared forSAP Support Backbone updatesending EWA data on HTTPS through Solution Manager 7.2 SMP,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Solution Manager 7.2 SMP,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP-SUPPORT_PORTAL HTTPS -> SAP,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,A digitally signed SAP Note was downloaded using HTTPS last time on  12.04.2025,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Service Preparation Check (RTCCTOOL),YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Service Data Control Center of P1C,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Hardware Utilization Data,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Addon ST-A/PI 01X_731,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,ST-PI 740 Support Package 32,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Proc. after addon impl.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Switch on digital content verification,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Allow Online data collectors,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Addon ST-PI 740,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Collectors and TCOLL,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,EWAlert setup,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP note 3482369 for DVM,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,We have listed important recommendations concerning the current software                                                          configuration on your system. These recommendations should be implemented at the earliest opportunity.,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP S/4HANA 2023,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,Mainstream / Extended maintenance offered by SAP is available for the next 18 months or longer.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Upgrade Planning
+P1C,2025-12-30,,Mainstream / Extended maintenance offered by SAP will end in 6 to 18 months.,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Upgrade Planning
+P1C,2025-12-30,,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Upgrade Planning
+P1C,2025-12-30,,SAP Fiori FES 2023 for S/4HANA,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,1.120.27,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Maintenance Status of current SAP HANA Database Revision,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Upgrade Planning
+P1C,2025-12-30,,Age of Support Packages,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP HANA Database 2.0,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SUSE Linux Enterprise Server 15 (x86_64),GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,2.00.078.000,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,3  Instances,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,heip1caas10z2_P1C_10,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,heip1cpas06z2_P1C_06,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,heip1caas09z3_P1C_09,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,We have checked your system for potential CPU or memory bottlenecks and                                                           found that the hardware of your servers is sufficient for the current workload.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,heip1caas10z2,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,heip1cpas06z2,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,heip1caas09z3,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,The number of work processes creating database load in parallel is not significantly high.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,The performance of your system was analyzed with respect to the average                                                           response times and total workload. We did not detect any major problems that could affect the performance of your system.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Performance Overview A1C
+P1C,2025-12-30,,27.152,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,289.291,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,131.016,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,2.172.763,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,The daily operation of your system was analyzed. We detected some problems that may impair system operation and stability.,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Availability based on Collector Protocols,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Program Errors (ABAP Dumps),YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Update Errors,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Table Reorganization,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Critical Number Ranges,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Critical security issues were found in your system.See the information in the following sections.,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,System Recommendations (HANA),GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,Maintenance Status of current SAP HANA Database Revision,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Upgrade Planning
+P1C,2025-12-30,,SAP HANA System Privilege DATA ADMIN,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Password Policy,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Audit Trail,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA SQL Trace Level,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Network Settings for Internal Services,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Network Settings for System Replication Communication (listeninterface),GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,Activation Status and Validity of User SYSTEM,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,System Recommendations (ABAP),GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Age of Support Packages,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Default Passwords of Standard Users,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Control of the Automatic Login User SAP*,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Protection of Passwords in Database Connections,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,ABAP Password Policy,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,RFC Gateway Security,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,Message Server Security,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,"Critical authorizations, which allow to do anything",RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,"Critical authorizations, which should not be used in production",GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,"Critical authorizations, which should only see very limited use in production",GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Security
+P1C,2025-12-30,,17.01.2024,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,05.12.2023,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,26.01.2024,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,05.12.2023,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,000,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,2.242,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,No critical software change management issues were found in your system.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2025-12-30,,Number of Changes,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Emergency Changes,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Failed Changes,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Number of transport requests; created or released in production.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2025-12-30,,The duration between the export from the development system and the import into the production system was shorter than one day.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Number of transport requests with import errors that were not resolved within one hour.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2025-12-30,,If an old object version overwrites a newer one we count this as a transport sequence error. We count both the overtaker transport and the bypassed transport. Each transport is only counted once.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2025-12-30,,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Financial Data Quality
+P1C,2025-12-30,,Remote Function Call issues that require your attention have been found.                                                          Take action immediately to ensure optimal system performance and stability.,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,Transportation Management application relevant checks were performed successfully.Potential issues are identified and highlighted below.,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2025-12-30,,We have checked your SAP HANA environment and found some issues that                                                              might                                                                                                                              have a negative impact on your overall system stability. Review the report carefully and implement our recommendations.,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Stability and Alerts,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Database Configuration,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Resource Consumption,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP HANA Workload and Performance,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,Size and Growth,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Administration,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP HANA alerts have been issued for the monitored timeframe.,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,No critical issues with SAP HANA service restarts were detected.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,Check parameter settings,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,service_thread_sampling_monitor_thread_detail_enabled,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP HANA workload parameters are set in the recommended range.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,There are parameters which violate value or layer restrictions.,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,There are no disk configuration issues.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,Percentage of free disk space > 20%,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,CATALOG_BACKUP+LOG_BACKUP+TRACE,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,heip1hhdb05z2,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,heip1hhdb05z2,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,The allocated row store size is below the technical limit.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,heip1hhdb05z2,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,The fragmentation of the row store is not critical.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,The number of records in column-based table partitions may become critical very soon.,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,1.675.735.340,RED,🔴,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SRMPROTOCOL,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,768.155.760,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,/HOAG/AK_VPROT_P,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,470.709.944,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,PRCD_ELEMENTS,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,APOC_D_OR_LOG,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,87.294.035,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,63.496.941,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,63.183.034,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,heip1hhdb05z2_P1H_05,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,No CPU bottlenecks were detected.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,No memory bottlenecks were detected.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,The memory consumption of the SAP HANA instance is not critical.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,The memory consumption of tables is below any critical threshold.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,The memory consumption of the index server was not critical.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,No problems with the delta size of column store tables were detected.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,The trace directory contains a high number of diagnosis files or the files occupy a lot of disk space.,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,No issues for operating or administration in terms of backup/recovery have been detected.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Global consistency check runs at least once per month.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Your license is permanent and valid.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,No issues with the statistics server were detected.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Status of the embedded Statisticsserver,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Alerts in the Statisticsserver are not scheduled in the expected timeframe.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Number of tables not located on the master server,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Number of disabled alert collectors,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Number of disabled statistic collectors,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Collector_Global_Table_Persistence_Statistics idle,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Number of collectors with retention times < 42 days,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,High number of unprocessed e-Mails,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Status of Collector HOST_CS_UNLOADS,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Number of relevant inactive actions,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Number of actions with unknown state,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Number of Statisticsserver worker threads,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Historic thread samples save interval (s),GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,History of M_RECORD_LOCKS collected,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Retention time for the table disk size history,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,Hardware Capacity
+P1C,2025-12-30,,Important information is available in the SAP Notes below.,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,At least one SQL statement causes unnecessary high load on the system.,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Statements on Top Scanned Table/SQL Statement 2df6494946750b31e3b885b6d649c0f1/Thread Distribution/High Number of Scanned Records,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Statements on Top Scanned Table/SQL Statement 51a89be574023f7b8111b4108440d7a6/Thread Distribution/High Number of Scanned Records,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Version of ST-PI function module: 40,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,"The gateway configuration and administration of your SAP S/4HANA system                                                           P1C have been analyzed and areas that require your attention have been                                                              highlighted. To ensure system stability, you should implement the recommendations in the following section.",YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,MetaData Cache Activation,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Logging Configuration,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Gateway Error Logs,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP Netwear gateway
+P1C,2025-12-30,,Important Periodic Jobs,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,/IWBEP/R_CLEAN_UP_QRL,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,/IWBEP/SUTIL_CLEANUP,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,/IWFND/R_METERING_AGGREGATE,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,/IWFND/R_METERING_DELETE,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,/IWFND/R_SM_CLEANUP,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,/UI2/PAGE_CACHE_SYNCHRONIZE,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,/UI2/PERS_EXPIRED_DELETE,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,/UI5/UPD_ODATA_METADATA_CACHE,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,/UIF/CLEAN_LREP,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,"The UI technology configuration and administration of your SAP S/4HANA                                                            system P1C have been analyzed and areas that require your attention have                                                            been highlighted. To ensure system stability, you should implement the recommendations in the following section.",YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2025-12-30,,SAP Fiori Cache Buster Activation,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,HTTP/2 Support,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SAP Fiori Launchpad Performance - Home Page Mode,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,SAP Fiori Launchpad - Spaces and Pages adoption,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,Activated but unused ICF services in UI5 apps,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,UI Technologies checks
+P1C,2025-12-30,,icm/HTTP/support_http2,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,icm/HTTP/support_http2,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,icm/HTTP/support_http2,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,Home Page / Groups,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,SPACES / SPACES_ENABLE_USER,GREEN,🟢,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2025-12-30,,92.8%,YELLOW,🟡,EWA_P1C~ABAP_20251230_Very Critical (Red).htm,
+P1C,2026-01-06,,"Analysis from29.12.2025Until04.01.2026Report:P1C, ProductiveInstallation:0021277797Session:7000000093560",GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,The                                                                                                                              EarlyWatch                                                                                                                          Alert service has detected severe problems that may cause you to lose business.Please evaluate the recommendations.,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP HANA database: Number of Records exceeds critical limit.,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,We found some Freight Settlement Documents' lifecycle status are inconsistent,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP Software on this system is outdated. Support with SAP Security Notes is no longer ensured.,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,"Users with critical authorizations, which allow to do anything in client 000",RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,"Users with critical authorizations, which allow to do anything in other client(s) than 000",RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,1117  Transportation Management relevant Post Processing Framework actions are scheduled but not processed,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-06,,148  Transportation Management relevant inbound bgRFCs are in error state,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-06,,67319  Freight Order Management and 52  Freight Settlement documents are open more than one year,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Some Transportation Management relevant important Jobs are not scheduled,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-06,,114  Transportation Management Post Processing Framework actions are in error state,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-06,,We found more than 30 ABAP dumps in your system.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP HANA database: Parameters are not set in accordance with the recommendation.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,Readiness of your system for SAP Remote Service has not been verified by running report RTCCTOOL.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Missing index causes expensive SQL statement.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP HANA database: Users with critical privilege DATA ADMIN.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,Performance Overview P1C,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-06,,Software Change and Transport Management of P1C,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-06,,Number of Changes,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Emergency Changes,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Failed Changes,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Software Configuration for P1C,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Software Configuration for A1C
+P1C,2026-01-06,,SAP Application Release - Maintenance Phases,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-06,,Maintenance and Update Strategy for SAP Fiori Front-End Server,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-06,,Security Risk Due to Outdated Support Packages,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,Database - Maintenance Phases,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-06,,Operating System(s) - Maintenance Phases,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-06,,SAP Kernel Release,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,HANA Database Version for P1H,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP System Operating P1C,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP System Operating A1C
+P1C,2026-01-06,,Availability based on Collector Protocols,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Program Errors (ABAP Dumps),YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Update Errors,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Table Reorganization,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Critical Number Ranges,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Workload Distribution P1C,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Workload by Application Module,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,DB Load Profile,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP HANA Database P1H,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Stability and Alerts,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Database Configuration,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Resource Consumption,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Workload and Performance,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,Size and Growth,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Administration,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Hardware Capacity,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,SAP NetWeaver Gateway,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP Netwear gateway
+P1C,2026-01-06,,MetaData Cache Activation,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Logging Configuration,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Gateway Error Logs,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP Netwear gateway
+P1C,2026-01-06,,Important Periodic Jobs,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Service Data Quality and Service Readiness
+P1C,2026-01-06,,Sending EarlyWatch Alert of P1C to SAP Backbone,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Configuring P1C for SAP Note Assistant,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Service Preparation of P1C,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Security,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,System Recommendations (HANA)*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,Maintenance Status of current SAP HANA Database Revision*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-06,,SAP HANA System Privilege DATA ADMIN,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Password Policy*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Audit Trail*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA SQL Trace Level*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Network Settings for Internal Services*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Network Settings for System Replication Communication (listeninterface)*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,Activation Status and Validity of User SYSTEM*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,System Recommendations (ABAP)*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Age of Support Packages,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Default Passwords of Standard Users*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Control of the Automatic Login User SAP**,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Protection of Passwords in Database Connections*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,ABAP Password Policy,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,RFC Gateway Security*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,Message Server Security*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,"Critical authorizations, which allow to do anything",RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,"Critical authorizations, which should not be used in production*",GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,"Critical authorizations, which should only see very limited use in production*",GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,Fiori Checks for P1C,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,SAP Fiori Cache Buster Activation,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,HTTP/2 Support,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP Fiori Launchpad Performance - Home Page Mode,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,SAP Fiori Launchpad - Spaces and Pages adoption,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,Activated but unused ICF services in UI5 apps,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,Active Users (>400 steps),GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Fiori Users,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,Avg. Availability per Week,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Avg. Response Time in Dialog Task,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-06,,Max. Dialog Steps per Hour,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Avg. Response Time at Peak Dialog Hour,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-06,,Avg. Response Time in RFC Task,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-06,,Max. Number of RFCs per Hour,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Avg. RFC Response Time at Peak Hour,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-06,,Max. CPU Utilization on DB Server,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,Max. CPU Utilization on Appl. Server,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,Avg. DB Request Time in Dialog Task,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Avg. DB Request Time for RFC,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Avg. DB Request Time in Update Task,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Database Space Management,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,DB Growth Last Month,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Configuration hints for optional service data are provided.The SAP S/4HANA system P1C is not fully prepared for delivery of futureremote services.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,Sending EarlyWatch Alert of P1C to SAP Backbone,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Configuring P1C for SAP Note Assistant,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Service Preparation of P1C,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,System P1C is prepared forSAP Support Backbone updatesending EWA data on HTTPS through Solution Manager 7.2 SMP,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Solution Manager 7.2 SMP,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP-SUPPORT_PORTAL HTTPS -> SAP,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,A digitally signed SAP Note was downloaded using HTTPS last time on  12.04.2025,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Service Preparation Check (RTCCTOOL),YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Service Data Control Center of P1C,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Hardware Utilization Data,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Addon ST-A/PI 01X_731,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,ST-PI 740 Support Package 32,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Proc. after addon impl.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Switch on digital content verification,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Allow Online data collectors,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Addon ST-PI 740,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Collectors and TCOLL,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,EWAlert setup,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP note 3482369 for DVM,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,We have listed important recommendations concerning the current software                                                          configuration on your system. These recommendations should be implemented at the earliest opportunity.,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP S/4HANA 2023,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,Mainstream / Extended maintenance offered by SAP is available for the next 18 months or longer.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-06,,Mainstream / Extended maintenance offered by SAP will end in 6 to 18 months.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-06,,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-06,,SAP Fiori FES 2023 for S/4HANA,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,1.120.27,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Maintenance Status of current SAP HANA Database Revision,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-06,,Age of Support Packages,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP HANA Database 2.0,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SUSE Linux Enterprise Server 15 (x86_64),GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,2.00.078.000,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,3  Instances,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,heip1caas10z2_P1C_10,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,heip1cpas06z2_P1C_06,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,heip1caas09z3_P1C_09,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,We have checked your system for potential CPU or memory bottlenecks and                                                           found that the hardware of your servers is sufficient for the current workload.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,heip1caas10z2,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,heip1cpas06z2,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,heip1caas09z3,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,The number of work processes creating database load in parallel is not significantly high.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,The performance of your system was analyzed with respect to the average                                                           response times and total workload. We did not detect any major problems that could affect the performance of your system.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-06,,27.294,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,210.042,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,132.481,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,1.893.270,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,The daily operation of your system was analyzed. We detected some problems that may impair system operation and stability.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Availability based on Collector Protocols,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Program Errors (ABAP Dumps),YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Update Errors,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Table Reorganization,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Critical Number Ranges,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Critical security issues were found in your system.See the information in the following sections.,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,System Recommendations (HANA),GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,Maintenance Status of current SAP HANA Database Revision,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-06,,SAP HANA System Privilege DATA ADMIN,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Password Policy,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Audit Trail,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA SQL Trace Level,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Network Settings for Internal Services,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Network Settings for System Replication Communication (listeninterface),GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,Activation Status and Validity of User SYSTEM,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,System Recommendations (ABAP),GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Age of Support Packages,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Default Passwords of Standard Users,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Control of the Automatic Login User SAP*,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Protection of Passwords in Database Connections,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,ABAP Password Policy,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,RFC Gateway Security,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,Message Server Security,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,"Critical authorizations, which allow to do anything",RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,"Critical authorizations, which should not be used in production",GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,"Critical authorizations, which should only see very limited use in production",GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Security
+P1C,2026-01-06,,17.01.2024,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,05.12.2023,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,26.01.2024,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,05.12.2023,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,000,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,2.216,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Software change management issues were found in your system.See the information in the following sections.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-06,,Number of Changes,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Emergency Changes,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Failed Changes,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Number of transport requests; created or released in production.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-06,,The duration between the export from the development system and the import into the production system was shorter than one day.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Number of transport requests with import errors that were not resolved within one hour.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-06,,If an old object version overwrites a newer one we count this as a transport sequence error. We count both the overtaker transport and the bypassed transport. Each transport is only counted once.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-06,,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Financial Data Quality
+P1C,2026-01-06,,Remote Function Call issues that require your attention have been found.                                                          Take action immediately to ensure optimal system performance and stability.,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,Transportation Management application relevant checks were performed successfully.Potential issues are identified and highlighted below.,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-06,,We have checked your SAP HANA environment and found some issues that                                                              might                                                                                                                              have a negative impact on your overall system stability. Review the report carefully and implement our recommendations.,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Stability and Alerts,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Database Configuration,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Resource Consumption,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP HANA Workload and Performance,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,Size and Growth,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Administration,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP HANA alerts have been issued for the monitored timeframe.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,No critical issues with SAP HANA service restarts were detected.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,Check parameter settings,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,service_thread_sampling_monitor_thread_detail_enabled,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP HANA workload parameters are set in the recommended range.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,There are parameters which violate value or layer restrictions.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,There are no disk configuration issues.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,Percentage of free disk space > 20%,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,CATALOG_BACKUP+LOG_BACKUP+TRACE,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,heip1hhdb05z2,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,heip1hhdb05z2,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,The allocated row store size is below the technical limit.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,heip1hhdb05z2,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,The fragmentation of the row store is not critical.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,The number of records in column-based table partitions may become critical very soon.,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,1.682.556.529,RED,🔴,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SRMPROTOCOL,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,777.143.268,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,/HOAG/AK_VPROT_P,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,470.845.476,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,PRCD_ELEMENTS,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,APOC_D_OR_LOG,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,91.164.268,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,66.607.260,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,63.619.692,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,heip1hhdb05z2_P1H_05,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,No CPU bottlenecks were detected.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,No memory bottlenecks were detected.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,The memory consumption of the SAP HANA instance is not critical.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,The memory consumption of tables is below any critical threshold.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,The memory consumption of the index server was not critical.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,No problems with the delta size of column store tables were detected.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,The trace directory contains a high number of diagnosis files or the files occupy a lot of disk space.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,No issues for operating or administration in terms of backup/recovery have been detected.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Global consistency check runs at least once per month.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Your license is permanent and valid.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,No issues with the statistics server were detected.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Status of the embedded Statisticsserver,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Alerts in the Statisticsserver are not scheduled in the expected timeframe.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Number of tables not located on the master server,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Number of disabled alert collectors,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Number of disabled statistic collectors,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Collector_Global_Table_Persistence_Statistics idle,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Number of collectors with retention times < 42 days,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,High number of unprocessed e-Mails,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Status of Collector HOST_CS_UNLOADS,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Number of relevant inactive actions,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Number of actions with unknown state,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Number of Statisticsserver worker threads,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Historic thread samples save interval (s),GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,History of M_RECORD_LOCKS collected,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Retention time for the table disk size history,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-06,,Important information is available in the SAP Notes below.,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,At least one SQL statement causes unnecessary high load on the system.,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Statements on Top Scanned Table/SQL Statement 2df6494946750b31e3b885b6d649c0f1/Thread Distribution/High Number of Scanned Records,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Statements on Top Scanned Table/SQL Statement 51a89be574023f7b8111b4108440d7a6/Thread Distribution/High Number of Scanned Records,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Version of ST-PI function module: 40,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,"The gateway configuration and administration of your SAP S/4HANA system                                                           P1C have been analyzed and areas that require your attention have been                                                              highlighted. To ensure system stability, you should implement the recommendations in the following section.",YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,MetaData Cache Activation,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Logging Configuration,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Gateway Error Logs,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP Netwear gateway
+P1C,2026-01-06,,Important Periodic Jobs,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,/IWBEP/R_CLEAN_UP_QRL,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,/IWBEP/SUTIL_CLEANUP,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,/IWFND/R_METERING_AGGREGATE,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,/IWFND/R_METERING_DELETE,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,/IWFND/R_SM_CLEANUP,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,/UI2/PAGE_CACHE_SYNCHRONIZE,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,/UI2/PERS_EXPIRED_DELETE,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,/UI5/UPD_ODATA_METADATA_CACHE,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,/UIF/CLEAN_LREP,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,"The UI technology configuration and administration of your SAP S/4HANA                                                            system P1C have been analyzed and areas that require your attention have                                                            been highlighted. To ensure system stability, you should implement the recommendations in the following section.",YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-06,,SAP Fiori Cache Buster Activation,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,HTTP/2 Support,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SAP Fiori Launchpad Performance - Home Page Mode,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,SAP Fiori Launchpad - Spaces and Pages adoption,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,Activated but unused ICF services in UI5 apps,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-06,,icm/HTTP/support_http2,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,icm/HTTP/support_http2,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,icm/HTTP/support_http2,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,Home Page / Groups,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,SPACES / SPACES_ENABLE_USER,GREEN,🟢,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-06,,92.8%,YELLOW,🟡,EWA_P1C~ABAP_20260106_Very Critical (Red).htm,
+P1C,2026-01-13,,"Analysis from05.01.2026Until11.01.2026Report:P1C, ProductiveInstallation:0021277797Session:7000000093779",GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,The                                                                                                                              EarlyWatch                                                                                                                          Alert service has detected severe problems that may cause you to lose business.Please evaluate the recommendations.,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP HANA database: Number of Records exceeds critical limit.,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,We found some Freight Settlement Documents' lifecycle status are inconsistent,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP Software on this system is outdated. Support with SAP Security Notes is no longer ensured.,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,"Users with critical authorizations, which allow to do anything in client 000",RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,"Users with critical authorizations, which allow to do anything in other client(s) than 000",RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,396  Transportation Management relevant Post Processing Framework actions are scheduled but not processed,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-13,,148  Transportation Management relevant inbound bgRFCs are in error state,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-13,,74108  Freight Order Management and 52  Freight Settlement documents are open more than one year,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Some Transportation Management relevant important Jobs are not scheduled,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-13,,112  Transportation Management Post Processing Framework actions are in error state,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-13,,We found more than 30 ABAP dumps in your system.,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP HANA database: Parameters are not set in accordance with the recommendation.,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,Readiness of your system for SAP Remote Service has not been verified by running report RTCCTOOL.,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Missing index causes expensive SQL statement.,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP HANA database: Users with critical privilege DATA ADMIN.,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,Performance Overview P1C,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-13,,Software Change and Transport Management of P1C,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-13,,Number of Changes,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Emergency Changes,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Failed Changes,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Software Configuration for P1C,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Software Configuration for A1C
+P1C,2026-01-13,,SAP Application Release - Maintenance Phases,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-13,,Maintenance and Update Strategy for SAP Fiori Front-End Server,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-13,,Security Risk Due to Outdated Support Packages,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,Database - Maintenance Phases,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-13,,Operating System(s) - Maintenance Phases,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-13,,SAP Kernel Release,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,HANA Database Version for P1H,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP System Operating P1C,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP System Operating A1C
+P1C,2026-01-13,,Availability based on Collector Protocols,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Program Errors (ABAP Dumps),YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Update Errors,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Table Reorganization,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Critical Number Ranges,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Workload Distribution P1C,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Workload by Application Module,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,DB Load Profile,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP HANA Database P1H,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Stability and Alerts,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Database Configuration,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Resource Consumption,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Workload and Performance,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,Size and Growth,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Administration,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Hardware Capacity,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,SAP NetWeaver Gateway,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP Netwear gateway
+P1C,2026-01-13,,MetaData Cache Activation,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Logging Configuration,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Gateway Error Logs,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP Netwear gateway
+P1C,2026-01-13,,Important Periodic Jobs,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Service Data Quality and Service Readiness
+P1C,2026-01-13,,Sending EarlyWatch Alert of P1C to SAP Backbone,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Configuring P1C for SAP Note Assistant,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Service Preparation of P1C,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Security,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,System Recommendations (HANA)*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,Maintenance Status of current SAP HANA Database Revision*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-13,,SAP HANA System Privilege DATA ADMIN,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Password Policy*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Audit Trail*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA SQL Trace Level*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Network Settings for Internal Services*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Network Settings for System Replication Communication (listeninterface)*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,Activation Status and Validity of User SYSTEM*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,System Recommendations (ABAP)*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Age of Support Packages,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Default Passwords of Standard Users*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Control of the Automatic Login User SAP**,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Protection of Passwords in Database Connections*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,ABAP Password Policy,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,RFC Gateway Security*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,Message Server Security*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,"Critical authorizations, which allow to do anything",RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,"Critical authorizations, which should not be used in production*",GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,"Critical authorizations, which should only see very limited use in production*",GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,Fiori Checks for P1C,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,SAP Fiori Cache Buster Activation,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,HTTP/2 Support,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP Fiori Launchpad Performance - Home Page Mode,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,SAP Fiori Launchpad - Spaces and Pages adoption,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,Activated but unused ICF services in UI5 apps,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,Active Users (>400 steps),GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Fiori Users,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,Avg. Availability per Week,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Avg. Response Time in Dialog Task,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-13,,Max. Dialog Steps per Hour,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Avg. Response Time at Peak Dialog Hour,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-13,,Avg. Response Time in RFC Task,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-13,,Max. Number of RFCs per Hour,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Avg. RFC Response Time at Peak Hour,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-13,,Max. CPU Utilization on DB Server,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,Max. CPU Utilization on Appl. Server,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,Avg. DB Request Time in Dialog Task,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Avg. DB Request Time for RFC,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Avg. DB Request Time in Update Task,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Database Space Management,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,DB Growth Last Month,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Configuration hints for optional service data are provided.The SAP S/4HANA system P1C is not fully prepared for delivery of futureremote services.,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,Sending EarlyWatch Alert of P1C to SAP Backbone,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Configuring P1C for SAP Note Assistant,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Service Preparation of P1C,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,System P1C is prepared forSAP Support Backbone updatesending EWA data on HTTPS through Solution Manager 7.2 SMP,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Solution Manager 7.2 SMP,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP-SUPPORT_PORTAL HTTPS -> SAP,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,A digitally signed SAP Note was downloaded using HTTPS last time on  12.04.2025,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Service Preparation Check (RTCCTOOL),YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Service Data Control Center of P1C,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Hardware Utilization Data,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Addon ST-A/PI 01X_731,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,ST-PI 740 Support Package 32,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Proc. after addon impl.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Switch on digital content verification,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Allow Online data collectors,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Addon ST-PI 740,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Collectors and TCOLL,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,EWAlert setup,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP note 3482369 for DVM,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,We have listed important recommendations concerning the current software                                                          configuration on your system. These recommendations should be implemented at the earliest opportunity.,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP S/4HANA 2023,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,Mainstream / Extended maintenance offered by SAP is available for the next 18 months or longer.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-13,,Mainstream / Extended maintenance offered by SAP will end in 6 to 18 months.,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-13,,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-13,,SAP Fiori FES 2023 for S/4HANA,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,1.120.27,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Maintenance Status of current SAP HANA Database Revision,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-13,,Age of Support Packages,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP HANA Database 2.0,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SUSE Linux Enterprise Server 15 (x86_64),GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,2.00.078.000,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,3  Instances,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,heip1caas10z2_P1C_10,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,heip1cpas06z2_P1C_06,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,heip1caas09z3_P1C_09,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,We have checked your system for potential CPU or memory bottlenecks and                                                           found that the hardware of your servers is sufficient for the current workload.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,heip1caas10z2,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,heip1cpas06z2,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,heip1caas09z3,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,The number of work processes creating database load in parallel is not significantly high.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,The performance of your system was analyzed with respect to the average                                                           response times and total workload. We did not detect any major problems that could affect the performance of your system.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-13,,30.187,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,295.813,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,128.954,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,1.670.001,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,The daily operation of your system was analyzed. We detected some problems that may impair system operation and stability.,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Availability based on Collector Protocols,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Program Errors (ABAP Dumps),YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Update Errors,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Table Reorganization,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Critical Number Ranges,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Critical security issues were found in your system.See the information in the following sections.,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,System Recommendations (HANA),GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,Maintenance Status of current SAP HANA Database Revision,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-13,,SAP HANA System Privilege DATA ADMIN,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Password Policy,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Audit Trail,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA SQL Trace Level,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Network Settings for Internal Services,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Network Settings for System Replication Communication (listeninterface),GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,Activation Status and Validity of User SYSTEM,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,System Recommendations (ABAP),GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Age of Support Packages,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Default Passwords of Standard Users,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Control of the Automatic Login User SAP*,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Protection of Passwords in Database Connections,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,ABAP Password Policy,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,RFC Gateway Security,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,Message Server Security,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,"Critical authorizations, which allow to do anything",RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,"Critical authorizations, which should not be used in production",GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,"Critical authorizations, which should only see very limited use in production",GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Security
+P1C,2026-01-13,,17.01.2024,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,05.12.2023,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,26.01.2024,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,05.12.2023,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,000,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,2.222,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,No critical software change management issues were found in your system.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-13,,Number of Changes,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Emergency Changes,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Failed Changes,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Number of transport requests; created or released in production.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-13,,The duration between the export from the development system and the import into the production system was shorter than one day.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Number of transport requests with import errors that were not resolved within one hour.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-13,,If an old object version overwrites a newer one we count this as a transport sequence error. We count both the overtaker transport and the bypassed transport. Each transport is only counted once.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-13,,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Financial Data Quality
+P1C,2026-01-13,,Remote Function Call issues that require your attention have been found.                                                          Take action immediately to ensure optimal system performance and stability.,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,Transportation Management application relevant checks were performed successfully.Potential issues are identified and highlighted below.,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-13,,We have checked your SAP HANA environment and found some issues that                                                              might                                                                                                                              have a negative impact on your overall system stability. Review the report carefully and implement our recommendations.,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Stability and Alerts,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Database Configuration,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Resource Consumption,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP HANA Workload and Performance,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,Size and Growth,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Administration,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP HANA alerts have been issued for the monitored timeframe.,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,No critical issues with SAP HANA service restarts were detected.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,Check parameter settings,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,service_thread_sampling_monitor_thread_detail_enabled,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP HANA workload parameters are set in the recommended range.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,There are parameters which violate value or layer restrictions.,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,There are no disk configuration issues.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,Percentage of free disk space > 20%,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,CATALOG_BACKUP+LOG_BACKUP+TRACE,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,heip1hhdb05z2,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,heip1hhdb05z2,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,The allocated row store size is below the technical limit.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,heip1hhdb05z2,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,The fragmentation of the row store is not critical.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,The number of records in column-based table partitions may become critical very soon.,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,1.691.231.900,RED,🔴,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SRMPROTOCOL,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,/HOAG/AK_VPROT_P,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,788.055.167,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,470.952.832,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,PRCD_ELEMENTS,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,APOC_D_OR_LOG,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,93.096.107,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,67.623.187,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,64.259.731,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,heip1hhdb05z2_P1H_05,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,No CPU bottlenecks were detected.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,No memory bottlenecks were detected.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,The memory consumption of the SAP HANA instance is not critical.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,The memory consumption of tables is below any critical threshold.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,The memory consumption of the index server was not critical.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,No problems with the delta size of column store tables were detected.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,The trace directory contains a high number of diagnosis files or the files occupy a lot of disk space.,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,No issues for operating or administration in terms of backup/recovery have been detected.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Global consistency check runs at least once per month.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Your license is permanent and valid.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,No issues with the statistics server were detected.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Status of the embedded Statisticsserver,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Alerts in the Statisticsserver are not scheduled in the expected timeframe.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Number of tables not located on the master server,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Number of disabled alert collectors,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Number of disabled statistic collectors,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Collector_Global_Table_Persistence_Statistics idle,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Number of collectors with retention times < 42 days,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,High number of unprocessed e-Mails,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Status of Collector HOST_CS_UNLOADS,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Number of relevant inactive actions,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Number of actions with unknown state,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Number of Statisticsserver worker threads,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Historic thread samples save interval (s),GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,History of M_RECORD_LOCKS collected,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Retention time for the table disk size history,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-13,,Important information is available in the SAP Notes below.,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,At least one SQL statement causes unnecessary high load on the system.,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Statements on Top Scanned Table/SQL Statement 2df6494946750b31e3b885b6d649c0f1/Thread Distribution/High Number of Scanned Records,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Statements on Top Scanned Table/SQL Statement 51a89be574023f7b8111b4108440d7a6/Thread Distribution/High Number of Scanned Records,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Version of ST-PI function module: 40,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,"The gateway configuration and administration of your SAP S/4HANA system                                                           P1C have been analyzed and areas that require your attention have been                                                              highlighted. To ensure system stability, you should implement the recommendations in the following section.",YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,MetaData Cache Activation,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Logging Configuration,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Gateway Error Logs,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP Netwear gateway
+P1C,2026-01-13,,Important Periodic Jobs,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,/IWBEP/R_CLEAN_UP_QRL,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,/IWBEP/SUTIL_CLEANUP,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,/IWFND/R_METERING_AGGREGATE,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,/IWFND/R_METERING_DELETE,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,/IWFND/R_SM_CLEANUP,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,/UI2/PAGE_CACHE_SYNCHRONIZE,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,/UI2/PERS_EXPIRED_DELETE,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,/UI5/UPD_ODATA_METADATA_CACHE,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,/UIF/CLEAN_LREP,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,"The UI technology configuration and administration of your SAP S/4HANA                                                            system P1C have been analyzed and areas that require your attention have                                                            been highlighted. To ensure system stability, you should implement the recommendations in the following section.",YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-13,,SAP Fiori Cache Buster Activation,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,HTTP/2 Support,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SAP Fiori Launchpad Performance - Home Page Mode,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,SAP Fiori Launchpad - Spaces and Pages adoption,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,Activated but unused ICF services in UI5 apps,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-13,,icm/HTTP/support_http2,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,icm/HTTP/support_http2,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,icm/HTTP/support_http2,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,Home Page / Groups,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,SPACES / SPACES_ENABLE_USER,GREEN,🟢,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-13,,92.8%,YELLOW,🟡,EWA_P1C~ABAP_20260113_Very Critical (Red).htm,
+P1C,2026-01-20,,"Analysis from12.01.2026Until18.01.2026Report:P1C, ProductiveInstallation:0021277797Session:7000000093985",GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,The                                                                                                                              EarlyWatch                                                                                                                          Alert service has detected severe problems that may cause you to lose business.Please evaluate the recommendations.,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SAP HANA database: Number of Records exceeds critical limit.,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,We found some Freight Settlement Documents' lifecycle status are inconsistent,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Transport execution errors occurred during import into production,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-20,,SAP Software on this system is outdated. Support with SAP Security Notes is no longer ensured.,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,"Users with critical authorizations, which allow to do anything in client 000",RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,"Users with critical authorizations, which allow to do anything in other client(s) than 000",RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,459  Transportation Management relevant Post Processing Framework actions are scheduled but not processed,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-20,,148  Transportation Management relevant inbound bgRFCs are in error state,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-20,,80906  Freight Order Management and 52  Freight Settlement documents are open more than one year,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Some Transportation Management relevant important Jobs are not scheduled,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-20,,33  Transportation Management Post Processing Framework actions are in error state,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-20,,We found more than 30 ABAP dumps in your system.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SAP HANA database: Parameters are not set in accordance with the recommendation.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,Readiness of your system for SAP Remote Service has not been verified by running report RTCCTOOL.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Missing index causes expensive SQL statement.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SAP HANA database: Users with critical privilege DATA ADMIN.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,Performance Overview P1C,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-20,,Software Change and Transport Management of P1C,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-20,,Number of Changes,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Emergency Changes,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Failed Changes,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Software Configuration for P1C,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Software Configuration for A1C
+P1C,2026-01-20,,SAP Application Release - Maintenance Phases,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-20,,Maintenance and Update Strategy for SAP Fiori Front-End Server,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-20,,Security Risk Due to Outdated Support Packages,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,Database - Maintenance Phases,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-20,,Operating System(s) - Maintenance Phases,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-20,,SAP Kernel Release,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,HANA Database Version for P1H,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP System Operating P1C,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP System Operating A1C
+P1C,2026-01-20,,Availability based on Collector Protocols,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Program Errors (ABAP Dumps),YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Update Errors,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Table Reorganization,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Critical Number Ranges,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Workload Distribution P1C,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Workload by Application Module,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,DB Load Profile,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SAP HANA Database P1H,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Stability and Alerts,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Database Configuration,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Resource Consumption,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Workload and Performance,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,Size and Growth,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Administration,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Hardware Capacity,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,SAP NetWeaver Gateway,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP Netwear gateway
+P1C,2026-01-20,,MetaData Cache Activation,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Logging Configuration,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Gateway Error Logs,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP Netwear gateway
+P1C,2026-01-20,,Important Periodic Jobs,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Service Data Quality and Service Readiness
+P1C,2026-01-20,,Sending EarlyWatch Alert of P1C to SAP Backbone,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Configuring P1C for SAP Note Assistant,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Service Preparation of P1C,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Security,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,System Recommendations (HANA)*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,Maintenance Status of current SAP HANA Database Revision*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-20,,SAP HANA System Privilege DATA ADMIN,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Password Policy*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Audit Trail*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA SQL Trace Level*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Network Settings for Internal Services*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Network Settings for System Replication Communication (listeninterface)*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,Activation Status and Validity of User SYSTEM*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,System Recommendations (ABAP)*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Age of Support Packages,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Default Passwords of Standard Users*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Control of the Automatic Login User SAP**,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Protection of Passwords in Database Connections*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,ABAP Password Policy,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,RFC Gateway Security*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,Message Server Security*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,"Critical authorizations, which allow to do anything",RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,"Critical authorizations, which should not be used in production*",GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,"Critical authorizations, which should only see very limited use in production*",GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,Fiori Checks for P1C,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,SAP Fiori Cache Buster Activation,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,HTTP/2 Support,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SAP Fiori Launchpad Performance - Home Page Mode,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,SAP Fiori Launchpad - Spaces and Pages adoption,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,Activated but unused ICF services in UI5 apps,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,Active Users (>400 steps),GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Fiori Users,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,Avg. Availability per Week,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Avg. Response Time in Dialog Task,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-20,,Max. Dialog Steps per Hour,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Avg. Response Time at Peak Dialog Hour,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-20,,Avg. Response Time in RFC Task,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-20,,Max. Number of RFCs per Hour,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Avg. RFC Response Time at Peak Hour,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-20,,Max. CPU Utilization on DB Server,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,Max. CPU Utilization on Appl. Server,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,Avg. DB Request Time in Dialog Task,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Avg. DB Request Time for RFC,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Avg. DB Request Time in Update Task,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Database Space Management,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,DB Growth Last Month,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Configuration hints for optional service data are provided.The SAP S/4HANA system P1C is not fully prepared for delivery of futureremote services.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,Sending EarlyWatch Alert of P1C to SAP Backbone,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Configuring P1C for SAP Note Assistant,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Service Preparation of P1C,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,System P1C is prepared forSAP Support Backbone updatesending EWA data on HTTPS through Solution Manager 7.2 SMP,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Solution Manager 7.2 SMP,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SAP-SUPPORT_PORTAL HTTPS -> SAP,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,A digitally signed SAP Note was downloaded using HTTPS last time on  12.04.2025,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Service Preparation Check (RTCCTOOL),YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Service Data Control Center of P1C,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Hardware Utilization Data,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Addon ST-A/PI 01X_731,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,ST-PI 740 Support Package 32,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Proc. after addon impl.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Switch on digital content verification,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Allow Online data collectors,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Addon ST-PI 740,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Collectors and TCOLL,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,EWAlert setup,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SAP note 3482369 for DVM,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,We have listed important recommendations concerning the current software                                                          configuration on your system. These recommendations should be implemented at the earliest opportunity.,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SAP S/4HANA 2023,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,Mainstream / Extended maintenance offered by SAP is available for the next 18 months or longer.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-20,,Mainstream / Extended maintenance offered by SAP will end in 6 to 18 months.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-20,,Mainstream / Extended maintenance offered by SAP has expired or will expire in the next 6 months.,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-20,,SAP Fiori FES 2023 for S/4HANA,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,1.120.27,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Maintenance Status of current SAP HANA Database Revision,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-20,,Age of Support Packages,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SAP HANA Database 2.0,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SUSE Linux Enterprise Server 15 (x86_64),GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,2.00.078.000,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,3  Instances,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,heip1caas10z2_P1C_10,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,heip1cpas06z2_P1C_06,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,heip1caas09z3_P1C_09,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,We have checked your system for potential CPU or memory bottlenecks and                                                           found that the hardware of your servers is sufficient for the current workload.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,heip1caas10z2,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,heip1cpas06z2,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,heip1caas09z3,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,The number of work processes creating database load in parallel is not significantly high.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,The performance of your system was analyzed with respect to the average                                                           response times and total workload. We did not detect any major problems that could affect the performance of your system.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Performance Overview A1C
+P1C,2026-01-20,,31.158,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,246.369,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,131.996,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,1.767.884,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,The daily operation of your system was analyzed. We detected some problems that may impair system operation and stability.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Availability based on Collector Protocols,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Program Errors (ABAP Dumps),YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Update Errors,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Table Reorganization,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Critical Number Ranges,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Critical security issues were found in your system.See the information in the following sections.,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,System Recommendations (HANA),GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,Maintenance Status of current SAP HANA Database Revision,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Upgrade Planning
+P1C,2026-01-20,,SAP HANA System Privilege DATA ADMIN,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Password Policy,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Audit Trail,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA SQL Trace Level,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Network Settings for Internal Services,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Network Settings for System Replication Communication (listeninterface),GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,Activation Status and Validity of User SYSTEM,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,System Recommendations (ABAP),GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Age of Support Packages,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Default Passwords of Standard Users,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Control of the Automatic Login User SAP*,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Protection of Passwords in Database Connections,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,ABAP Password Policy,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,RFC Gateway Security,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,Message Server Security,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,"Critical authorizations, which allow to do anything",RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,"Critical authorizations, which should not be used in production",GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,"Critical authorizations, which should only see very limited use in production",GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Security
+P1C,2026-01-20,,17.01.2024,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,05.12.2023,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,26.01.2024,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,05.12.2023,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,000,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,2.228,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Critical software change management issues were found in your system.See the information in the following sections.,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-20,,Number of Changes,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Emergency Changes,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Failed Changes,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Number of transport requests; created or released in production.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-20,,The duration between the export from the development system and the import into the production system was shorter than one day.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Number of transport requests with import errors that were not resolved within one hour.,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-20,,If an old object version overwrites a newer one we count this as a transport sequence error. We count both the overtaker transport and the bypassed transport. Each transport is only counted once.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-20,,"After execution of the â€œquickâ€ consistency checks and execution of the                                                            main reconciliation report, NO issues were identified that require your attention.Please note that, due to a technical limitation in automatic data                                                                 collection,                                                                                                                        we can only identify high-level indicators, which are a general sign of further inconsistencies in financial data.",YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Financial Data Quality
+P1C,2026-01-20,,Remote Function Call issues which require your attention have been found. See the recommendation in the following section.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,Transportation Management application relevant checks were performed successfully.Potential issues are identified and highlighted below.,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Software Change and Transport Management of A1C
+P1C,2026-01-20,,We have checked your SAP HANA environment and found some issues that                                                              might                                                                                                                              have a negative impact on your overall system stability. Review the report carefully and implement our recommendations.,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Stability and Alerts,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Database Configuration,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Resource Consumption,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP HANA Workload and Performance,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,Size and Growth,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Administration,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SAP HANA alerts have been issued for the monitored timeframe.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,No critical issues with SAP HANA service restarts were detected.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,Check parameter settings,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,service_thread_sampling_monitor_thread_detail_enabled,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SAP HANA workload parameters are set in the recommended range.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,There are parameters which violate value or layer restrictions.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,There are no disk configuration issues.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,Percentage of free disk space > 20%,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,CATALOG_BACKUP+LOG_BACKUP+TRACE,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,heip1hhdb05z2,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,heip1hhdb05z2,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,The allocated row store size is below the technical limit.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,heip1hhdb05z2,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,The fragmentation of the row store is not critical.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,The number of records in column-based table partitions may become critical very soon.,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,1.700.295.253,RED,🔴,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,/HOAG/AK_VPROT_P,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SRMPROTOCOL,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,798.830.412,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,471.066.527,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,PRCD_ELEMENTS,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,APOC_D_OR_LOG,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,93.882.861,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,68.016.373,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,64.748.041,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,heip1hhdb05z2_P1H_05,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,No CPU bottlenecks were detected.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,No memory bottlenecks were detected.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,The memory consumption of the SAP HANA instance is not critical.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,The memory consumption of tables is below any critical threshold.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,The memory consumption of the index server was not critical.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,No problems with the delta size of column store tables were detected.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,The trace directory contains a high number of diagnosis files or the files occupy a lot of disk space.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,No issues for operating or administration in terms of backup/recovery have been detected.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Global consistency check runs at least once per month.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Your license is permanent and valid.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,No issues with the statistics server were detected.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Status of the embedded Statisticsserver,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Alerts in the Statisticsserver are not scheduled in the expected timeframe.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Number of tables not located on the master server,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Number of disabled alert collectors,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Number of disabled statistic collectors,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Collector_Global_Table_Persistence_Statistics idle,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Number of collectors with retention times < 42 days,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,High number of unprocessed e-Mails,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Status of Collector HOST_CS_UNLOADS,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Number of relevant inactive actions,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Number of actions with unknown state,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Number of Statisticsserver worker threads,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Historic thread samples save interval (s),GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,History of M_RECORD_LOCKS collected,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Retention time for the table disk size history,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,Hardware Capacity
+P1C,2026-01-20,,Important information is available in the SAP Notes below.,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,At least one SQL statement causes unnecessary high load on the system.,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Statements on Top Scanned Table/SQL Statement 2df6494946750b31e3b885b6d649c0f1/Thread Distribution/High Number of Scanned Records,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Statements on Top Scanned Table/SQL Statement 51a89be574023f7b8111b4108440d7a6/Thread Distribution/High Number of Scanned Records,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Version of ST-PI function module: 40,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,"The gateway configuration and administration of your SAP S/4HANA system                                                           P1C have been analyzed and areas that require your attention have been                                                              highlighted. To ensure system stability, you should implement the recommendations in the following section.",YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,MetaData Cache Activation,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Logging Configuration,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Gateway Error Logs,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP Netwear gateway
+P1C,2026-01-20,,Important Periodic Jobs,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,/IWBEP/R_CLEAN_UP_QRL,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,/IWBEP/SUTIL_CLEANUP,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,/IWFND/R_METERING_AGGREGATE,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,/IWFND/R_METERING_DELETE,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,/IWFND/R_SM_CLEANUP,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,/UI2/PAGE_CACHE_SYNCHRONIZE,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,/UI2/PERS_EXPIRED_DELETE,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,/UI5/UPD_ODATA_METADATA_CACHE,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,/UIF/CLEAN_LREP,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,"The UI technology configuration and administration of your SAP S/4HANA                                                            system P1C have been analyzed and areas that require your attention have                                                            been highlighted. To ensure system stability, you should implement the recommendations in the following section.",YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,SAP HANA Database A1H
+P1C,2026-01-20,,SAP Fiori Cache Buster Activation,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,HTTP/2 Support,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SAP Fiori Launchpad Performance - Home Page Mode,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,SAP Fiori Launchpad - Spaces and Pages adoption,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,Activated but unused ICF services in UI5 apps,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,UI Technologies checks
+P1C,2026-01-20,,icm/HTTP/support_http2,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,icm/HTTP/support_http2,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,icm/HTTP/support_http2,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,Home Page / Groups,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,SPACES / SPACES_ENABLE_USER,GREEN,🟢,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
+P1C,2026-01-20,,92.6%,YELLOW,🟡,EWA_P1C~ABAP_20260120_Very Critical (Red).htm,
