@@ -215,123 +215,219 @@ P1C,2026-02-24,Software Change and Transport Management,RED,🔴,EWA_P1C~ABAP_20
 P1C,2026-02-24,Software Configuration,RED,🔴,EWA_P1C~ABAP_20260224_Critical (Yellow).htm,3,214
 P1C,2026-02-24,UI Technologies checks,YELLOW,🟡,EWA_P1C~ABAP_20260224_Critical (Yellow).htm,2,215
 P1C,2026-02-24,Upgrade Planning,RED,🔴,EWA_P1C~ABAP_20260224_Critical (Yellow).htm,3,216
-Q1C,2025-12-15,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,2,217
-Q1C,2025-12-15,Hardware Capacity,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,218
-Q1C,2025-12-15,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,1,219
-Q1C,2025-12-15,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,220
-Q1C,2025-12-15,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,2,221
-Q1C,2025-12-15,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,2,222
-Q1C,2025-12-15,Security,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,223
-Q1C,2025-12-15,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,2,224
-Q1C,2025-12-15,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,225
-Q1C,2025-12-15,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,226
-Q1C,2025-12-15,UI Technologies checks,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,227
-Q1C,2025-12-15,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,228
-Q1C,2025-12-22,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,2,229
-Q1C,2025-12-22,Hardware Capacity,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,230
-Q1C,2025-12-22,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,1,231
-Q1C,2025-12-22,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,232
-Q1C,2025-12-22,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,2,233
-Q1C,2025-12-22,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,2,234
-Q1C,2025-12-22,Security,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,235
-Q1C,2025-12-22,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,2,236
-Q1C,2025-12-22,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,237
-Q1C,2025-12-22,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,238
-Q1C,2025-12-22,UI Technologies checks,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,239
-Q1C,2025-12-22,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,240
-Q1C,2025-12-29,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,2,241
-Q1C,2025-12-29,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,2,242
-Q1C,2025-12-29,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,1,243
-Q1C,2025-12-29,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,3,244
-Q1C,2025-12-29,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,2,245
-Q1C,2025-12-29,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,2,246
-Q1C,2025-12-29,Security,RED,🔴,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,3,247
-Q1C,2025-12-29,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,2,248
-Q1C,2025-12-29,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,3,249
-Q1C,2025-12-29,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,3,250
-Q1C,2025-12-29,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,2,251
-Q1C,2025-12-29,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,3,252
-Q1C,2026-01-05,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,2,253
-Q1C,2026-01-05,Hardware Capacity,RED,🔴,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,3,254
-Q1C,2026-01-05,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,1,255
-Q1C,2026-01-05,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,3,256
-Q1C,2026-01-05,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,2,257
-Q1C,2026-01-05,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,2,258
-Q1C,2026-01-05,Security,RED,🔴,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,3,259
-Q1C,2026-01-05,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,2,260
-Q1C,2026-01-05,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,3,261
-Q1C,2026-01-05,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,3,262
-Q1C,2026-01-05,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,2,263
-Q1C,2026-01-05,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,3,264
-Q1C,2026-01-12,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,2,265
-Q1C,2026-01-12,Hardware Capacity,RED,🔴,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,3,266
-Q1C,2026-01-12,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,1,267
-Q1C,2026-01-12,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,3,268
-Q1C,2026-01-12,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,2,269
-Q1C,2026-01-12,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,2,270
-Q1C,2026-01-12,Security,RED,🔴,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,3,271
-Q1C,2026-01-12,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,2,272
-Q1C,2026-01-12,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,3,273
-Q1C,2026-01-12,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,3,274
-Q1C,2026-01-12,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,2,275
-Q1C,2026-01-12,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,3,276
-Q1C,2026-01-19,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,2,277
-Q1C,2026-01-19,Hardware Capacity,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,278
-Q1C,2026-01-19,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,1,279
-Q1C,2026-01-19,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,280
-Q1C,2026-01-19,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,2,281
-Q1C,2026-01-19,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,2,282
-Q1C,2026-01-19,Security,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,283
-Q1C,2026-01-19,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,2,284
-Q1C,2026-01-19,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,285
-Q1C,2026-01-19,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,286
-Q1C,2026-01-19,UI Technologies checks,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,287
-Q1C,2026-01-19,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,288
-Q1C,2026-01-26,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,2,289
-Q1C,2026-01-26,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,2,290
-Q1C,2026-01-26,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,1,291
-Q1C,2026-01-26,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,292
-Q1C,2026-01-26,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,2,293
-Q1C,2026-01-26,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,2,294
-Q1C,2026-01-26,Security,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,295
-Q1C,2026-01-26,Service Data Quality and Service Readiness,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,296
-Q1C,2026-01-26,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,297
-Q1C,2026-01-26,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,298
-Q1C,2026-01-26,UI Technologies checks,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,299
-Q1C,2026-01-26,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,300
-Q1C,2026-02-02,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,2,301
-Q1C,2026-02-02,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,2,302
-Q1C,2026-02-02,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,1,303
-Q1C,2026-02-02,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,304
-Q1C,2026-02-02,SAP Netweaver Gateway,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,305
-Q1C,2026-02-02,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,2,306
-Q1C,2026-02-02,Security,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,307
-Q1C,2026-02-02,Service Data Quality and Service Readiness,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,308
-Q1C,2026-02-02,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,309
-Q1C,2026-02-02,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,310
-Q1C,2026-02-02,UI Technologies checks,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,311
-Q1C,2026-02-02,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,312
-Q1C,2026-02-16,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,2,313
-Q1C,2026-02-16,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,2,314
-Q1C,2026-02-16,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,1,315
-Q1C,2026-02-16,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,3,316
-Q1C,2026-02-16,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,2,317
-Q1C,2026-02-16,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,2,318
-Q1C,2026-02-16,Security,RED,🔴,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,3,319
-Q1C,2026-02-16,Service Data Quality and Service Readiness,RED,🔴,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,3,320
-Q1C,2026-02-16,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,3,321
-Q1C,2026-02-16,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,3,322
-Q1C,2026-02-16,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,2,323
-Q1C,2026-02-16,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,3,324
-Q1C,2026-02-23,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,2,325
-Q1C,2026-02-23,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,2,326
-Q1C,2026-02-23,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,1,327
-Q1C,2026-02-23,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,3,328
-Q1C,2026-02-23,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,2,329
-Q1C,2026-02-23,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,2,330
-Q1C,2026-02-23,Security,RED,🔴,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,3,331
-Q1C,2026-02-23,Service Data Quality and Service Readiness,RED,🔴,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,3,332
-Q1C,2026-02-23,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,3,333
-Q1C,2026-02-23,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,3,334
-Q1C,2026-02-23,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,2,335
-Q1C,2026-02-23,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,3,336
+P1C,2026-03-03,Financial Data Quality,YELLOW,🟡,EWA_P1C~ABAP_20260303_Critical (Yellow).htm,2,217
+P1C,2026-03-03,Hardware Capacity,YELLOW,🟡,EWA_P1C~ABAP_20260303_Critical (Yellow).htm,2,218
+P1C,2026-03-03,Performance Overview,GREEN,🟢,EWA_P1C~ABAP_20260303_Critical (Yellow).htm,1,219
+P1C,2026-03-03,SAP HANA Database,RED,🔴,EWA_P1C~ABAP_20260303_Critical (Yellow).htm,3,220
+P1C,2026-03-03,SAP Netweaver Gateway,YELLOW,🟡,EWA_P1C~ABAP_20260303_Critical (Yellow).htm,2,221
+P1C,2026-03-03,SAP System Operating,YELLOW,🟡,EWA_P1C~ABAP_20260303_Critical (Yellow).htm,2,222
+P1C,2026-03-03,Security,RED,🔴,EWA_P1C~ABAP_20260303_Critical (Yellow).htm,3,223
+P1C,2026-03-03,Service Data Quality and Service Readiness,RED,🔴,EWA_P1C~ABAP_20260303_Critical (Yellow).htm,3,224
+P1C,2026-03-03,Software Change and Transport Management,RED,🔴,EWA_P1C~ABAP_20260303_Critical (Yellow).htm,3,225
+P1C,2026-03-03,Software Configuration,RED,🔴,EWA_P1C~ABAP_20260303_Critical (Yellow).htm,3,226
+P1C,2026-03-03,UI Technologies checks,YELLOW,🟡,EWA_P1C~ABAP_20260303_Critical (Yellow).htm,2,227
+P1C,2026-03-03,Upgrade Planning,RED,🔴,EWA_P1C~ABAP_20260303_Critical (Yellow).htm,3,228
+P1C,2026-03-10,Financial Data Quality,YELLOW,🟡,EWA_P1C~ABAP_20260310_Critical (Yellow).htm,2,229
+P1C,2026-03-10,Hardware Capacity,RED,🔴,EWA_P1C~ABAP_20260310_Critical (Yellow).htm,3,230
+P1C,2026-03-10,Performance Overview,GREEN,🟢,EWA_P1C~ABAP_20260310_Critical (Yellow).htm,1,231
+P1C,2026-03-10,SAP HANA Database,RED,🔴,EWA_P1C~ABAP_20260310_Critical (Yellow).htm,3,232
+P1C,2026-03-10,SAP Netweaver Gateway,YELLOW,🟡,EWA_P1C~ABAP_20260310_Critical (Yellow).htm,2,233
+P1C,2026-03-10,SAP System Operating,YELLOW,🟡,EWA_P1C~ABAP_20260310_Critical (Yellow).htm,2,234
+P1C,2026-03-10,Security,RED,🔴,EWA_P1C~ABAP_20260310_Critical (Yellow).htm,3,235
+P1C,2026-03-10,Service Data Quality and Service Readiness,RED,🔴,EWA_P1C~ABAP_20260310_Critical (Yellow).htm,3,236
+P1C,2026-03-10,Software Change and Transport Management,RED,🔴,EWA_P1C~ABAP_20260310_Critical (Yellow).htm,3,237
+P1C,2026-03-10,Software Configuration,RED,🔴,EWA_P1C~ABAP_20260310_Critical (Yellow).htm,3,238
+P1C,2026-03-10,UI Technologies checks,RED,🔴,EWA_P1C~ABAP_20260310_Critical (Yellow).htm,3,239
+P1C,2026-03-10,Upgrade Planning,RED,🔴,EWA_P1C~ABAP_20260310_Critical (Yellow).htm,3,240
+P1C,2026-03-24,Financial Data Quality,YELLOW,🟡,EWA_P1C~ABAP_20260324_Critical (Yellow).htm,2,241
+P1C,2026-03-24,Hardware Capacity,YELLOW,🟡,EWA_P1C~ABAP_20260324_Critical (Yellow).htm,2,242
+P1C,2026-03-24,Performance Overview,GREEN,🟢,EWA_P1C~ABAP_20260324_Critical (Yellow).htm,1,243
+P1C,2026-03-24,SAP HANA Database,YELLOW,🟡,EWA_P1C~ABAP_20260324_Critical (Yellow).htm,2,244
+P1C,2026-03-24,SAP Netweaver Gateway,YELLOW,🟡,EWA_P1C~ABAP_20260324_Critical (Yellow).htm,2,245
+P1C,2026-03-24,SAP System Operating,YELLOW,🟡,EWA_P1C~ABAP_20260324_Critical (Yellow).htm,2,246
+P1C,2026-03-24,Security,RED,🔴,EWA_P1C~ABAP_20260324_Critical (Yellow).htm,3,247
+P1C,2026-03-24,Service Data Quality and Service Readiness,RED,🔴,EWA_P1C~ABAP_20260324_Critical (Yellow).htm,3,248
+P1C,2026-03-24,Software Change and Transport Management,RED,🔴,EWA_P1C~ABAP_20260324_Critical (Yellow).htm,3,249
+P1C,2026-03-24,Software Configuration,RED,🔴,EWA_P1C~ABAP_20260324_Critical (Yellow).htm,3,250
+P1C,2026-03-24,UI Technologies checks,RED,🔴,EWA_P1C~ABAP_20260324_Critical (Yellow).htm,3,251
+P1C,2026-03-24,Upgrade Planning,RED,🔴,EWA_P1C~ABAP_20260324_Critical (Yellow).htm,3,252
+P1C,2026-03-31,Financial Data Quality,YELLOW,🟡,EWA_P1C~ABAP_20260331_Critical (Yellow).htm,2,253
+P1C,2026-03-31,Hardware Capacity,YELLOW,🟡,EWA_P1C~ABAP_20260331_Critical (Yellow).htm,2,254
+P1C,2026-03-31,Performance Overview,GREEN,🟢,EWA_P1C~ABAP_20260331_Critical (Yellow).htm,1,255
+P1C,2026-03-31,SAP HANA Database,YELLOW,🟡,EWA_P1C~ABAP_20260331_Critical (Yellow).htm,2,256
+P1C,2026-03-31,SAP Netweaver Gateway,YELLOW,🟡,EWA_P1C~ABAP_20260331_Critical (Yellow).htm,2,257
+P1C,2026-03-31,SAP System Operating,YELLOW,🟡,EWA_P1C~ABAP_20260331_Critical (Yellow).htm,2,258
+P1C,2026-03-31,Security,RED,🔴,EWA_P1C~ABAP_20260331_Critical (Yellow).htm,3,259
+P1C,2026-03-31,Service Data Quality and Service Readiness,RED,🔴,EWA_P1C~ABAP_20260331_Critical (Yellow).htm,3,260
+P1C,2026-03-31,Software Change and Transport Management,RED,🔴,EWA_P1C~ABAP_20260331_Critical (Yellow).htm,3,261
+P1C,2026-03-31,Software Configuration,RED,🔴,EWA_P1C~ABAP_20260331_Critical (Yellow).htm,3,262
+P1C,2026-03-31,UI Technologies checks,RED,🔴,EWA_P1C~ABAP_20260331_Critical (Yellow).htm,3,263
+P1C,2026-03-31,Upgrade Planning,RED,🔴,EWA_P1C~ABAP_20260331_Critical (Yellow).htm,3,264
+Q1C,2025-12-15,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,2,265
+Q1C,2025-12-15,Hardware Capacity,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,266
+Q1C,2025-12-15,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,1,267
+Q1C,2025-12-15,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,268
+Q1C,2025-12-15,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,2,269
+Q1C,2025-12-15,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,2,270
+Q1C,2025-12-15,Security,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,271
+Q1C,2025-12-15,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,2,272
+Q1C,2025-12-15,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,273
+Q1C,2025-12-15,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,274
+Q1C,2025-12-15,UI Technologies checks,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,275
+Q1C,2025-12-15,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20251215_Critical (Yellow).htm,3,276
+Q1C,2025-12-22,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,2,277
+Q1C,2025-12-22,Hardware Capacity,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,278
+Q1C,2025-12-22,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,1,279
+Q1C,2025-12-22,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,280
+Q1C,2025-12-22,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,2,281
+Q1C,2025-12-22,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,2,282
+Q1C,2025-12-22,Security,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,283
+Q1C,2025-12-22,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,2,284
+Q1C,2025-12-22,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,285
+Q1C,2025-12-22,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,286
+Q1C,2025-12-22,UI Technologies checks,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,287
+Q1C,2025-12-22,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20251222_Critical (Yellow).htm,3,288
+Q1C,2025-12-29,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,2,289
+Q1C,2025-12-29,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,2,290
+Q1C,2025-12-29,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,1,291
+Q1C,2025-12-29,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,3,292
+Q1C,2025-12-29,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,2,293
+Q1C,2025-12-29,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,2,294
+Q1C,2025-12-29,Security,RED,🔴,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,3,295
+Q1C,2025-12-29,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,2,296
+Q1C,2025-12-29,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,3,297
+Q1C,2025-12-29,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,3,298
+Q1C,2025-12-29,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,2,299
+Q1C,2025-12-29,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20251229_Critical (Yellow).htm,3,300
+Q1C,2026-01-05,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,2,301
+Q1C,2026-01-05,Hardware Capacity,RED,🔴,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,3,302
+Q1C,2026-01-05,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,1,303
+Q1C,2026-01-05,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,3,304
+Q1C,2026-01-05,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,2,305
+Q1C,2026-01-05,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,2,306
+Q1C,2026-01-05,Security,RED,🔴,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,3,307
+Q1C,2026-01-05,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,2,308
+Q1C,2026-01-05,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,3,309
+Q1C,2026-01-05,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,3,310
+Q1C,2026-01-05,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,2,311
+Q1C,2026-01-05,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260105_Critical (Yellow).htm,3,312
+Q1C,2026-01-12,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,2,313
+Q1C,2026-01-12,Hardware Capacity,RED,🔴,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,3,314
+Q1C,2026-01-12,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,1,315
+Q1C,2026-01-12,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,3,316
+Q1C,2026-01-12,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,2,317
+Q1C,2026-01-12,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,2,318
+Q1C,2026-01-12,Security,RED,🔴,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,3,319
+Q1C,2026-01-12,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,2,320
+Q1C,2026-01-12,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,3,321
+Q1C,2026-01-12,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,3,322
+Q1C,2026-01-12,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,2,323
+Q1C,2026-01-12,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260112_Critical (Yellow).htm,3,324
+Q1C,2026-01-19,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,2,325
+Q1C,2026-01-19,Hardware Capacity,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,326
+Q1C,2026-01-19,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,1,327
+Q1C,2026-01-19,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,328
+Q1C,2026-01-19,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,2,329
+Q1C,2026-01-19,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,2,330
+Q1C,2026-01-19,Security,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,331
+Q1C,2026-01-19,Service Data Quality and Service Readiness,YELLOW,🟡,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,2,332
+Q1C,2026-01-19,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,333
+Q1C,2026-01-19,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,334
+Q1C,2026-01-19,UI Technologies checks,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,335
+Q1C,2026-01-19,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260119_Critical (Yellow).htm,3,336
+Q1C,2026-01-26,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,2,337
+Q1C,2026-01-26,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,2,338
+Q1C,2026-01-26,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,1,339
+Q1C,2026-01-26,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,340
+Q1C,2026-01-26,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,2,341
+Q1C,2026-01-26,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,2,342
+Q1C,2026-01-26,Security,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,343
+Q1C,2026-01-26,Service Data Quality and Service Readiness,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,344
+Q1C,2026-01-26,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,345
+Q1C,2026-01-26,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,346
+Q1C,2026-01-26,UI Technologies checks,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,347
+Q1C,2026-01-26,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260126_Critical (Yellow).htm,3,348
+Q1C,2026-02-02,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,2,349
+Q1C,2026-02-02,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,2,350
+Q1C,2026-02-02,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,1,351
+Q1C,2026-02-02,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,352
+Q1C,2026-02-02,SAP Netweaver Gateway,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,353
+Q1C,2026-02-02,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,2,354
+Q1C,2026-02-02,Security,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,355
+Q1C,2026-02-02,Service Data Quality and Service Readiness,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,356
+Q1C,2026-02-02,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,357
+Q1C,2026-02-02,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,358
+Q1C,2026-02-02,UI Technologies checks,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,359
+Q1C,2026-02-02,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260202_Critical (Yellow).htm,3,360
+Q1C,2026-02-16,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,2,361
+Q1C,2026-02-16,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,2,362
+Q1C,2026-02-16,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,1,363
+Q1C,2026-02-16,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,3,364
+Q1C,2026-02-16,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,2,365
+Q1C,2026-02-16,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,2,366
+Q1C,2026-02-16,Security,RED,🔴,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,3,367
+Q1C,2026-02-16,Service Data Quality and Service Readiness,RED,🔴,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,3,368
+Q1C,2026-02-16,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,3,369
+Q1C,2026-02-16,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,3,370
+Q1C,2026-02-16,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,2,371
+Q1C,2026-02-16,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260216_Critical (Yellow).htm,3,372
+Q1C,2026-02-23,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,2,373
+Q1C,2026-02-23,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,2,374
+Q1C,2026-02-23,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,1,375
+Q1C,2026-02-23,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,3,376
+Q1C,2026-02-23,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,2,377
+Q1C,2026-02-23,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,2,378
+Q1C,2026-02-23,Security,RED,🔴,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,3,379
+Q1C,2026-02-23,Service Data Quality and Service Readiness,RED,🔴,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,3,380
+Q1C,2026-02-23,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,3,381
+Q1C,2026-02-23,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,3,382
+Q1C,2026-02-23,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,2,383
+Q1C,2026-02-23,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260223_Critical (Yellow).htm,3,384
+Q1C,2026-03-02,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260302_Critical (Yellow).htm,2,385
+Q1C,2026-03-02,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20260302_Critical (Yellow).htm,2,386
+Q1C,2026-03-02,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260302_Critical (Yellow).htm,1,387
+Q1C,2026-03-02,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260302_Critical (Yellow).htm,3,388
+Q1C,2026-03-02,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260302_Critical (Yellow).htm,2,389
+Q1C,2026-03-02,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260302_Critical (Yellow).htm,2,390
+Q1C,2026-03-02,Security,RED,🔴,EWA_Q1C~ABAP_20260302_Critical (Yellow).htm,3,391
+Q1C,2026-03-02,Service Data Quality and Service Readiness,RED,🔴,EWA_Q1C~ABAP_20260302_Critical (Yellow).htm,3,392
+Q1C,2026-03-02,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260302_Critical (Yellow).htm,3,393
+Q1C,2026-03-02,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260302_Critical (Yellow).htm,3,394
+Q1C,2026-03-02,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20260302_Critical (Yellow).htm,2,395
+Q1C,2026-03-02,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260302_Critical (Yellow).htm,3,396
+Q1C,2026-03-09,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260309_Critical (Yellow).htm,2,397
+Q1C,2026-03-09,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20260309_Critical (Yellow).htm,2,398
+Q1C,2026-03-09,Performance Overview,GREEN,🟢,EWA_Q1C~ABAP_20260309_Critical (Yellow).htm,1,399
+Q1C,2026-03-09,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260309_Critical (Yellow).htm,3,400
+Q1C,2026-03-09,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260309_Critical (Yellow).htm,2,401
+Q1C,2026-03-09,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260309_Critical (Yellow).htm,2,402
+Q1C,2026-03-09,Security,RED,🔴,EWA_Q1C~ABAP_20260309_Critical (Yellow).htm,3,403
+Q1C,2026-03-09,Service Data Quality and Service Readiness,RED,🔴,EWA_Q1C~ABAP_20260309_Critical (Yellow).htm,3,404
+Q1C,2026-03-09,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260309_Critical (Yellow).htm,3,405
+Q1C,2026-03-09,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260309_Critical (Yellow).htm,3,406
+Q1C,2026-03-09,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20260309_Critical (Yellow).htm,2,407
+Q1C,2026-03-09,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260309_Critical (Yellow).htm,3,408
+Q1C,2026-03-23,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260323_Critical (Yellow).htm,2,409
+Q1C,2026-03-23,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20260323_Critical (Yellow).htm,2,410
+Q1C,2026-03-23,Performance Overview,YELLOW,🟡,EWA_Q1C~ABAP_20260323_Critical (Yellow).htm,2,411
+Q1C,2026-03-23,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260323_Critical (Yellow).htm,3,412
+Q1C,2026-03-23,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260323_Critical (Yellow).htm,2,413
+Q1C,2026-03-23,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260323_Critical (Yellow).htm,2,414
+Q1C,2026-03-23,Security,RED,🔴,EWA_Q1C~ABAP_20260323_Critical (Yellow).htm,3,415
+Q1C,2026-03-23,Service Data Quality and Service Readiness,RED,🔴,EWA_Q1C~ABAP_20260323_Critical (Yellow).htm,3,416
+Q1C,2026-03-23,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260323_Critical (Yellow).htm,3,417
+Q1C,2026-03-23,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260323_Critical (Yellow).htm,3,418
+Q1C,2026-03-23,UI Technologies checks,YELLOW,🟡,EWA_Q1C~ABAP_20260323_Critical (Yellow).htm,2,419
+Q1C,2026-03-23,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260323_Critical (Yellow).htm,3,420
+Q1C,2026-03-30,Financial Data Quality,YELLOW,🟡,EWA_Q1C~ABAP_20260330_Critical (Yellow).htm,2,421
+Q1C,2026-03-30,Hardware Capacity,YELLOW,🟡,EWA_Q1C~ABAP_20260330_Critical (Yellow).htm,2,422
+Q1C,2026-03-30,Performance Overview,YELLOW,🟡,EWA_Q1C~ABAP_20260330_Critical (Yellow).htm,2,423
+Q1C,2026-03-30,SAP HANA Database,RED,🔴,EWA_Q1C~ABAP_20260330_Critical (Yellow).htm,3,424
+Q1C,2026-03-30,SAP Netweaver Gateway,YELLOW,🟡,EWA_Q1C~ABAP_20260330_Critical (Yellow).htm,2,425
+Q1C,2026-03-30,SAP System Operating,YELLOW,🟡,EWA_Q1C~ABAP_20260330_Critical (Yellow).htm,2,426
+Q1C,2026-03-30,Security,RED,🔴,EWA_Q1C~ABAP_20260330_Critical (Yellow).htm,3,427
+Q1C,2026-03-30,Service Data Quality and Service Readiness,RED,🔴,EWA_Q1C~ABAP_20260330_Critical (Yellow).htm,3,428
+Q1C,2026-03-30,Software Change and Transport Management,RED,🔴,EWA_Q1C~ABAP_20260330_Critical (Yellow).htm,3,429
+Q1C,2026-03-30,Software Configuration,RED,🔴,EWA_Q1C~ABAP_20260330_Critical (Yellow).htm,3,430
+Q1C,2026-03-30,UI Technologies checks,RED,🔴,EWA_Q1C~ABAP_20260330_Critical (Yellow).htm,3,431
+Q1C,2026-03-30,Upgrade Planning,RED,🔴,EWA_Q1C~ABAP_20260330_Critical (Yellow).htm,3,432
