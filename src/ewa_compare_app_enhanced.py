@@ -8,6 +8,7 @@
 import re
 import warnings
 from pathlib import Path
+import io  # Added import for io module
 
 import numpy as np
 import pandas as pd
@@ -751,8 +752,9 @@ tabs = st.tabs([
     "⚠️  Early Warning",
     "🏆  Top KPI Attention",
     "🔗  KPI Correlation",
+    "📄 Generate Report",  # New tab
 ])
-tab_heat, tab_weekly, tab_wow, tab_cmp, tab_trend, tab_anomaly, tab_ew, tab_top, tab_corr = tabs
+tab_heat, tab_weekly, tab_wow, tab_cmp, tab_trend, tab_anomaly, tab_ew, tab_top, tab_corr, tab_report = tabs
 
 # ════════════════════════════════════════════
 # TAB 1 – HEATMAP
@@ -1086,8 +1088,10 @@ with tab_ew:
             aspect="auto",
         )
         apply_dark(fig_ew, "Rolling Trend (Red = worsening, Green = improving)", height=400)
-        fig_ew.update_layout(coloraxis_showscale=True,
-                              coloraxis_colorbar=dict(len=0.7, thickness=10, title="Δ Trend"))
+        fig_ew.update_layout(
+            coloraxis_colorbar=dict(len=0.7, thickness=12, title="Δ Trend"),
+        )
+        fig_ew.update_traces(textfont=dict(size=8))
         st.plotly_chart(fig_ew, use_container_width=True)
 
 # ════════════════════════════════════════════
@@ -1169,6 +1173,103 @@ with tab_corr:
                             unsafe_allow_html=True)
         else:
             st.markdown('<div class="ok-banner">✅ No strongly correlated KPI pairs found (thres |r| ≥ 0.70).</div>', unsafe_allow_html=True)
+
+# ════════════════════════════════════════════
+# TAB 10 – GENERATE REPORT
+# ════════════════════════════════════════════
+with tab_report:
+    st.markdown('<div class="section-title">Generate Extraction Reports for Architects & CISOs</div>', unsafe_allow_html=True)
+    st.markdown('<div class="info-banner">ℹ️ Generate separate Word documents tailored for SAP Technical Architects and CISOs. Each includes executive summary, key points, insights, and recommendations.</div>', unsafe_allow_html=True)
+    
+    # Extract data for the selected SID
+    df_sid = df_all[df_all["system"] == selected_sid]
+    latest = df_sid[df_sid["report_date"] == active_date]
+    trends = compute_trend(df_sid, kpi_col=kpi_col)
+    anoms = detect_anomalies(df_sid, kpi_col=kpi_col, system=selected_sid, window=ew_window, z_thresh=ew_z)
+    att_scores = attention_score(df_sid, kpi_col=kpi_col, system=selected_sid)
+    
+    # Function to generate Architect report
+    def generate_architect_report():
+        from docx import Document
+        doc = Document()
+        doc.add_heading('SAP EWA Extraction Report - Technical Architect', 0)
+        
+        # Executive Summary
+        doc.add_heading('Executive Summary', level=1)
+        summary_text = f"The SAP system '{selected_sid}' shows {n_red} critical KPIs out of {n_total}, with {n_deteri} deteriorating trends. Overall health is {n_green / n_total * 100:.0f}%. Key technical risks include anomalies and high-attention areas requiring architectural review."
+        doc.add_paragraph(summary_text)
+        
+        # Key Extraction Points for SAP Technical Architecture
+        doc.add_heading('Key Extraction Points - SAP Technical Architecture', level=1)
+        if not trends.empty:
+            for _, row in trends[trends["trend"] == "🔴 Deteriorating"].head(5).iterrows():
+                doc.add_paragraph(f"- {row['kpi']}: Deteriorating trend (slope: {row['slope']:.2f}). Review system configuration and performance metrics.", style='List Bullet')
+        else:
+            doc.add_paragraph("- No major deteriorating trends detected. Monitor for stability.", style='List Bullet')
+        
+        # Recommendations
+        doc.add_heading('Recommendations', level=1)
+        if not att_scores.empty:
+            for _, row in att_scores.head(5).iterrows():
+                doc.add_paragraph(f"- Prioritize {row['KPI']}: Attention score {row['Attention Score']:.2f}. Investigate root causes and implement fixes, such as updates or resource allocation.", style='List Bullet')
+        doc.add_paragraph("- Schedule regular reviews and use forecasting to prevent issues.", style='List Bullet')
+        
+        return doc
+    
+    # Function to generate CISO report
+    def generate_ciso_report():
+        from docx import Document
+        doc = Document()
+        doc.add_heading('SAP EWA Extraction Report - CISO', 0)
+        
+        # Executive Summary
+        doc.add_heading('Executive Summary', level=1)
+        summary_text = f"The SAP system '{selected_sid}' shows {n_red} critical KPIs out of {n_total}, with {n_deteri} deteriorating trends. Overall health is {n_green / n_total * 100:.0f}%. Potential security risks include anomalies and high-attention areas that may indicate vulnerabilities."
+        doc.add_paragraph(summary_text)
+        
+        # Critical Insights for CISOs
+        doc.add_heading('Critical Insights for CISOs', level=1)
+        if not anoms.empty:
+            for _, row in anoms.head(5).iterrows():
+                doc.add_paragraph(f"- {row['kpi']}: Anomaly detected ({row['anomaly_type']}) on {row['report_date'].strftime('%Y-%m-%d')}. Assess for security risks, such as unauthorized access or data breaches.", style='List Bullet')
+        else:
+            doc.add_paragraph("- No anomalies detected. Ensure ongoing monitoring for emerging threats.", style='List Bullet')
+        
+        # Recommendations
+        doc.add_heading('Recommendations', level=1)
+        if not att_scores.empty:
+            for _, row in att_scores.head(5).iterrows():
+                doc.add_paragraph(f"- Prioritize {row['KPI']}: Attention score {row['Attention Score']:.2f}. Investigate potential security implications and implement protective measures.", style='List Bullet')
+        doc.add_paragraph("- Conduct security audits and enhance monitoring protocols.", style='List Bullet')
+        
+        return doc
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("📄 Generate Architect Report"):
+            doc = generate_architect_report()
+            buffer = io.BytesIO()
+            doc.save(buffer)
+            buffer.seek(0)
+            st.download_button(
+                label="⬇️ Download Architect Report",
+                data=buffer,
+                file_name=f"SAP_EWA_Architect_Report_{selected_sid}_{active_date.strftime('%Y%m%d')}.docx",
+                mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            )
+    
+    with col2:
+        if st.button("📄 Generate CISO Report"):
+            doc = generate_ciso_report()
+            buffer = io.BytesIO()
+            doc.save(buffer)
+            buffer.seek(0)
+            st.download_button(
+                label="⬇️ Download CISO Report",
+                data=buffer,
+                file_name=f"SAP_EWA_CISO_Report_{selected_sid}_{active_date.strftime('%Y%m%d')}.docx",
+                mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            )
 
 # ─────────────────────────────────────────────
 # FOOTER
