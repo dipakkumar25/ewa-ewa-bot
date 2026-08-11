@@ -8,6 +8,7 @@
 import re
 import warnings
 from pathlib import Path
+import io  # Added import for io module
 
 import numpy as np
 import pandas as pd
@@ -40,10 +41,12 @@ st.markdown("""
 /* ── Base ── */
 html, body, [class*="css"] {
     font-family: 'DM Sans', sans-serif;
-    color: #E2E8F0;
+    color: #0F172A;
+    background: #FFFFFF;
 }
 .stApp {
-    background: #080C14;
+    background: #FFFFFF;
+    color: #0F172A;
 }
 section[data-testid="stSidebar"] {
     background: #0D1320;
@@ -61,91 +64,47 @@ section[data-testid="stSidebar"] * { color: #CBD5E1; }
     align-items: center;
     gap: 1rem;
     padding: 1.2rem 1.8rem;
-    background: linear-gradient(135deg, #0F1923 0%, #111827 60%, #0A1628 100%);
-    border: 1px solid #1E3A5F;
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
     border-radius: 12px;
     margin-bottom: 1.5rem;
     position: relative;
     overflow: hidden;
 }
-.ewa-header::before {
-    content: '';
-    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
-    background: radial-gradient(ellipse at 80% 50%, rgba(56,189,248,0.06) 0%, transparent 70%);
-    pointer-events: none;
-}
 .ewa-title {
     font-family: 'Space Mono', monospace;
     font-size: 1.55rem;
     font-weight: 700;
-    color: #F0F9FF;
+    color: #0F172A;
     letter-spacing: -0.5px;
     line-height: 1.1;
 }
 .ewa-sub {
     font-size: 0.8rem;
-    color: #64748B;
+    color: #475569;
     font-family: 'Space Mono', monospace;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     margin-top: 2px;
 }
-.ewa-badge {
-    background: rgba(56,189,248,0.12);
-    border: 1px solid rgba(56,189,248,0.3);
-    color: #38BDF8;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-family: 'Space Mono', monospace;
-    font-size: 0.72rem;
-    letter-spacing: 0.05em;
-    white-space: nowrap;
-}
-.live-dot {
-    width: 8px; height: 8px;
-    border-radius: 50%;
-    background: #22C55E;
-    box-shadow: 0 0 8px #22C55E;
-    animation: pulse 2s infinite;
-    display: inline-block;
-    margin-right: 6px;
-}
-@keyframes pulse {
-    0%,100% { opacity: 1; }
-    50%      { opacity: 0.4; }
-}
-
-/* ── Metric cards ── */
-.metric-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 14px;
-    margin-bottom: 1.5rem;
-    width: 100%;
-}
 .metric-card {
-    background: #0F1923;
-    border: 1px solid #1E293B;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
     border-radius: 10px;
     padding: 1rem 1.2rem;
     position: relative;
     overflow: hidden;
     transition: border-color 0.2s;
 }
-.metric-card:hover { border-color: #334155; }
-.metric-card::after {
-    content: '';
-    position: absolute; bottom: 0; left: 0; right: 0;
-    height: 2px;
-    border-radius: 0 0 10px 10px;
+.metric-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
-.metric-card.green::after  { background: linear-gradient(90deg,#22C55E,#16A34A); }
-.metric-card.yellow::after { background: linear-gradient(90deg,#EAB308,#CA8A04); }
-.metric-card.red::after    { background: linear-gradient(90deg,#EF4444,#B91C1C); }
-.metric-card.blue::after   { background: linear-gradient(90deg,#38BDF8,#0284C7); }
 .metric-label {
     font-size: 0.7rem;
-    color: #64748B;
+    color: #475569;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-family: 'Space Mono', monospace;
@@ -154,90 +113,21 @@ section[data-testid="stSidebar"] * { color: #CBD5E1; }
 .metric-value {
     font-size: 2rem;
     font-weight: 700;
-    color: #F0F9FF;
+    color: #0F172A;
     line-height: 1;
     font-family: 'Space Mono', monospace;
 }
 .metric-delta {
     font-size: 0.72rem;
     margin-top: 4px;
-    color: #64748B;
-}
-.metric-delta.up   { color: #EF4444; }
-.metric-delta.down { color: #22C55E; }
-
-/* ── Section headers ── */
-.section-title {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.78rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-    color: #38BDF8;
-    border-left: 3px solid #38BDF8;
-    padding-left: 10px;
-    margin: 1.5rem 0 0.8rem;
-}
-
-/* ── Status pills ── */
-.pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    padding: 3px 10px;
-    border-radius: 20px;
-    font-size: 0.72rem;
-    font-weight: 600;
-    font-family: 'Space Mono', monospace;
-}
-.pill-green  { background: rgba(34,197,94,0.12);  color: #22C55E;  border:1px solid rgba(34,197,94,0.25); }
-.pill-yellow { background: rgba(234,179,8,0.12);  color: #EAB308;  border:1px solid rgba(234,179,8,0.25); }
-.pill-red    { background: rgba(239,68,68,0.12);  color: #EF4444;  border:1px solid rgba(239,68,68,0.25); }
-
-/* ── Warning banner ── */
-.warn-banner {
-    background: linear-gradient(90deg, rgba(239,68,68,0.08), rgba(239,68,68,0.04));
-    border: 1px solid rgba(239,68,68,0.25);
-    border-left: 4px solid #EF4444;
-    border-radius: 8px;
-    padding: 10px 14px;
-    margin: 6px 0;
-    font-size: 0.82rem;
-    color: #FCA5A5;
-}
-.info-banner {
-    background: linear-gradient(90deg, rgba(56,189,248,0.08), rgba(56,189,248,0.03));
-    border: 1px solid rgba(56,189,248,0.2);
-    border-left: 4px solid #38BDF8;
-    border-radius: 8px;
-    padding: 10px 14px;
-    margin: 6px 0;
-    font-size: 0.82rem;
-    color: #BAE6FD;
-}
-.ok-banner {
-    background: linear-gradient(90deg, rgba(34,197,94,0.08), rgba(34,197,94,0.03));
-    border: 1px solid rgba(34,197,94,0.2);
-    border-left: 4px solid #22C55E;
-    border-radius: 8px;
-    padding: 10px 14px;
-    margin: 6px 0;
-    font-size: 0.82rem;
-    color: #86EFAC;
-}
-
-/* ── Tabs ── */
-.stTabs [data-baseweb="tab-list"] {
-    gap: 6px;
-    background: transparent;
-    border-bottom: 1px solid #1E293B;
-    padding-bottom: 0;
+    color: #475569;
 }
 .stTabs [data-baseweb="tab"] {
-    background: transparent;
-    border: 1px solid #1E293B;
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
     border-bottom: none;
     border-radius: 8px 8px 0 0;
-    color: #64748B;
+    color: #0F172A;
     font-family: 'Space Mono', monospace;
     font-size: 0.72rem;
     letter-spacing: 0.04em;
@@ -245,35 +135,20 @@ section[data-testid="stSidebar"] * { color: #CBD5E1; }
     transition: all 0.15s;
 }
 .stTabs [aria-selected="true"] {
-    background: #0F1923 !important;
-    color: #38BDF8 !important;
-    border-color: #1E3A5F !important;
+    background: #FFFFFF !important;
+    color: #0F172A !important;
+    border-color: #CBD5E1 !important;
 }
-.stTabs [data-baseweb="tab"]:hover { color: #CBD5E1; }
-
-/* ── Dataframe ── */
-.dataframe-container {
-    border: 1px solid #1E293B;
-    border-radius: 8px;
-    overflow: hidden;
-}
-[data-testid="stDataFrame"] { border: 1px solid #1E293B; border-radius: 8px; }
+[data-testid="stDataFrame"] { border: 1px solid #E2E8F0; border-radius: 8px; background: #FFFFFF; }
 .stDataFrame th {
-    background: #0F1923 !important;
-    color: #64748B !important;
+    background: #F8FAFC !important;
+    color: #0F172A !important;
     font-family: 'Space Mono', monospace !important;
     font-size: 0.68rem !important;
     text-transform: uppercase;
     letter-spacing: 0.08em;
 }
-
-/* ── Selectbox / sliders ── */
-[data-testid="stSelectbox"] label, [data-testid="stSlider"] label { color: #94A3B8; }
-[data-baseweb="select"] { background: #0F1923 !important; border-color: #1E293B !important; }
-
-/* ── Sidebar widgets ── */
-.css-1d391kg { background: #0D1320; }
-[data-testid="stSidebar"] .stSelectbox label { color: #94A3B8; font-size: 0.8rem; }
+[data-baseweb="select"] { background: #FFFFFF !important; border-color: #E2E8F0 !important; color: #0F172A !important; }
 
 /* ── Scrollbar ── */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
@@ -751,8 +626,9 @@ tabs = st.tabs([
     "⚠️  Early Warning",
     "🏆  Top KPI Attention",
     "🔗  KPI Correlation",
+    "📄 Generate Report",  # New tab
 ])
-tab_heat, tab_weekly, tab_wow, tab_cmp, tab_trend, tab_anomaly, tab_ew, tab_top, tab_corr = tabs
+tab_heat, tab_weekly, tab_wow, tab_cmp, tab_trend, tab_anomaly, tab_ew, tab_top, tab_corr, tab_report = tabs
 
 # ════════════════════════════════════════════
 # TAB 1 – HEATMAP
@@ -1086,8 +962,10 @@ with tab_ew:
             aspect="auto",
         )
         apply_dark(fig_ew, "Rolling Trend (Red = worsening, Green = improving)", height=400)
-        fig_ew.update_layout(coloraxis_showscale=True,
-                              coloraxis_colorbar=dict(len=0.7, thickness=10, title="Δ Trend"))
+        fig_ew.update_layout(
+            coloraxis_colorbar=dict(len=0.7, thickness=12, title="Δ Trend"),
+        )
+        fig_ew.update_traces(textfont=dict(size=8))
         st.plotly_chart(fig_ew, use_container_width=True)
 
 # ════════════════════════════════════════════
@@ -1169,6 +1047,103 @@ with tab_corr:
                             unsafe_allow_html=True)
         else:
             st.markdown('<div class="ok-banner">✅ No strongly correlated KPI pairs found (thres |r| ≥ 0.70).</div>', unsafe_allow_html=True)
+
+# ════════════════════════════════════════════
+# TAB 10 – GENERATE REPORT
+# ════════════════════════════════════════════
+with tab_report:
+    st.markdown('<div class="section-title">Generate Extraction Reports for Architects & CISOs</div>', unsafe_allow_html=True)
+    st.markdown('<div class="info-banner">ℹ️ Generate separate Word documents tailored for SAP Technical Architects and CISOs. Each includes executive summary, key points, insights, and recommendations.</div>', unsafe_allow_html=True)
+    
+    # Extract data for the selected SID
+    df_sid = df_all[df_all["system"] == selected_sid]
+    latest = df_sid[df_sid["report_date"] == active_date]
+    trends = compute_trend(df_sid, kpi_col=kpi_col)
+    anoms = detect_anomalies(df_sid, kpi_col=kpi_col, system=selected_sid, window=ew_window, z_thresh=ew_z)
+    att_scores = attention_score(df_sid, kpi_col=kpi_col, system=selected_sid)
+    
+    # Function to generate Architect report
+    def generate_architect_report():
+        from docx import Document
+        doc = Document()
+        doc.add_heading('SAP EWA Extraction Report - Technical Architect', 0)
+        
+        # Executive Summary
+        doc.add_heading('Executive Summary', level=1)
+        summary_text = f"The SAP system '{selected_sid}' shows {n_red} critical KPIs out of {n_total}, with {n_deteri} deteriorating trends. Overall health is {n_green / n_total * 100:.0f}%. Key technical risks include anomalies and high-attention areas requiring architectural review."
+        doc.add_paragraph(summary_text)
+        
+        # Key Extraction Points for SAP Technical Architecture
+        doc.add_heading('Key Extraction Points - SAP Technical Architecture', level=1)
+        if not trends.empty:
+            for _, row in trends[trends["trend"] == "🔴 Deteriorating"].head(5).iterrows():
+                doc.add_paragraph(f"- {row['kpi']}: Deteriorating trend (slope: {row['slope']:.2f}). Review system configuration and performance metrics.", style='List Bullet')
+        else:
+            doc.add_paragraph("- No major deteriorating trends detected. Monitor for stability.", style='List Bullet')
+        
+        # Recommendations
+        doc.add_heading('Recommendations', level=1)
+        if not att_scores.empty:
+            for _, row in att_scores.head(5).iterrows():
+                doc.add_paragraph(f"- Prioritize {row['KPI']}: Attention score {row['Attention Score']:.2f}. Investigate root causes and implement fixes, such as updates or resource allocation.", style='List Bullet')
+        doc.add_paragraph("- Schedule regular reviews and use forecasting to prevent issues.", style='List Bullet')
+        
+        return doc
+    
+    # Function to generate CISO report
+    def generate_ciso_report():
+        from docx import Document
+        doc = Document()
+        doc.add_heading('SAP EWA Extraction Report - CISO', 0)
+        
+        # Executive Summary
+        doc.add_heading('Executive Summary', level=1)
+        summary_text = f"The SAP system '{selected_sid}' shows {n_red} critical KPIs out of {n_total}, with {n_deteri} deteriorating trends. Overall health is {n_green / n_total * 100:.0f}%. Potential security risks include anomalies and high-attention areas that may indicate vulnerabilities."
+        doc.add_paragraph(summary_text)
+        
+        # Critical Insights for CISOs
+        doc.add_heading('Critical Insights for CISOs', level=1)
+        if not anoms.empty:
+            for _, row in anoms.head(5).iterrows():
+                doc.add_paragraph(f"- {row['kpi']}: Anomaly detected ({row['anomaly_type']}) on {row['report_date'].strftime('%Y-%m-%d')}. Assess for security risks, such as unauthorized access or data breaches.", style='List Bullet')
+        else:
+            doc.add_paragraph("- No anomalies detected. Ensure ongoing monitoring for emerging threats.", style='List Bullet')
+        
+        # Recommendations
+        doc.add_heading('Recommendations', level=1)
+        if not att_scores.empty:
+            for _, row in att_scores.head(5).iterrows():
+                doc.add_paragraph(f"- Prioritize {row['KPI']}: Attention score {row['Attention Score']:.2f}. Investigate potential security implications and implement protective measures.", style='List Bullet')
+        doc.add_paragraph("- Conduct security audits and enhance monitoring protocols.", style='List Bullet')
+        
+        return doc
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("📄 Generate Architect Report"):
+            doc = generate_architect_report()
+            buffer = io.BytesIO()
+            doc.save(buffer)
+            buffer.seek(0)
+            st.download_button(
+                label="⬇️ Download Architect Report",
+                data=buffer,
+                file_name=f"SAP_EWA_Architect_Report_{selected_sid}_{active_date.strftime('%Y%m%d')}.docx",
+                mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            )
+    
+    with col2:
+        if st.button("📄 Generate CISO Report"):
+            doc = generate_ciso_report()
+            buffer = io.BytesIO()
+            doc.save(buffer)
+            buffer.seek(0)
+            st.download_button(
+                label="⬇️ Download CISO Report",
+                data=buffer,
+                file_name=f"SAP_EWA_CISO_Report_{selected_sid}_{active_date.strftime('%Y%m%d')}.docx",
+                mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            )
 
 # ─────────────────────────────────────────────
 # FOOTER
